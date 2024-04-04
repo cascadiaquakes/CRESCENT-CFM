@@ -299,6 +299,7 @@ def make_3d_fault_mesh(
     pt_distance: float = 2.0,
     lower_depth_default: float = 16.0,
     check_dip_dir: bool = False,
+    decimals: Optional[float] = 3,
 ):
     if lower_depth is None:
         lower_depth = fault['properties'].get(
@@ -352,6 +353,9 @@ def make_3d_fault_mesh(
             for i, pt in enumerate(shifted_trace)
         ]
         mesh.append(new_trace)
+
+    if decimals is not None:
+        mesh = np.round(mesh, decimals=decimals).tolist()
 
     return mesh
 

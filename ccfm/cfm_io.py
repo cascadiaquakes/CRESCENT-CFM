@@ -8,9 +8,13 @@ def read_json(file_path):
         return json.load(file)
 
 
-def write_json(file_path, data):
+def write_json(file_path, data, minify:bool=False):
     with open(file_path, 'w') as file:
-        json.dump(data, file, indent=4)
+        if minify:
+            json.dump(data, file, separators=(',',':'))
+        else:
+            json.dump(data, file, indent=2)
+        
 
 
 def load_cfm_traces(file_path, skip_ids=(), id_column='fid'):
@@ -78,7 +82,7 @@ def make_3d_tri_multipolygon(fault, tri_mesh):
     return feature
 
 
-def write_cfm_tri_meshes(file_path, tri_meshes, faults):
+def write_cfm_tri_meshes(file_path, tri_meshes, faults, minify:bool=False):
     tri_features = [
         make_3d_tri_multipolygon(fault, tri_mesh)
         for fault, tri_mesh in zip(faults, tri_meshes)
@@ -89,4 +93,4 @@ def write_cfm_tri_meshes(file_path, tri_meshes, faults):
         'features': tri_features,
     }
 
-    write_json(file_path, tri_mesh_gj)
+    write_json(file_path, tri_mesh_gj, minify=minify)

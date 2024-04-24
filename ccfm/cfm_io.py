@@ -128,3 +128,15 @@ def write_cfm_tri_meshes(file_path, tri_meshes, faults, minify: bool = False):
     }
 
     write_json(file_path, tri_mesh_gj, minify=minify)
+
+
+def write_cfm_trace_geojson(outfile, cfm_trace_features, minify: bool = False):
+    cfm_json = {
+        "type": "FeatureCollection",
+        "name": "can_cascadia_faults",
+        "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+        }
+
+    cfm_json["features"] = cfm_trace_features
+
+    write_json(outfile, cfm_json, minify=minify)

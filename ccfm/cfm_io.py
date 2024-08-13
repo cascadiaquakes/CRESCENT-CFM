@@ -1,6 +1,8 @@
 import json
+from pathlib import Path
+from typing import Optional, List, Tuple
 
-# from typing import Optional, List
+import geopandas as gpd
 
 
 def read_json(file_path):
@@ -100,7 +102,7 @@ def load_nshm_traces(file_path, skip_ids=()):
     ]
 
     for feature in out_features:
-        feature['properties']['source'] = "US NSHM"
+        feature['properties']['source'] = "US NSHM 2023"
 
     return out_features
 
@@ -140,3 +142,25 @@ def write_cfm_trace_geojson(outfile, cfm_trace_features, minify: bool = False):
     cfm_json["features"] = cfm_trace_features
 
     write_json(outfile, cfm_json, minify=minify)
+    
+
+def convert_cfm_geojson(cfm_geojson:str, 
+                       outfile_types: Tuple[str]=('geopackage',)
+                       )->None:
+    cfm = gpd.read_file(cfm_geojson)
+    cfm_path = Path(cfm_geojson)
+
+    for out_type in outfile_types:
+        if out_type == 'geopackage':
+            gpkg_outfile = cfm_path.with_suffix('.gpkg')
+            cfm.to_file(gpkg_outfile, driver='GPKG')
+        
+
+        elif out_type == 'shp':
+            shp_outfile = cfm_path.with_suffix('.shp')
+            cfm.to_file(shp_outfile)
+
+        else:
+            raise NotImplementedError(
+                    f"Filetype {out_type} not currently supported."
+                    )

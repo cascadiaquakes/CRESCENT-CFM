@@ -7,4 +7,5 @@ from .cfm_io import (
     write_cfm_tri_meshes,
     write_cfm_trace_geojson,
     load_canada_traces,
+    convert_cfm_geojson,
 )

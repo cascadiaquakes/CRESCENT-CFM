@@ -174,8 +174,11 @@ def _resample_polyline(polyline, interval_km):
 
         remaining_distance -= segment_distance
 
+    # this needs to be fixed to properly know when to append vs. replace
+    # the final point, based on remaining_distance or something
     if new_polyline[-1] != polyline[-1]:
-        new_polyline.append(polyline[-1][0:2])
+        # new_polyline.append(polyline[-1][0:2])
+        new_polyline[-1] = polyline[-1][0:2]
 
     return new_polyline
 
@@ -210,14 +213,24 @@ def sample_polyline(
         return resampled_line
 
 
-# def resample_fault_trace(trace, pt_distance=5.0, adjust_distance=True):
-#    if adjust_distance:
-#        pt_distance = adjust_sampling_distance(
-#            polyline_length(trace), pt_distance
-#        )
-#    dists = np.arange(0.0, polyline_length(trace), pt_distance)
-#    res_trace = sample_polyline(trace, dists)
-#    return res_trace.tolist(), pt_distance
+def sample_polyline_to_n_pts(polyline, n_pts, max_count=10):
+    pt_distance = polyline_length(polyline) / (n_pts - 1)
+
+    new_poly = _resample_polyline(polyline, pt_distance)
+
+    count = 0
+    while len(new_poly) != n_pts:
+        count += 1
+        # proportionally adjust the distance to get the correct number of points
+        # print("adjusting")
+        pt_distance *= len(new_poly) / n_pts
+        # print("new distance:", pt_distance)
+        new_poly = _resample_polyline(polyline, pt_distance)
+
+        if count > max_count:
+            break
+
+    return new_poly
 
 
 def shift_fault_trace(trace, shift_azimuth, shift_distance):
@@ -293,6 +306,12 @@ def get_resampled_trace_elevations(
     return resampled_trace
 
 
+def add_fixed_elev_to_trace(trace, elev):
+    for pt in trace:
+        pt.append(elev)
+    return trace
+
+
 def make_3d_fault_mesh(
     fault,
     lower_depth: Optional[float] = None,
@@ -301,6 +320,7 @@ def make_3d_fault_mesh(
     check_dip_dir: bool = False,
     decimals: Optional[float] = 3,
 ):
+    # TODO: deal with variable/non-zero trace elevation
     if lower_depth is None:
         lower_depth = fault['properties'].get(
             'lower_depth', lower_depth_default
@@ -387,3 +407,33 @@ def make_tri_mesh(mesh_3d):
                 ]
             )
     return tris
+
+
+def _draw_pt_profile(p1, p2, n_pts):
+    # profile_azimuth = azimuth(*p1[:2], *p2[:2])
+    # profile_distance = haversine_distance(*p1[:2], *p2[:2])
+
+    profile_pts = sample_polyline_to_n_pts([p1[:2], p2[:2]], n_pts)
+
+    elevs = np.linspace(p1[2], p2[2], n_pts)
+    for i, pt in enumerate(profile_pts):
+        pt.append(elevs[i])
+
+    return profile_pts
+
+
+def get_contours_from_profiles(profiles, return_top=True, return_bottom=True):
+    n_contours = len(profiles[0])
+    contours = []
+
+    contour_inds = list(range(n_contours))
+    if not return_top:
+        contour_inds = contour_inds[1:]
+    if not return_bottom:
+        contour_inds = contour_inds[:-1]
+
+    for i in contour_inds:
+        contour = [profile[i] for profile in profiles]
+        contours.append(contour)
+
+    return contours

@@ -1,0 +1,2437 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="crescent_cfm_crustal_traces" id="crescent_cfm_crustal_traces">
+	<SimpleField name="id" type="string"></SimpleField>
+	<SimpleField name="dip" type="float"></SimpleField>
+	<SimpleField name="dip_dir" type="string"></SimpleField>
+	<SimpleField name="rake" type="float"></SimpleField>
+	<SimpleField name="lower_depth" type="float"></SimpleField>
+	<SimpleField name="upper_depth" type="float"></SimpleField>
+	<SimpleField name="source" type="string"></SimpleField>
+</Schema>
+<Folder><name>crescent_cfm_crustal_traces</name>
+  <Placemark>
+	<name>Abert Rim</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2503</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">NW</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-120.06191,42.76406 -120.08438,42.73862 -120.1216,42.7124 -120.12397,42.70174 -120.15611,42.68267 -120.18021,42.63643 -120.17564,42.62492 -120.17398,42.61008 -120.18207,42.59489 -120.17741,42.56784 -120.18421,42.56448 -120.19464,42.55426 -120.20106,42.54377 -120.20819,42.5396 -120.21151,42.53721 -120.21577,42.52998 -120.22937,42.50841 -120.24593,42.43979</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Almanor</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2</SimpleData>
+		<SimpleData name="dip">90</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">-135</SimpleData>
+		<SimpleData name="lower_depth">10</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.129,40.201 -121.15368,40.24237 -121.15994,40.28852 -121.23453,40.38504 -121.25484,40.49096</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Alvin Canyon</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2504</SimpleData>
+		<SimpleData name="dip">90</SimpleData>
+		<SimpleData name="dip_dir">Vertical</SimpleData>
+		<SimpleData name="rake">0</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-125.42388,44.60938 -125.30664,44.57013 -125.172186093976,44.5388667926211 -125.037872654514,44.507483398695 -124.9037,44.47598 -124.86291,44.45927 -124.76058,44.42909 -124.64666,44.40995 -124.58188,44.39154</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Arlington - Shutler Butte</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2555</SimpleData>
+		<SimpleData name="dip">90</SimpleData>
+		<SimpleData name="dip_dir">Vertical</SimpleData>
+		<SimpleData name="rake">180</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-120.13094,45.65193 -120.17174,45.67251 -120.25265,45.72653 -120.3343,45.78464 -120.38762,45.81685 -120.45455,45.85038 -120.49962,45.87996 -120.51334,45.89221 -120.54181,45.92518 -120.5581,45.96328 -120.57861,45.9981 -120.59597,46.02468</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Battle Creek</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">9</SimpleData>
+		<SimpleData name="dip">74</SimpleData>
+		<SimpleData name="dip_dir">S</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">19.7</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.17135,40.39736 -122.1133,40.40716 -122.07774,40.42348 -122.03165,40.43006 -121.97998,40.44586 -121.95331,40.44608 -121.90307,40.45826 -121.84084,40.46686 -121.81094,40.46599</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Battle Rock</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2505</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-124.37099,42.48259 -124.37476,42.51582 -124.37817,42.55286 -124.40285,42.59595 -124.44969586122,42.6673083921709 -124.49665,42.73865 -124.50019,42.75056 -124.51262,42.82849 -124.52835,42.86842 -124.53516,42.88282 -124.5418,42.89733</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Bear Creek</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">311</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">N</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.05438,40.50889 -122.13028,40.49309 -122.21871,40.46584</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Bear River</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">10</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">N</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">10</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-124.12133,40.34101 -124.21092,40.43662 -124.303428896004,40.4478105993209 -124.39597,40.45894 -124.476983841941,40.491498916421 -124.55808,40.52401 -124.70078,40.59973</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Beaver Creek</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2506</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">S</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-124.46215,42.78063 -124.44944,42.79509 -124.42194,42.80854 -124.39058,42.82671 -124.34859,42.83607</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Beaverton</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2556</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">S</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-123.17073,45.53505 -123.05982,45.48451 -123.03355,45.47449 -123.01425,45.46713 -122.95532,45.46819 -122.89379,45.46676 -122.86575,45.47441 -122.8057,45.4743</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Big Lagoon</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">13</SimpleData>
+		<SimpleData name="dip">35</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">13</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-124.04637,41.00086 -124.06176,41.05227 -124.08091,41.08354 -124.09162,41.11488 -124.10195,41.14432 -124.1106,41.1927 -124.13159,41.22349 -124.173263764343,41.286007529962 -124.21502,41.34851 -124.24503,41.40357 -124.27341,41.46798 -124.35793,41.55917 -124.42645,41.65595 -124.445093940206,41.7770404909438 -124.46381,41.89812 -124.51038,41.9464 -124.59484,41.99637 -124.64301,42.05122 -124.67847,42.14403 -124.70946,42.25195 -124.74921,42.33455</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Big Valley (unnamed, proxy)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">348</SimpleData>
+		<SimpleData name="dip">90</SimpleData>
+		<SimpleData name="dip_dir">Vertical</SimpleData>
+		<SimpleData name="rake">180</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.01817,40.91485 -121.033722594807,41.0062441876206 -121.04932,41.09763 -121.070778620399,41.1754188990485 -121.09229,41.2532 -121.14558,41.37216</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Birch Bay</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2827</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.55431,48.81355 -122.65275,48.85622 -122.71694,48.88577 -122.74078,48.89853 -122.8184,48.93281</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Blue Ridge - Gate Creek</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2557</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.75193,45.69061 -121.73201,45.63384 -121.72564,45.55249 -121.71609,45.48665 -121.69697,45.44644</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Bolton</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2507</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.48539,45.30105 -122.51656,45.31066 -122.52695,45.31734 -122.54357,45.3236 -122.57028,45.34133 -122.60739,45.36115 -122.61065,45.36511 -122.6249,45.37241 -122.63351,45.37929 -122.64419,45.38826 -122.65874,45.40118 -122.67002,45.40556 -122.68723,45.40826 -122.69346,45.41014</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Boulder Creek (Kendall)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2800</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">S</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.19123,48.8965 -122.15739,48.9076 -122.14924,48.90701 -122.11125,48.9129 -122.08335,48.91301 -122.02218,48.92395 -121.99338,48.91983 -121.98197,48.9199</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Canby</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2558</SimpleData>
+		<SimpleData name="dip">80</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">180</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.64746,45.25009 -122.67785,45.29765 -122.70042,45.33127 -122.71237,45.35833 -122.7283,45.3919 -122.74689,45.40309 -122.77552,45.43329</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Canyon River</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2828</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">S</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-123.69931,47.30608 -123.69621,47.3107 -123.67853,47.32121 -123.66808,47.32702 -123.65696,47.33 -123.64872,47.34149 -123.61795,47.34805 -123.60802,47.34772 -123.59656,47.34522 -123.57524,47.34804 -123.50692,47.37711 -123.47816,47.38679 -123.47361,47.39132 -123.46764,47.3939 -123.45685,47.3978 -123.43769,47.39876 -123.41929,47.40409 -123.41596,47.40664</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Canyon River - Price Lake (northeast)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2829</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">SE</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-123.29923,47.41721 -123.28617,47.42111 -123.26344,47.42764 -123.2372,47.43953 -123.21792,47.4446 -123.17783,47.4611 -123.16557,47.46861 -123.15835,47.47558 -123.14793,47.49458</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Canyon River - Price Lake (southwest)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2830</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">SE</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-123.46091,47.30258 -123.44842,47.30796 -123.43305,47.31183 -123.38183,47.33225 -123.3559,47.3302</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Cape Blanco Anticline</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2508</SimpleData>
+		<SimpleData name="dip">45</SimpleData>
+		<SimpleData name="dip_dir">S</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-124.95758,43.02085 -124.87744,42.99381 -124.79838,42.97818 -124.75633,42.96255 -124.68419,42.89508 -124.64609,42.86597 -124.60405,42.85276 -124.51619,42.83816</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Cedar Mountain - Mahogany Mountain</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">31</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">9.5</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.1163,42.19857 -122.065065012755,42.1141583399174 -122.013968523171,42.0297250405672 -121.96301,41.94527 -121.94468,41.81986 -121.930194892443,41.7218039700139 -121.915754962563,41.6237407233592 -121.90136,41.52567</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Chemult Graben (east)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2509</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.51052,43.47429 -121.57251,43.43656 -121.57907,43.4265 -121.6531,43.38804 -121.72731,43.32812 -121.73216,43.29551 -121.73889,43.26901 -121.73809,43.22975 -121.72218,43.19238 -121.70745,43.12707 -121.69469,43.09643 -121.70745,43.07604 -121.68283,43.04522 -121.6601,43.00552</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Chemult Graben (west)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2510</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">SE</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.67888,42.9862 -121.71338,43.02762 -121.77806,43.06804 -121.7751,43.0976 -121.79981,43.20495 -121.79999,43.28976 -121.8096,43.32453 -121.77923,43.37115 -121.76711,43.40925 -121.65696,43.42506 -121.63199,43.45991 -121.62516,43.48956</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Chico Monocline</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">313</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.68646,39.6529 -121.70739,39.67865 -121.72519,39.70174 -121.73545,39.71457 -121.75707,39.74237 -121.7694,39.75921 -121.78724,39.78388 -121.80649,39.81199 -121.82047,39.83453 -121.83745,39.86158 -121.8539,39.88729 -121.86418,39.9028 -121.88164,39.92974 -121.90116,39.95722 -121.93046,40.00018 -121.94002,40.01585 -121.96139,40.04402 -122.02104,40.11688 -122.0876,40.18583</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Coquille Anticline</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2511</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-124.38286,43.09839 -124.41916,43.1212 -124.47226,43.13495 -124.49292,43.15615 -124.52248,43.23728 -124.54377,43.26073 -124.55213,43.30915</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Corning</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">315</SimpleData>
+		<SimpleData name="dip">75</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.22543,40.15983 -122.21348,40.10422 -122.21084,40.04999 -122.20107,39.97834 -122.19782,39.93239 -122.1965,39.80349 -122.19771,39.71472 -122.19942,39.70028 -122.19681,39.68162 -122.1936,39.67282 -122.18609,39.66175 -122.17702,39.65226 -122.15046,39.61868 -122.13819,39.59933 -122.13113,39.58456 -122.12701,39.57312</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Cottonwood Mountain (east)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2512</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-117.33361,43.92623 -117.35955,43.96439 -117.40739,44.01901 -117.43381,44.06536 -117.47611,44.09777 -117.5062,44.13742 -117.52978,44.1575 -117.54424,44.19227 -117.58479,44.25782</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Daisy Bank</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2513</SimpleData>
+		<SimpleData name="dip">90</SimpleData>
+		<SimpleData name="dip_dir">Vertical</SimpleData>
+		<SimpleData name="rake">0</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-125.51526,44.87548 -125.43584,44.85374 -125.33997,44.84296 -125.19685,44.81332 -125.06559,44.76562 -125.02606,44.72896 -124.99066,44.70956 -124.91654,44.68333 -124.86435,44.65817 -124.71709,44.6173 -124.63866,44.57957 -124.60173,44.56681</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Davis Creek</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">61</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">8.5</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-120.36141,41.8863 -120.36531,41.78795 -120.332747288804,41.7054757467097 -120.30027,41.62299</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Devils Mountain</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2801</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">N</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.67405,48.2499 -121.75166,48.26883 -121.90872,48.28749 -122.00116,48.31687 -122.08099,48.32995 -122.12853,48.33554 -122.14662,48.34144 -122.1706,48.34225 -122.2078,48.34671 -122.25704,48.34931 -122.30701,48.35626 -122.33574,48.35774 -122.49965,48.35868 -122.59351,48.35979 -122.64973,48.36065 -122.72797,48.37454</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Drayton Harbor</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2831</SimpleData>
+		<SimpleData name="dip">45</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.64337,48.95697 -122.65904,48.96103 -122.67055,48.96668 -122.68238,48.97271 -122.71254,48.98132 -122.73757,48.98756 -122.75217,48.99212</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>East Grand Ronde Valley</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2560</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-118.0038,45.67449 -117.9944,45.65477 -117.98875,45.62714 -117.96429,45.59161 -117.9436,45.54946 -117.93795,45.48618 -117.91726,45.42943 -117.88527,45.40038 -117.81942,45.3832 -117.80249,45.35016 -117.7611,45.30915 -117.72911,45.2893 -117.67831,45.27209</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>East Pueblo Valley</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2562</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-118.47072,42.12493 -118.46494,42.10346 -118.4645,42.09655 -118.46496,42.08575 -118.46518,42.06873 -118.48464,42.03588 -118.48595,42.03186 -118.49017,42.00511 -118.49291,41.99915</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Eaton Roughs</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">74</SimpleData>
+		<SimpleData name="dip">90</SimpleData>
+		<SimpleData name="dip_dir">Vertical</SimpleData>
+		<SimpleData name="rake">180</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-123.30672,39.99881 -123.31839,40.05565 -123.36855,40.12674 -123.41045,40.21308 -123.48884,40.30714 -123.55667,40.36494 -123.58446,40.4185 -123.68075,40.52052 -123.71894,40.56957 -123.774867945239,40.6233274466822 -123.83089,40.67706 -123.8734,40.75386</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Entiat</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2832</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-120.70679,47.93774 -120.66497,47.87999 -120.62045,47.82051 -120.59073,47.78668 -120.54723,47.73719 -120.50534,47.68307 -120.46845,47.64762 -120.45396,47.63051 -120.41199,47.58172 -120.39827,47.54962 -120.38388,47.52072 -120.33134,47.47559</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Fickle Hill</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">80</SimpleData>
+		<SimpleData name="dip">35</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">13</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-123.96462,40.74394 -123.98963,40.78458 -124.04704,40.85789 -124.115440024149,40.9182880899007 -124.18397,40.97865</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Fitzhugh Creek</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">82</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">8.5</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-120.39623,41.64475 -120.38709,41.57812 -120.43788,41.49361 -120.44423,41.42228 -120.4351,41.33447 -120.446,41.24267</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Frigid Creek</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2833</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">SE</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-123.32944,47.37602 -123.31415,47.37848 -123.2703,47.39075 -123.25657,47.39304 -123.19951,47.41126</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Gales Creek (Chehalem Valley)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2563</SimpleData>
+		<SimpleData name="dip">90</SimpleData>
+		<SimpleData name="dip_dir">Vertical</SimpleData>
+		<SimpleData name="rake">180</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-123.21818,45.4859 -123.21513,45.48138 -123.20949,45.47722 -123.19339,45.46722 -123.18597,45.46124 -123.18204,45.45619 -123.17751,45.4527 -123.17336,45.43271 -123.16623,45.42063 -123.16148,45.41563 -123.14902,45.39646 -123.10865,45.37436 -123.10093,45.351 -123.08846,45.33348 -123.07244,45.32221 -123.02316,45.30551 -122.9828,45.28713</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Gales Creek (Parsons Creek)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2514</SimpleData>
+		<SimpleData name="dip">90</SimpleData>
+		<SimpleData name="dip_dir">Vertical</SimpleData>
+		<SimpleData name="rake">180</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-123.31702,45.68169 -123.30693,45.66344 -123.29624,45.64726 -123.27309,45.60782 -123.26478,45.59328 -123.25468,45.57376 -123.23153,45.53759 -123.21372,45.51846 -123.21254,45.51014 -123.19295,45.48975 -123.18285,45.47602 -123.17276,45.46894</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Garberville - Briceland</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">85</SimpleData>
+		<SimpleData name="dip">90</SimpleData>
+		<SimpleData name="dip_dir">Vertical</SimpleData>
+		<SimpleData name="rake">180</SimpleData>
+		<SimpleData name="lower_depth">24.8</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-123.63528,39.98846 -123.76128,40.06264 -123.85564,40.08679 -123.95011,40.15637 -124.04452,40.25189 -124.06922,40.29361 -124.12122,40.36002</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Gillem - Big Crack</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">87</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">9.7</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.59885,41.66038 -121.56401,41.72962 -121.56709,41.77859 -121.55749,41.86925 -121.56868,41.97464</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Goose Lake</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2500</SimpleData>
+		<SimpleData name="dip">58</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">8.5</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-120.34904,42.28169 -120.36617,42.23824 -120.34634,42.15486 -120.30598,42.07263 -120.2905,41.9851 -120.31567,41.9247 -120.268064201601,41.8643938977152 -120.22055,41.80407 -120.20261,41.79266</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Grogan</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">319</SimpleData>
+		<SimpleData name="dip">90</SimpleData>
+		<SimpleData name="dip_dir">Vertical</SimpleData>
+		<SimpleData name="rake">180</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-124.2301,41.60215 -124.18523,41.53187 -124.15756,41.50248 -124.13174,41.46492 -124.08946,41.41536 -124.07008,41.38291 -124.05048,41.33332 -124.03857,41.31326 -124.02087,41.27822 -124.005,41.25435 -124.00154,41.2344 -123.979,41.20071 -123.93798,41.15741 -123.93457,41.14613</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Happy Camp</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2516</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">N</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-123.92304,45.43633 -123.95808,45.44221 -123.96313,45.44414</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Harney</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2564</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-118.591360584167,43.7402981508334 -118.592737081667,43.72966853125 -118.560198210208,43.6214222972917 -118.570751357708,43.5709507222916 -118.566621865208,43.5608564072916 -118.561574707708,43.5325617364583 -118.568304251042,43.5109966089583 -118.569374860208,43.5022787914583 -118.578398566042,43.4779606689583</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Hat Creek</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">112</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">9.6</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.46412,41.0119 -121.44672,40.96784 -121.45558,40.93492 -121.43792,40.88303 -121.44168,40.85344 -121.42284,40.81164 -121.41196,40.76056 -121.41078,40.71145 -121.39547,40.65577 -121.29264,40.56664</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Honey Lake</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">120</SimpleData>
+		<SimpleData name="dip">90</SimpleData>
+		<SimpleData name="dip_dir">Vertical</SimpleData>
+		<SimpleData name="rake">180</SimpleData>
+		<SimpleData name="lower_depth">9.7</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-120.682,40.41313 -120.59848,40.35051 -120.47404,40.30939 -120.386874906094,40.253953682376 -120.29986,40.19846 -120.25867,40.15757 -120.137,40.06608 -120.06518,40.00609 -120.00813,39.97351 -119.95362,39.95992 -119.925,39.94795 -119.90479,39.93354 -119.86941,39.89697 -119.73503,39.81452 -119.70575,39.79208</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Hoppins Peak</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">1060</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">SE</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-117.996598125504,41.5112511365927 -117.981692422883,41.5224304135585 -117.965958625672,41.5518277715054 -117.989973368784,41.6213877170699 -117.960576010837,41.6855650477991 -117.932420794775,41.715376453041 -117.905921767893,41.7224152570565 -117.874454173471,41.7563671352487 -117.833877538559,41.791975202621 -117.804066133317,41.8197163713878 -117.797855423891,41.8607070535954 -117.760591167339,41.9074943979335 -117.744029275538,41.9422743707157 -117.760591167339,41.9753981543179 -117.794543045531,42.0375052485719 -117.828908971018,42.0991982955309 -117.842158484459,42.1588211060148 -117.891430112567,42.2201001056788 -117.940701740675,42.2809650580477 -117.948568639281,42.3124326524698 -117.944014119036,42.3339631118112</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Horse Heaven Hills</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2803</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">S</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-120.34685,46.05887 -120.31198,46.06432 -120.29738,46.06572 -120.26712,46.0801 -120.25149,46.08448 -120.23957,46.09062 -120.16313,46.11379 -120.12991,46.12704 -120.1232,46.13112 -120.08914,46.13792 -120.06894,46.13474 -120.05464,46.13586 -120.02965,46.14236 -119.97417,46.15086 -119.96083,46.15134 -119.92766,46.16214 -119.90164,46.16536 -119.86896,46.18231 -119.85352,46.18466 -119.84213,46.18383 -119.8207,46.18633 -119.79673,46.19267 -119.78632,46.1968 -119.77544,46.198 -119.75625,46.20299 -119.70705,46.22159 -119.69272,46.22306 -119.64152,46.24139 -119.60018,46.25118 -119.57667,46.25387</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Horse Heaven Hills - Wallula</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2834</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-119.54902,46.26762 -119.48882,46.24006 -119.46959,46.23715 -119.43731,46.22573 -119.38886,46.21613 -119.34962,46.20402 -119.33028,46.19551 -119.30488,46.17532 -119.28326,46.16456 -119.244,46.14873 -119.20332,46.12718 -119.18678,46.12166 -119.16393,46.11763 -119.15002,46.11362 -119.13064,46.11234 -119.07532,46.10163 -118.96955,46.06675 -118.94186,46.06115</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Inks Creek - Hooker Dome</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">321</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">N</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.0558,40.41344 -122.09724,40.37642 -122.16894,40.32403 -122.27232,40.26731 -122.3567,40.22848</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Jess Valley</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">128</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">12</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-120.25334,41.04585 -120.276770499732,41.1120986272305 -120.30025,41.17834 -120.33973,41.22717 -120.31213,41.28048 -120.33248,41.30531 -120.31496,41.35832</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Juniper Mountain</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2518</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">N</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-117.67735,44.23968 -117.69162,44.23753 -117.72239,44.23621 -117.74034,44.23445 -117.76542,44.23188 -117.78436,44.23316 -117.80496,44.23703 -117.81285,44.24054 -117.82279,44.2422 -117.84553,44.24233 -117.86499,44.2493 -117.8765,44.25682</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Keddie Ridge</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">131</SimpleData>
+		<SimpleData name="dip">90</SimpleData>
+		<SimpleData name="dip_dir">Vertical</SimpleData>
+		<SimpleData name="rake">-135</SimpleData>
+		<SimpleData name="lower_depth">10</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.10734,40.27137 -121.03523,40.22474 -120.90872,40.16722 -120.84669,40.09097</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Kittitas Valley</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2835</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">N</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-120.3914,47.06767 -120.54528,47.10764 -120.56597,47.11284 -120.57928,47.11931 -120.6185,47.12371 -120.64194,47.13015 -120.66163,47.13677 -120.68048,47.13779 -120.69878,47.14793</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Klamath Graben (east)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2519</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.99407,42.79384 -121.96831130169,42.7249680054533 -121.94261,42.65609 -121.899165793098,42.5572982274516 -121.85586,42.45849 -121.79179792136,42.3593561828592 -121.72794,42.26019 -121.71397,42.21882 -121.681955748912,42.1520596073717 -121.65001,42.08529 -121.50812,42.01705</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Klamath Graben (Klamath Lake)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2502</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">11</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.71837,42.01857 -121.78586,42.09167 -121.82879,42.12408 -121.825548523302,42.1917210985392 -121.8223,42.25936 -121.89333,42.32458 -121.96332,42.43793</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Klamath Graben (west, center)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2565</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.17039,42.77723 -122.182083772616,42.8888220851293 -122.19382,43.00041 -122.21474,43.12622</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Klamath Graben (west, north)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2566</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.27184,43.13684 -122.257435443434,43.202456063743 -122.243,43.26807</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Klamath Graben (west, south)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2520</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.02456,42.29901 -122.03706,42.34902 -122.07014,42.37563 -122.08776,42.4086 -122.08972719121,42.5050534090217 -122.09170051497,42.6015033210366 -122.09368,42.69795 -122.111306327717,42.7632567018956 -122.12897,42.82856</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>La Pine Graben</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2567</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">NW</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.5881,43.79416 -121.627420816342,43.7083105431191 -121.666630664432,43.6224505940333 -121.70573,43.53658</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Lake Creek - Boundary Creek - Sadie</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2804</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">N</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-123.29464,48.02625 -123.34337,48.02494 -123.52468,48.05824 -123.69896,48.07719 -123.79192,48.09762 -123.79573,48.09892 -123.8939,48.12514 -123.91859,48.12379 -123.94526,48.12742 -123.96184,48.13435</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Lava Butte</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2568</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.37634,43.95105 -121.3637,43.93024 -121.35039,43.91357 -121.31697,43.8804 -121.29324,43.84919 -121.27532,43.81256</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Likely</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">143</SimpleData>
+		<SimpleData name="dip">90</SimpleData>
+		<SimpleData name="dip_dir">Vertical</SimpleData>
+		<SimpleData name="rake">180</SimpleData>
+		<SimpleData name="lower_depth">9.4</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-120.2451,40.891 -120.36126,40.983 -120.42656,41.0619 -120.49539,41.11566 -120.54455,41.16851 -120.59658,41.21307 -120.63558,41.25979 -120.72691,41.33144 -120.82899,41.39655 -120.91378,41.46082 -120.96333,41.50169</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Little Salmon (offshore)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">146</SimpleData>
+		<SimpleData name="dip">30</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">13</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-124.231,40.764 -124.352,40.796 -124.413424981866,40.8685155915837 -124.47499,40.941 -124.557948869072,40.9725247637997 -124.64099,41.004</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Little Salmon (onshore)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">147</SimpleData>
+		<SimpleData name="dip">30</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">13</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-123.99,40.534 -124.10399,40.584 -124.178,40.646 -124.231,40.764</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Lost Man</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">324</SimpleData>
+		<SimpleData name="dip">35</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-123.98588,41.31507 -123.99049,41.34936 -124.03812,41.44682 -124.08028,41.48255 -124.08955,41.50103 -124.164792693224,41.5614860418821 -124.24018,41.6219 -124.26898,41.66882 -124.29782,41.69119 -124.32305,41.72405 -124.33253,41.74854 -124.34055,41.80305</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Mad River</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">157</SimpleData>
+		<SimpleData name="dip">35</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">13</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-123.92455,40.74703 -123.95904,40.80849 -123.99633,40.83718 -124.06962,40.89953 -124.1117,40.93318 -124.14874,40.98371 -124.2332,41.03211 -124.275670400625,41.1379907290625 -124.3185636925,41.2442514378125</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Manastash Ridge</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2836</SimpleData>
+		<SimpleData name="dip">24</SimpleData>
+		<SimpleData name="dip_dir">S</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-120.88329,46.99266 -120.86361,46.99015 -120.85438,46.98731 -120.8397,46.98049 -120.81609,46.96328 -120.80295,46.95673 -120.79499,46.95449 -120.75111,46.9544 -120.74418,46.95779 -120.69641,46.95991 -120.67335,46.96425 -120.66617,46.96099 -120.64026,46.95934 -120.63191,46.96198 -120.61182,46.96218 -120.5943,46.95756 -120.54056,46.93173 -120.47639,46.92468 -120.4243,46.90566 -120.36967,46.88491 -120.31434,46.86385</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Mayfield</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">325</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">9.6</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.64394,41.46185 -121.596293461408,41.4001492680749 -121.54874,41.33843 -121.53926,41.25469 -121.51355,41.19756</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>McArthur</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">326</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.43104,41.12735 -121.4053,41.07643 -121.36261,40.99755 -121.34333,40.94698 -121.35892,40.90276 -121.35518,40.79942 -121.31535,40.72883 -121.31643,40.67166 -121.28089,40.63587</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>McKinleyville</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">163</SimpleData>
+		<SimpleData name="dip">35</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">13</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-123.86379,40.75712 -123.90343,40.79177 -123.94196,40.81747 -123.99852,40.85803 -124.05131,40.90951 -124.09076,40.96203 -124.18308,41.05808 -124.23273,41.06589</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Metolius</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2522</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.59039,44.62529 -121.60109,44.5999 -121.62011,44.5313 -121.61536,44.47873 -121.568447912911,44.3862664551393 -121.52168,44.29379 -121.49761,44.25777 -121.45825,44.21348 -121.45493,44.2009 -121.42142,44.15535 -121.37879,44.08212 -121.33837,44.03855</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Mount Angel</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2523</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.67062,44.99986 -122.7512,45.03981 -122.80734,45.06632 -122.82822,45.08674 -122.84162,45.10814 -122.85538,45.12484</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Olympia</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2837</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">S</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-123.46379,47.34456 -123.41127,47.35432 -123.33534,47.34178 -123.28253,47.3189 -123.2607,47.30445 -123.23482,47.28335 -123.19977,47.25189 -123.1703,47.22194 -123.13038,47.19057 -123.06019,47.15364 -122.9879,47.10636 -122.96621,47.09035 -122.9404,47.07519 -122.91211,47.0558 -122.86058,47.02272 -122.84588,47.0184 -122.79588,46.98475 -122.74284,46.94393 -122.71167,46.92243 -122.66282,46.89729 -122.60159,46.86424 -122.56219,46.84267 -122.53837,46.82829 -122.52829,46.81409</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Paulina Marsh</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2526</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-120.97899,43.14499 -120.99508,43.16675 -120.99819,43.18907 -121.00493,43.20004 -121.01323,43.20949 -121.02724,43.22877</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Pioneer</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2569</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-124.35495,43.17169 -124.3558,43.18922 -124.36297,43.20275 -124.38617,43.25069 -124.41147,43.28816</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Pittville</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">214</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">8.9</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.40362,41.19941 -121.33572,41.11377 -121.28748,41.03581 -121.27144,40.96072</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Pondosa (proxy)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">349</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.50334,40.99684 -121.546943570739,41.0643585090937 -121.59064,41.13186 -121.662170208637,41.2244812346607 -121.73391,41.31706 -121.809908634983,41.4094232644964 -121.88613,41.50174</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Portland Hills (north)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2529</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.86518,45.66935 -122.84381,45.64944 -122.81086,45.62495 -122.74289,45.56306 -122.69777,45.5248</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Portland Hills (south)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2570</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.68145,45.52377 -122.67878,45.51753 -122.67818,45.51212 -122.6764,45.50567 -122.66512,45.49423 -122.658,45.48799 -122.64731,45.47342 -122.64108,45.45697 -122.64049,45.44885 -122.63574,45.43698 -122.61229,45.42386 -122.59685,45.41406 -122.58676,45.40531 -122.57667,45.39885 -122.56034,45.38614 -122.53986,45.37321 -122.53571,45.36696 -122.52621,45.36258 -122.52309,45.35893 -122.51701,45.35548 -122.48851,45.34693</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Red Bluff</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">334</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">N</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.03508,40.28712 -122.15733,40.22171 -122.18964,40.19964 -122.23353,40.18252 -122.28104,40.17086 -122.36225,40.10876 -122.39887,40.08925</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Rocky Ledge</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">233</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">9</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.62665,40.84598 -121.61543,40.91058 -121.64225,40.98377</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Russ</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">236</SimpleData>
+		<SimpleData name="dip">71</SimpleData>
+		<SimpleData name="dip_dir">N</SimpleData>
+		<SimpleData name="rake">135</SimpleData>
+		<SimpleData name="lower_depth">20</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-123.77894,40.27215 -123.86554,40.34205 -123.89358,40.3847 -124.000533579517,40.4305368771598 -124.10764,40.47629 -124.24747,40.51635 -124.35293,40.50959 -124.45248,40.58565 -124.48666,40.64498 -124.56246,40.68344</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Saddle Hill (Langley Hill)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2838</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">N</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-124.0642,47.12378 -124.07725,47.12154 -124.0951,47.11763 -124.10937,47.11352 -124.13641,47.10656 -124.16602,47.09814</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Saddle Mountains</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2807</SimpleData>
+		<SimpleData name="dip">37</SimpleData>
+		<SimpleData name="dip_dir">S</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-120.28618,46.89885 -120.20024,46.88531 -120.1799,46.87118 -120.10974,46.8541 -120.07538,46.8484 -120.03632,46.85074 -119.99524,46.84841 -119.95571,46.82606 -119.91957,46.81433 -119.88876,46.82017 -119.74003,46.82294 -119.58395,46.81821 -119.56483,46.822 -119.52538,46.81496 -119.49982,46.81792 -119.48076,46.81097 -119.39868,46.80001 -119.30033,46.77712 -119.22958,46.75763 -119.16133,46.71865</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Sandy Point</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2839</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.66435,48.76768 -122.71908,48.79092 -122.82823,48.84333</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Santa Rosa Range (center)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2572</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-117.74925,42.24082 -117.75272,42.2225 -117.74569,42.15218 -117.7397,42.14341 -117.73052,42.13117 -117.71378,42.11486</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Santa Rosa Range (north)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2531</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-117.33865,42.61636 -117.35055,42.60706 -117.40708,42.59029 -117.4381,42.57425 -117.48388,42.56125 -117.50709,42.55126 -117.52322,42.54292 -117.53972,42.53226 -117.56642,42.50491 -117.59206,42.49653 -117.6165,42.48097 -117.63723,42.45626 -117.64711,42.45127 -117.66846,42.42104 -117.69957,42.39058</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Santa Rosa Range (south)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2573</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-117.759910875762,42.133287675686 -117.755263376905,42.1114646375762 -117.761931527439,42.0948952938262 -117.757890224085,42.07974040625 -117.754657181402,42.075294972561 -117.751020008384,42.0706474737043 -117.747989030869,42.0569070423018 -117.749403487043,42.0522595434451 -117.751626203887,42.0470058490854 -117.745160118521,42.0379129165396 -117.742331206174,42.0360943300305 -117.733642403963,42.0350840041921 -117.71909371189,42.022353898628 -117.701514042302,41.9979040133384 -117.698887195122,41.9851739077744 -117.702726433308,41.9797181482469 -117.692623174924,41.9568847842988 -117.699291325457,41.9237460967988 -117.707171866997,41.9100056653963 -117.696058282774,41.8994982766768 -117.683934372713,41.8762607823933 -117.693633500762,41.8578728521341 -117.692623174924,41.8437282903963 -117.688986001905,41.8328167713414 -117.679691004192,41.8243300342988 -117.665748507622,41.7709848300305 -117.666354703125,41.761083636814 -117.675649700838,41.7530010301067 -117.683530242378,41.7348151650152 -117.69989752096,41.7226912549543 -117.721922624238,41.7212767987805 -117.737279576982,41.7002620213415 -117.736673381479,41.6634861608232 -117.745968379192,41.6376218193597 -117.751222073552,41.5917530262957 -117.760517071265,41.5668990106707 -117.749807617378,41.5557854264482 -117.727782514101,41.5287086939786 -117.73303620846,41.503652613186 -117.760719136433,41.4680891436738 -117.764356309451,41.4347483910061 -117.743947727515,41.3973663349847 -117.728388709604,41.3828176429116 -117.695250022104,41.3579636272866</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Seattle (east)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2842</SimpleData>
+		<SimpleData name="dip">45</SimpleData>
+		<SimpleData name="dip_dir">S</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.24326,47.55341 -122.23198,47.55534 -122.20734,47.55362 -122.12421,47.53115 -122.09103,47.52732 -122.06524,47.5267 -122.04832,47.52772 -122.02423,47.53305</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Seattle (middle)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2881</SimpleData>
+		<SimpleData name="dip">45</SimpleData>
+		<SimpleData name="dip_dir">S</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.84193,47.5925 -122.82682,47.59352 -122.80201,47.598 -122.77416,47.59955 -122.76222,47.60082 -122.68854,47.60264 -122.63389,47.60202 -122.59606,47.60009 -122.57645,47.59866 -122.49516,47.59331 -122.46994,47.59026 -122.45147,47.58548 -122.41892,47.58089</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Seattle (north)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2882</SimpleData>
+		<SimpleData name="dip">45</SimpleData>
+		<SimpleData name="dip_dir">S</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.86288,47.59357 -122.84994,47.59694 -122.80786,47.60337 -122.75133,47.60528 -122.73297,47.60817 -122.70974,47.60869 -122.69271,47.60943 -122.6516,47.61656 -122.60837,47.62142 -122.5886,47.6211 -122.52809,47.61439 -122.46655,47.60485 -122.45372,47.59665 -122.44587,47.59414 -122.41892,47.58089 -122.37668,47.56886 -122.36769,47.5682 -122.3515,47.56983 -122.32753,47.57598 -122.31031,47.57765 -122.30251,47.57752 -122.27732,47.57319 -122.26195,47.57261 -122.24891,47.5738 -122.21892,47.57995 -122.19071,47.58308 -122.1713,47.58414 -122.08939,47.57992 -122.05085,47.58431 -122.01762,47.58477 -121.96833,47.58696 -121.95322,47.58194 -121.94994,47.5794</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Seattle (south)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2880</SimpleData>
+		<SimpleData name="dip">45</SimpleData>
+		<SimpleData name="dip_dir">S</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.837,47.55448 -122.81764,47.55499 -122.78697,47.55645 -122.76505,47.55891 -122.75181,47.56095 -122.71364,47.55981 -122.69081,47.55804 -122.67452,47.5574 -122.65187,47.56002 -122.63467,47.55971 -122.58943,47.55487 -122.51154,47.55844 -122.46362,47.55643 -122.40795,47.54509 -122.36278,47.5279 -122.34569,47.51717 -122.32521,47.5153 -122.30553,47.51725 -122.29533,47.51999 -122.27006,47.53068 -122.24484,47.53765 -122.19003,47.52501 -122.16352,47.51674 -122.14138,47.50966</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Skinner Flat</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">282</SimpleData>
+		<SimpleData name="dip">90</SimpleData>
+		<SimpleData name="dip_dir">Vertical</SimpleData>
+		<SimpleData name="rake">-135</SimpleData>
+		<SimpleData name="lower_depth">10</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-120.96811,40.08853 -121.04058,40.11515 -121.08078,40.15228</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Sky Lakes</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2532</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.04892,42.14711 -122.10345,42.19778 -122.14757,42.25725 -122.18854,42.33667 -122.21046,42.34924 -122.21234,42.37718 -122.22636,42.4177 -122.23202,42.48445 -122.24101,42.51661 -122.24262,42.54509 -122.23687,42.5892</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>South Slough</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2534</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-124.32243,43.36282 -124.32403,43.33861 -124.32394,43.32926 -124.32163,43.30913 -124.32095,43.29044 -124.31681,43.25122</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Southeast Newberry</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2533</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-120.96423,43.66877 -120.851261232839,43.5722983406014 -120.73865,43.47574 -120.653329134237,43.3639353809841 -120.56832,43.25208</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Southern Whidbey Island (middle)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2891</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.01792,47.71845 -122.08601,47.76385 -122.11547,47.78393 -122.1305,47.79845 -122.14421,47.80855 -122.1555,47.82053 -122.16146,47.82343 -122.16513,47.82596 -122.18443,47.83502 -122.20645,47.84054 -122.23009,47.85137 -122.25214,47.85917 -122.27203,47.86844 -122.29056,47.88342 -122.30712,47.9019 -122.3567,47.9382 -122.44757,48.00566 -122.45903,48.01414 -122.53107,48.06691 -122.59613,48.08993 -122.67473,48.12899 -122.711,48.14201 -122.74383,48.16338 -122.8085,48.19011 -122.84369,48.20917 -122.94033,48.23587 -123.02911,48.27237</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Southern Whidbey Island (north)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2892</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.92732,47.65179 -121.98805,47.74983 -122.04887,47.81407 -122.10924,47.84207 -122.17548,47.86209 -122.25204,47.89954 -122.29726,47.93831 -122.39913,47.99516 -122.51494,48.09345 -122.60308,48.13132 -122.63645,48.15342 -122.739994101136,48.186647861042 -122.84366,48.21981 -122.92209,48.25714 -122.96077,48.28681</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Southern Whidbey Island (south)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2890</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.09087,47.71787 -122.12573,47.74494 -122.20637,47.8229 -122.31667,47.87378 -122.39263,47.9234 -122.46051,47.98136 -122.595284266455,48.0530184500382 -122.7304,48.12457 -122.76889,48.15051 -122.82904,48.16886 -122.86875,48.19172 -123.02796,48.26249</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Southwest Newberry</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2576</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">NW</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.12355,43.59221 -121.14412,43.57135 -121.23736,43.51072 -121.28809,43.49978 -121.372481907961,43.4550142284577 -121.45675,43.4102</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Spencer Canyon</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2843</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">NW</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-119.70699,48.06304 -119.784044684845,47.9638113588918 -119.86083,47.86456 -119.89361,47.8369 -119.92486,47.82082 -119.94225,47.8045 -119.97514,47.76279 -120.00117,47.74108 -120.04548,47.72115 -120.09906,47.69808 -120.18395,47.65037 -120.24221,47.63359 -120.25948,47.62612 -120.27774,47.62479 -120.28634,47.62372 -120.29734,47.62061 -120.30983,47.61741</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Steens (center)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2535</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-118.52861,42.45409 -118.53092,42.48744 -118.53719,42.49822 -118.53003,42.52749 -118.53812,42.55546 -118.52164,42.61049 -118.49776,42.66671</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Steens (north)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2574</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-118.50415,42.71635 -118.47907,42.76407 -118.4631,42.78518 -118.44888,42.82211 -118.42511,42.84571 -118.40204,42.87194 -118.38659,42.88955 -118.37508,42.90831 -118.33412,42.94879 -118.28614,43.00763 -118.26985,43.03664 -118.24811,43.05344</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Steens (south)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2575</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-118.7531,41.7496 -118.76389,41.75927 -118.76727,41.7697 -118.77892,41.78293 -118.77277,41.80518 -118.76424,41.82803 -118.7579,41.84253 -118.75785,41.85716 -118.74582,41.89601 -118.71613,41.92605 -118.71126,41.93876 -118.69559,41.9524 -118.67701,41.96216 -118.67291,41.97355 -118.65668,41.98511 -118.64522,42.00008 -118.63364,42.01971 -118.62046,42.02931 -118.60072,42.07343 -118.57481,42.09285 -118.60438,42.12366 -118.60652,42.16724 -118.63386,42.1902 -118.65096,42.21863 -118.66192,42.24627 -118.67082,42.32298 -118.67046,42.33495 -118.66612,42.35156 -118.65429,42.3707 -118.65126,42.37678 -118.64669,42.39583 -118.64188,42.4008 -118.63934,42.42566 -118.6134,42.52945</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Stonewall Anticline</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2808</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-124.41664,44.49168 -124.5004,44.60195 -124.53324,44.66642 -124.55499,44.74394</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Strawberry Point</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2809</SimpleData>
+		<SimpleData name="dip">90</SimpleData>
+		<SimpleData name="dip_dir">Vertical</SimpleData>
+		<SimpleData name="rake">0</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.79292,48.34374 -122.69071,48.33558 -122.65304,48.32695 -122.63244,48.32194 -122.62199,48.31949 -122.59643,48.31507 -122.55663,48.31085 -122.52805,48.30464 -122.5054,48.30101 -122.50022,48.29999 -122.46309,48.28937 -122.43692,48.28169</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Sumpter Valley</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2577</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">S</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-118.19219,44.71926 -118.15796,44.71574 -118.11008,44.70273 -118.07382,44.68661</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Surprise Valley</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">284</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">8.5</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-120.03766,41.16615 -120.086926523365,41.2411856287862 -120.13631,41.3162 -120.15108,41.41223 -120.1984,41.50288 -120.18162,41.58297 -120.22702,41.67057 -120.20292,41.71606 -120.17803,41.76672 -120.17030374377,41.8375566279393 -120.16256,41.90839</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Surpur Creek</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">347</SimpleData>
+		<SimpleData name="dip">35</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-123.96101,41.31374 -123.94794,41.32548 -123.95252,41.35368 -123.94954,41.41902 -123.98041,41.51269 -124.01622,41.5944</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Susanville - Eagle Lake (unnamed, proxy)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">351</SimpleData>
+		<SimpleData name="dip">90</SimpleData>
+		<SimpleData name="dip_dir">Vertical</SimpleData>
+		<SimpleData name="rake">180</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-120.61632,40.47009 -120.683382385271,40.5298377045766 -120.75057,40.58955 -120.80117,40.64171 -120.88498,40.73261 -120.98315,40.81326 -121.06551,40.87084</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Sylvain - Oatfield</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2578</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.56984,45.36039 -122.58112,45.37707 -122.58394,45.38364 -122.58839,45.38989 -122.5973,45.39552 -122.62357,45.40896 -122.63885,45.42084 -122.64865,45.42615 -122.66111,45.43021 -122.66572,45.43354 -122.67106,45.44 -122.68813,45.46082 -122.70549,45.48434 -122.72508,45.49142 -122.73428,45.49745 -122.74749,45.51659 -122.75387,45.52137 -122.78029,45.54466 -122.79483,45.55422 -122.8076,45.56067 -122.81472,45.57355 -122.83015,45.59017 -122.83431,45.59578 -122.83995,45.61509</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Table Bluff</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">286</SimpleData>
+		<SimpleData name="dip">45</SimpleData>
+		<SimpleData name="dip_dir">N</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">13</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-124.17977,40.64778 -124.282,40.696 -124.378493488856,40.6970330810728 -124.47499,40.698 -124.576891053515,40.7630387503625 -124.679,40.828</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Tacoma</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2810</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">N</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.5122,47.37514 -122.63812,47.38041 -122.6541,47.3774 -122.67171,47.37422 -122.708,47.37033 -122.80617,47.36496 -122.827019674419,47.3646711162791 -122.84497,47.36836 -122.86299,47.36826 -122.87731,47.3712 -122.89843,47.37341 -122.92835,47.37439 -122.96516,47.37355</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Toppenish Ridge (Mill Creek thrust)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2844</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">S</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-120.91665,46.22466 -120.88447,46.23451 -120.85154,46.24727 -120.83192,46.25437 -120.80242,46.26171 -120.78801,46.2647 -120.7727,46.26404 -120.75891,46.2702 -120.68283,46.29357 -120.61864,46.3015 -120.6034,46.30339 -120.59324,46.30653 -120.58318,46.3072 -120.56928,46.30445 -120.54157,46.30997 -120.50185,46.31184 -120.48709,46.31135 -120.4711,46.30812 -120.44425,46.30493 -120.42767,46.30174 -120.41985,46.29716 -120.3941,46.29419 -120.30054,46.31048 -120.22133,46.31394</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Trinidad</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">291</SimpleData>
+		<SimpleData name="dip">35</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">13</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-123.841,40.79 -123.92214,40.85427 -123.99941,40.93652 -124.02867,40.98205 -124.11172,41.04041 -124.181104534066,41.1138890976281 -124.25065,41.18733 -124.31861,41.24423 -124.343,41.297 -124.368469309103,41.3730042954735 -124.394,41.449</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Tule Springs Rims</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2536</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-118.33025,42.67491 -118.34365,42.65171 -118.35943,42.62777 -118.36551,42.60896 -118.37034,42.51586 -118.39592,42.4807 -118.40645,42.45054 -118.44776,42.40903 -118.47009,42.40034 -118.48424,42.38514 -118.48897,42.36586</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Turner - Mill Creek</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2537</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">SE</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-123.072,44.76015 -123.00929,44.81289 -122.99016,44.82286 -122.97488,44.81594 -122.86168,44.83104</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Twin Lakes - Multorpor Mountain Graben</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2579</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.70675,45.30528 -121.70175,45.27076 -121.73042,45.18552</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Uhtanum Ridge - Gable Mountain</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2845</SimpleData>
+		<SimpleData name="dip">20</SimpleData>
+		<SimpleData name="dip_dir">S</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-120.68556,46.89352 -120.66738,46.88903 -120.64108,46.8873 -120.62826,46.87998 -120.60922,46.87472 -120.59481,46.86963 -120.5863,46.86338 -120.57883,46.86318 -120.56918,46.86017 -120.55124,46.85844 -120.54299,46.85972 -120.53529,46.85665 -120.51515,46.85258 -120.4693,46.83116 -120.45241,46.8195 -120.4347,46.81029 -120.33563,46.76364 -120.21213,46.70592 -120.112158633201,46.6819968658196 -120.01227,46.65801 -119.86586,46.62523 -119.659792159588,46.6147267629177 -119.4538,46.60395 -119.36727,46.55719</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Utsalady Point (east)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2811</SimpleData>
+		<SimpleData name="dip">90</SimpleData>
+		<SimpleData name="dip_dir">Vertical</SimpleData>
+		<SimpleData name="rake">0</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.52429,48.2499 -122.6261,48.29062 -122.64981,48.30476 -122.66391,48.31306 -122.69129,48.32041 -122.722,48.32761 -122.79578,48.34422</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Utsalady Point (west)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2847</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-123.46233,48.41497 -123.43369,48.40949 -123.35308,48.40026 -123.25761,48.38544 -123.20097,48.38497 -123.17388,48.38294 -123.14363,48.37949 -123.02998,48.36135 -122.94385,48.35373 -122.85488,48.33778 -122.76277,48.32474</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Waldport</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2538</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-124.08855,44.33875 -124.06264,44.42908 -124.06117,44.441 -124.05067,44.46632</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Walker Spring</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">294</SimpleData>
+		<SimpleData name="dip">90</SimpleData>
+		<SimpleData name="dip_dir">Vertical</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">10</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.02111,40.22883 -121.0352,40.2887 -121.06765,40.33295 -121.06688,40.42177 -121.08739,40.49447</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Wallula (northeast)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2806</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-119.67446,46.46722 -119.59214,46.40515 -119.56914,46.39408 -119.55272,46.38427 -119.50868,46.34538 -119.43405,46.30144 -119.42258,46.29527 -119.40195,46.28061 -119.37225,46.26654 -119.35223,46.26014 -119.33585,46.24771 -119.31116,46.24079 -119.29662,46.22956 -119.27595,46.22166 -119.2391,46.19935 -119.21101,46.19404 -119.19991,46.18909 -119.17599,46.17446 -119.13081,46.1597 -119.09603,46.14948 -119.06845,46.13766 -119.05077,46.1257 -119.0368,46.11838 -119.00071,46.10704 -118.99083,46.10006 -118.97505,46.08743 -118.91995,46.05706 -118.87216,46.04843 -118.84199,46.04899 -118.82745,46.04368 -118.81538,46.04238 -118.79765,46.0338 -118.7761,46.0283 -118.7303,46.01385 -118.68956,46.0013 -118.6368,45.98537 -118.56544,45.9698 -118.46653,45.94716</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Wallula (southwest)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2581</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-118.807554563471,46.0191366381038 -118.670197672389,45.9484132857189 -118.595803639166,45.93183254757 -118.497357410172,45.9093406421067</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Warm Springs</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2582</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.4672,44.71416 -121.46938,44.7454 -121.46885,44.82256 -121.45972,44.864 -121.45454,44.91657 -121.43777,44.97886</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Warm Springs Valley</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">1119</SimpleData>
+		<SimpleData name="dip">90</SimpleData>
+		<SimpleData name="dip_dir">Vertical</SimpleData>
+		<SimpleData name="rake">180</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-120.29761,40.24628 -120.21114,40.20377 -120.16587,40.15636 -120.03107,40.08308 -119.93252,40.03958 -119.92155,40.03493 -119.89828,40.01822 -119.85407,39.9963 -119.75053,39.91085 -119.75075,39.90619 -119.69909,39.85849 -119.645255502286,39.804892037799 -119.59151,39.75127 -119.56581,39.71558</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Warner Valley (east, center)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2584</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-119.585401108346,42.7230640573127 -119.614591442645,42.6808312332199 -119.625770719611,42.6676852316028 -119.642643146883,42.6267980612189 -119.652166234669,42.6215189582073 -119.682288175382,42.6010236171035 -119.721933203881,42.5733859601604 -119.739633725743,42.5534081781754 -119.781452502541,42.5286688522975 -119.795633622396,42.5109683304351 -119.797186299752,42.5006171480594 -119.796979276105,42.4697706245799 -119.812092002373,42.4400627311618 -119.819130806389,42.4358187463877 -119.816750034442,42.4285729187248 -119.830413595178,42.3779556369077 -119.824513421224,42.3620148160492 -119.796254693338,42.3455564360719 -119.790665054856,42.339552750294 -119.78859481838,42.313571282531 -119.755885082073,42.2802404752814</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Warner Valley (east, Coleman Valley)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">1274</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-119.76055,42.10617 -119.75301,42.08372 -119.76232,42.06832 -119.75945,42.00053 -119.70326,41.93452 -119.67629,41.89509 -119.66729,41.87581 -119.67315,41.84325 -119.67216,41.78686 -119.71214,41.75464 -119.72536,41.73196 -119.76556,41.71142</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Warner Valley (east, north)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2583</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-119.50367,42.88846 -119.49896,42.8777 -119.4996,42.82137 -119.51895,42.79564 -119.54025,42.73756 -119.5535,42.71997</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Warner Valley (west, Coleman Valley)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">1275</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-119.80143,41.96539 -119.81878,41.9917 -119.82429,42.00018 -119.84131,42.07001 -119.82586,42.10228</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Warner Valley (west, north)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2541</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-119.96065,42.07278 -119.94899,42.1194 -119.93235,42.14792 -119.90868,42.16589 -119.8829,42.25707 -119.8952,42.27862 -119.88212,42.29409 -119.90811,42.3235 -119.91145,42.40246 -119.92207,42.41121 -119.91793,42.4345 -119.92311,42.45267</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Warwick</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2848</SimpleData>
+		<SimpleData name="dip">90</SimpleData>
+		<SimpleData name="dip_dir">Vertical</SimpleData>
+		<SimpleData name="rake">180</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.27983,45.96164 -121.26305,45.94498 -121.25004,45.93641 -121.22577,45.9191 -121.19962,45.9016 -121.18536,45.88904 -121.14442,45.86046 -121.13167,45.84901 -121.10789,45.82483 -121.07575,45.79696 -121.04825,45.77057 -121.01949,45.73415 -121.00644,45.72225</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Wecoma</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2542</SimpleData>
+		<SimpleData name="dip">90</SimpleData>
+		<SimpleData name="dip_dir">Vertical</SimpleData>
+		<SimpleData name="rake">0</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-125.63556,45.21058 -125.50682,45.17743 -125.41527,45.13431 -125.361,45.11679 -125.33261,45.1026 -125.21761,45.07394 -125.06901,45.01456 -125.02292,45.0027 -124.93577,44.95814 -124.80029,44.92086 -124.67918,44.89391 -124.62249,44.8754</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>West Baker Valley (center)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2586</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-117.82895,44.75565 -117.84098,44.76023 -117.86106,44.77112 -117.86911,44.77907 -117.88434,44.78678 -117.89387,44.79618 -117.90041,44.79799 -117.92086,44.79812 -117.94049,44.79669 -118.00505,44.81965 -118.02793,44.84781 -118.0161,44.86524 -118.01859,44.88272 -118.03993,44.90069</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>West Baker Valley (southeast)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2587</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-117.71078,44.73428 -117.73527,44.74115 -117.81033,44.77994</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>West Grand Ronde Valley</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2588</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-118.02758,45.22922 -118.04147,45.26034 -118.06925,45.27367 -118.10082,45.30033 -118.11724,45.34827 -118.1084,45.38021 -118.09829,45.40327 -118.07304,45.42986 -118.05915,45.4529 -118.07556,45.47593 -118.08314,45.50072 -118.09198,45.55733 -118.1084,45.56883 -118.12102,45.60506</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Whaleshead</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2543</SimpleData>
+		<SimpleData name="dip">90</SimpleData>
+		<SimpleData name="dip_dir">Vertical</SimpleData>
+		<SimpleData name="rake">180</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-124.43475,42.48124 -124.41033,42.45669 -124.37429,42.40387 -124.36111,42.37155 -124.33007,42.27764 -124.33037,42.26529 -124.33122,42.24279 -124.32935,42.21884 -124.32754,42.20409 -124.32702,42.17633 -124.3428,42.15075 -124.34955,42.14565 -124.3558,42.14369</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>White Branch</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2590</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.98492,44.01671 -121.9831,44.03094 -121.98192,44.0433 -121.98282,44.05804 -121.98727,44.10086 -121.98686,44.1172 -121.96963,44.15688 -121.96424,44.17564 -121.96352,44.18054</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Willapa Bay (north)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2849</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-124.05476,46.73503 -124.04556,46.71574 -124.01431,46.68471 -123.99116,46.65797 -123.96065,46.59837 -123.95264,46.5669 -123.93632,46.53505</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Willapa Bay (south)</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2850</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-123.99668,46.51045 -123.98164,46.49601 -123.96476,46.47035 -123.95806,46.45688 -123.94197,46.40794</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Winter Rim</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2544</SimpleData>
+		<SimpleData name="dip">50</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">-90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-120.492475219926,42.5633453132561 -120.51131437185,42.5830125597698 -120.519181270455,42.6204838399698 -120.530981618364,42.6515373870968 -120.542574942624,42.6720327282006 -120.600334540281,42.7235816164315 -120.672999840558,42.7101250793431 -120.745872164483,42.7148866232359 -120.78272237374,42.754842187206 -120.803010691196,42.8225389199429 -120.81688127558,42.9090748046035 -120.806323069556,42.9320544294775 -120.799698312836,42.9455109665659 -120.78106618456,42.9738732062752 -120.77858190079,43.0001652095094 -120.776097617019,43.0063759189348</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Yaquina</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">2545</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">N</SimpleData>
+		<SimpleData name="rake">90</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">US NSHM 2023</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-123.98667,44.64147 -124.03321,44.63195 -124.07741,44.60868</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">cf002</SimpleData>
+		<SimpleData name="dip">45</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">116.5</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">NRCan Faults</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.89447,50.60875 -121.88562,50.60242 -121.88111,50.59862 -121.87569,50.59533 -121.87117,50.59171 -121.85863,50.58198 -121.85365,50.57707 -121.84583,50.57206 -121.83599,50.56269 -121.82934,50.55581 -121.81545,50.54084 -121.80855,50.53377 -121.8048,50.52954 -121.79956,50.51998 -121.79218,50.51643 -121.78686,50.51087 -121.78543,50.50782 -121.78259,50.50308 -121.7786,50.49547 -121.77345,50.48955 -121.76878,50.48465 -121.76574,50.48054 -121.75335,50.4608</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">cf003</SimpleData>
+		<SimpleData name="dip">45</SimpleData>
+		<SimpleData name="dip_dir">N</SimpleData>
+		<SimpleData name="rake">-77.8</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">NRCan Faults</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.49735,49.16646 -121.50139,49.1648 -121.50835,49.16164 -121.51391,49.15859 -121.51633,49.1565 -121.52076,49.15359 -121.53362,49.14666 -121.5425,49.14066 -121.55349,49.13583 -121.57394,49.12757</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">cf004</SimpleData>
+		<SimpleData name="dip">45</SimpleData>
+		<SimpleData name="dip_dir">N</SimpleData>
+		<SimpleData name="rake">-84</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">NRCan Faults</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.39124,49.243 -121.39775,49.23891 -121.40689,49.23912 -121.41599,49.23696 -121.42211,49.23121 -121.43092,49.2263 -121.43888,49.22154 -121.4477,49.21645 -121.45124,49.21 -121.45752,49.20612 -121.46309,49.2023 -121.46679,49.19991 -121.47068,49.19634 -121.47556,49.19245 -121.48076,49.18889 -121.48899,49.18122</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">cf005</SimpleData>
+		<SimpleData name="dip">45</SimpleData>
+		<SimpleData name="dip_dir">NW</SimpleData>
+		<SimpleData name="rake">-5.7</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">NRCan Faults</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.03563,49.82305 -121.03609,49.8158 -121.03891,49.80763 -121.04074,49.78623 -121.04162,49.78253 -121.04188,49.77871 -121.04189,49.77414 -121.04296,49.76869 -121.04381,49.75793 -121.04472,49.74946 -121.04476,49.74324 -121.04451,49.73658 -121.04859,49.72847 -121.0486,49.72245 -121.05088,49.71321 -121.05139,49.70555 -121.05283,49.70105 -121.05491,49.69658 -121.05683,49.69064 -121.05741,49.68527 -121.05848,49.67826 -121.05979,49.6721 -121.05987,49.66245 -121.05878,49.64579 -121.05927,49.63232 -121.06163,49.62225 -121.06508,49.6139 -121.0682,49.60864 -121.0748,49.60219 -121.0763,49.59707 -121.08163,49.59202 -121.09078,49.58402 -121.09539,49.5752 -121.10322,49.56455 -121.11012,49.55811 -121.1258,49.53805 -121.13317,49.52863 -121.14128,49.51508 -121.14919,49.50651 -121.15463,49.4972 -121.1621,49.48674 -121.16998,49.47837 -121.17358,49.46524 -121.177,49.45989 -121.18025,49.45318 -121.18314,49.44833 -121.19019,49.44324 -121.19906,49.43595 -121.21282,49.42743 -121.22263,49.42018 -121.23395,49.41362 -121.24527,49.40706 -121.25106,49.40326 -121.25651,49.39976 -121.26322,49.39466 -121.27281,49.38947 -121.28019,49.38253 -121.28612,49.37573 -121.29088,49.37105 -121.2958,49.36639 -121.30047,49.36265 -121.30741,49.35526 -121.31296,49.34897 -121.32694,49.3394 -121.34318,49.3293 -121.36247,49.32037 -121.37349,49.31482 -121.37822,49.3088 -121.38647,49.3023 -121.39744,49.29404 -121.41022,49.28338</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">cf006</SimpleData>
+		<SimpleData name="dip">45</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">-44.1</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">NRCan Faults</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.06174,50.00893 -121.05877,50.03037 -121.05626,50.04458 -121.0544,50.05279 -121.05668,50.07033 -121.05323,50.08137 -121.04675,50.09934 -121.04041,50.11607 -121.03245,50.15347 -121.02658,50.18349 -121.02812,50.19891 -121.02898,50.22053 -121.04078,50.24865 -121.042,50.25825 -121.0419,50.27691 -121.04376,50.28653 -121.04918,50.29922 -121.04693,50.32567 -121.03965,50.35065 -121.03536,50.37784 -121.03304,50.42253 -121.03536,50.44876 -121.03748,50.47375 -121.03502,50.49313 -121.03567,50.50788 -121.036,50.51972 -121.03802,50.53681 -121.03912,50.55345 -121.0396,50.56384 -121.03736,50.57825 -121.03118,50.59581 -121.01359,50.6396 -121.00184,50.67474 -120.99342,50.70339 -120.98416,50.75107</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">cf007</SimpleData>
+		<SimpleData name="dip">45</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">-46.3</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">NRCan Faults</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.04274,49.81394 -121.04337,49.8187 -121.047,49.82629 -121.0494,49.83187 -121.04938,49.83874 -121.05289,49.84475 -121.05496,49.84948 -121.05625,49.85483 -121.05624,49.86021 -121.05844,49.87303 -121.06029,49.88118 -121.06125,49.8855 -121.06265,49.89122 -121.06745,49.90127 -121.06737,49.906 -121.06948,49.91037 -121.0706,49.91469 -121.07482,49.92351 -121.07416,49.9309 -121.07654,49.93815 -121.07771,49.94999 -121.07752,49.95574 -121.07681,49.96099 -121.07663,49.96665 -121.07652,49.97304 -121.07682,49.97686 -121.07675,49.98688</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">cf010</SimpleData>
+		<SimpleData name="dip">89</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">45.8</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">NRCan Faults</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.51361,49.99407 -122.50383,49.98672 -122.49381,49.97861 -122.47859,49.97108 -122.4608,49.96328 -122.45167,49.95872 -122.44403,49.95347 -122.42941,49.94576 -122.41892,49.94042 -122.40396,49.93344 -122.39251,49.92565 -122.38124,49.91934 -122.37169,49.91309 -122.35942,49.9049 -122.35411,49.89953 -122.34516,49.89311 -122.33974,49.88904 -122.33356,49.88383 -122.32845,49.87958 -122.32112,49.87451 -122.31229,49.87013 -122.30585,49.86472 -122.30005,49.86193 -122.29222,49.85592 -122.27602,49.84359 -122.26567,49.83694 -122.25624,49.83142 -122.25001,49.82694 -122.21528,49.80173 -122.19546,49.79214 -122.18339,49.78579 -122.17511,49.77863 -122.16323,49.77006</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">cf011</SimpleData>
+		<SimpleData name="dip">45</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="rake">89.2</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">NRCan Faults</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-124.80362,49.30837 -124.83007,49.31996 -124.84414,49.32883 -124.8601,49.33613 -124.87142,49.34181 -124.89501,49.35632 -124.91442,49.37394 -124.93247,49.38987 -124.94668,49.40067 -124.96158,49.41267 -124.98883,49.43099 -125.00462,49.44207 -125.01477,49.45199 -125.02568,49.4595 -125.04808,49.47452 -125.06124,49.48353 -125.07249,49.48937 -125.08344,49.49557 -125.0944,49.50196 -125.10029,49.50553 -125.11494,49.51214 -125.12678,49.51761 -125.14656,49.5311 -125.15338,49.53922 -125.16203,49.54836 -125.17131,49.55445 -125.17667,49.56459 -125.19039,49.57748 -125.19955,49.58264 -125.21564,49.59035 -125.22253,49.59512 -125.23397,49.60104 -125.24512,49.60658 -125.25012,49.61458 -125.25793,49.62473 -125.27563,49.6405 -125.28549,49.64779 -125.29168,49.65302 -125.29926,49.66066 -125.30886,49.66665 -125.32102,49.67358 -125.33152,49.67754 -125.34743,49.68171 -125.35451,49.68545 -125.36243,49.68994 -125.37577,49.69502</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">cf012</SimpleData>
+		<SimpleData name="dip">45</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">-85.2</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">NRCan Faults</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.84358,50.78738 -121.83254,50.75988 -121.83112,50.75342 -121.82765,50.74102 -121.82139,50.72761 -121.81853,50.71175 -121.81631,50.69693 -121.81373,50.68741 -121.8104,50.67827 -121.80985,50.67101 -121.81038,50.6681 -121.80722,50.66176 -121.80525,50.6551 -121.80426,50.64719 -121.80338,50.64111 -121.80055,50.6313 -121.79862,50.61493 -121.7962,50.60074 -121.79175,50.59288 -121.78577,50.58607 -121.77731,50.57494 -121.77058,50.56077 -121.76457,50.5512 -121.7626,50.5416 -121.75864,50.53175 -121.75584,50.52486 -121.75454,50.51731</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">cf013</SimpleData>
+		<SimpleData name="dip">45</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">-91</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">NRCan Faults</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.42123,51.93562 -122.40395,51.88165 -122.38752,51.79819 -122.36508,51.75665 -122.35639,51.72671 -122.34573,51.69443 -122.33015,51.65691 -122.30644,51.60298 -122.2889,51.56194 -122.2919,51.51235 -122.27921,51.48745 -122.26294,51.45375 -122.2552,51.43468 -122.24142,51.40418 -122.23629,51.39186 -122.2267,51.3731 -122.20716,51.33824 -122.19902,51.32006 -122.19201,51.30746 -122.16695,51.27502 -122.15675,51.25036 -122.14136,51.22488 -122.13079,51.20288 -122.11057,51.17382 -122.09853,51.15639 -122.08465,51.14027 -122.06581,51.11601 -122.03739,51.08675 -122.02997,51.07688 -122.01333,51.0483 -122.00348,51.02188 -121.98109,50.98485 -121.96326,50.94358 -121.95642,50.92302 -121.94714,50.90539 -121.93694,50.88361 -121.93013,50.87732 -121.91922,50.86347 -121.91117,50.85165 -121.9002,50.83862 -121.88205,50.81406</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">cf023</SimpleData>
+		<SimpleData name="dip">70</SimpleData>
+		<SimpleData name="dip_dir">N</SimpleData>
+		<SimpleData name="rake">108.5</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">NRCan Faults</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-124.35252,48.15541 -124.40715,48.17419 -124.43254,48.1814 -124.45313,48.18965 -124.46505,48.19461 -124.47819,48.20429 -124.49114,48.21724 -124.50821,48.23184 -124.53747,48.24871 -124.55347,48.25443 -124.58259,48.25703 -124.59574,48.2603 -124.61395,48.26579 -124.62575,48.27475 -124.63787,48.28489 -124.64848,48.29865 -124.67313,48.32694 -124.69073,48.34149 -124.70042,48.35156 -124.71465,48.36266 -124.74387,48.38305</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">cf008</SimpleData>
+		<SimpleData name="dip">89</SimpleData>
+		<SimpleData name="dip_dir">S</SimpleData>
+		<SimpleData name="rake">145.7</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">NRCan Faults</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-124.29489,48.49354 -124.25813,48.49375 -124.2184,48.49477 -124.18654,48.4937 -124.16163,48.49334 -124.13021,48.49464 -124.09927,48.4949 -124.06284,48.49577 -124.02591,48.49757 -124.00957,48.49693 -123.96665,48.50017 -123.94153,48.50216 -123.9202,48.50287 -123.90491,48.50305 -123.88707,48.50354 -123.85931,48.50466 -123.83145,48.5053 -123.81433,48.50555 -123.79992,48.506 -123.78326,48.50389 -123.77725,48.50318 -123.76785,48.50254 -123.75924,48.50176 -123.74711,48.49978 -123.73165,48.49629 -123.71364,48.49308 -123.70126,48.48978 -123.69137,48.4876 -123.68321,48.48523 -123.66262,48.48082 -123.65068,48.47814 -123.63725,48.4759 -123.62761,48.47368 -123.60834,48.46708 -123.59335,48.46357 -123.58743,48.46202 -123.53787,48.44718 -123.52691,48.44354 -123.51048,48.43786 -123.46363,48.41892 -123.44214,48.40882</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">cf070</SimpleData>
+		<SimpleData name="dip">70</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">166.5</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">NRCan Faults</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-125.51406,50.58563 -125.44203,50.54728 -125.39273,50.52094 -125.34274,50.47283 -125.27151,50.44001 -125.23142,50.41569 -125.18929,50.39626 -125.15101,50.36297 -125.07793,50.29139 -125.00455,50.24318 -124.95959,50.21732 -124.91667,50.17041 -124.86745,50.12208 -124.80561,50.0564 -124.73527,50.02326 -124.69646,49.97612 -124.63016,49.92826 -124.52381,49.82837 -124.39118,49.72111 -124.30018,49.66737 -124.2548,49.62352 -124.1297,49.53837</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">cf072</SimpleData>
+		<SimpleData name="dip">45</SimpleData>
+		<SimpleData name="dip_dir">S</SimpleData>
+		<SimpleData name="rake">-101.7</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">NRCan Faults</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-123.35574,49.01716 -123.27924,49.00213 -123.23298,48.99212 -123.16696,48.98033 -123.09463,48.96317 -123.02677,48.9506 -122.97098,48.93709 -122.90569,48.921 -122.82769,48.9191 -122.76832,48.91571 -122.76039,48.91202 -122.75112,48.90708 -122.74374,48.90082 -122.73641,48.89584 -122.72984,48.89341 -122.72526,48.89221 -122.70962,48.88558 -122.69225,48.87993 -122.68345,48.87817 -122.67454,48.87364 -122.65732,48.86372 -122.64744,48.85921 -122.63558,48.85366 -122.6265,48.84487 -122.62077,48.83901 -122.59745,48.8294 -122.57875,48.82205 -122.55853,48.81686 -122.54519,48.81431 -122.53044,48.80838</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">cf082</SimpleData>
+		<SimpleData name="dip">45</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="rake">-178.4</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">NRCan Faults</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-121.75335,50.4608 -121.73908,50.44589 -121.73446,50.43445 -121.73082,50.42177 -121.72912,50.4157 -121.72255,50.40691 -121.71715,50.39779 -121.71183,50.39086 -121.71167,50.38359 -121.70826,50.37455 -121.7006,50.36234 -121.6886,50.34806 -121.68295,50.33276 -121.68186,50.32635 -121.6775,50.31545 -121.67338,50.29911 -121.67107,50.29066 -121.66628,50.28429 -121.66309,50.27908 -121.65882,50.27037 -121.65546,50.25205 -121.65492,50.24003 -121.64838,50.22832 -121.64341,50.22104 -121.63701,50.20806 -121.63247,50.19333 -121.61723,50.17218 -121.6077,50.15944 -121.59802,50.14832 -121.59039,50.13947 -121.57254,50.11057 -121.56269,50.08398 -121.55317,50.06578 -121.54034,50.03234 -121.53607,50.02398 -121.52647,50.00104 -121.4967,49.94816 -121.49072,49.94027 -121.48377,49.93362 -121.46799,49.89677 -121.46505,49.881 -121.46303,49.87291 -121.45339,49.85105 -121.43836,49.83259 -121.42828,49.80961 -121.42176,49.78486 -121.41604,49.73822 -121.41632,49.72695 -121.4238,49.69979 -121.42671,49.67626 -121.42715,49.66062 -121.42759,49.63371 -121.43029,49.60652 -121.43816,49.60613 -121.43952,49.59526 -121.44153,49.58061 -121.44641,49.56807 -121.44925,49.55345 -121.45085,49.54296 -121.45174,49.53389 -121.45499,49.50946 -121.45642,49.5006 -121.45708,49.49389 -121.4549,49.47924 -121.45621,49.46874 -121.45795,49.45812 -121.45848,49.4514 -121.45969,49.44053 -121.46031,49.42991</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">cf341</SimpleData>
+		<SimpleData name="dip">45</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="rake">94</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">NRCan Faults</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-125.262950161209,51.9911302016733 -124.91597,51.925239999992 -124.81844,51.900649999992 -124.77376,51.886939999992 -124.74049,51.8722999999919 -124.70128,51.8601799999919 -124.62998,51.8390999999919 -124.58212,51.8231999999919 -124.55128,51.8147599999918 -124.50843,51.8014899999918 -124.46399,51.7863599999918 -124.39966,51.7646999999918 -124.37023,51.7541599999917 -124.29873,51.7032499999917 -124.25507,51.6833699999916 -124.1708,51.6534799999916 -124.12544,51.6366399999916 -124.08176,51.6203299999915 -124.01352,51.5926699999915 -123.97063,51.5791799999915 -123.93449,51.5650199999914 -123.80079,51.4917199999913 -123.7757,51.4761599999913 -123.73324,51.4579199999913 -123.70258,51.4458699999913 -123.58649,51.4029199999912 -123.51311,51.3815799999912 -123.45693,51.3662999999911 -123.30707,51.3248899999911 -123.22372,51.300789999991 -123.17736,51.284559999991 -123.15007,51.275819999991 -123.10713,51.258869999991 -122.44556,50.9910599999905 -122.35349,50.9501199999904 -122.30538,50.9279899999904 -122.2652,50.9102599999904 -122.2422,50.8993499999904 -122.20314,50.8834599999903 -122.1421,50.8267199999902 -122.11458,50.8070199999902 -122.08535,50.7882999999902 -122.04325,50.7574099999901 -122.01844,50.7359599999901 -121.9897,50.70811999999 -121.95494,50.6701499999899 -121.89447,50.6087499999898</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">cf342</SimpleData>
+		<SimpleData name="dip">65</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="rake">23.5</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">NRCan Faults</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-127.240911339245,51.6754255393986 -126.695732532181,51.6478174093316 -126.387041804874,51.5762182201825 -125.954598596474,51.4715268453093 -125.391609057792,51.3684218368525 -125.141270387409,51.2953189263806 -124.704386520001,51.1638543582619 -124.462517893143,51.0257634809184 -124.116007102614,50.8584213873629 -123.939335431053,50.695116597321 -123.782101954198,50.5579304095143</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">cf343</SimpleData>
+		<SimpleData name="dip">70</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="rake">69.2</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">NRCan Faults</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-125.771182165415,50.0295418130168 -125.857208371434,50.0465480379812 -125.90247109472,50.0604816719595 -125.998792865442,50.0852577093872 -126.133922742054,50.1259622351604 -126.215390199073,50.1385575962778 -126.288188195,50.1601379721235 -126.38200086158,50.1815088769854 -126.481975649167,50.2093787339276 -126.654569121518,50.2451735003246 -126.763379860114,50.2571033209713 -126.983346707303,50.3226630335808 -127.20185829009,50.3654615518147</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">cf349</SimpleData>
+		<SimpleData name="dip">45</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="rake">97.4</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">NRCan Faults</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-125.37577,49.69502 -125.408798647112,49.6946927408503 -125.448020704211,49.7056848206856 -125.507420838087,49.7133493274055 -125.561487830232,49.7317459944593 -125.609188938881,49.783016252804 -125.613282645157,49.8170881343557 -125.66938333108,49.9063808009088 -125.756233185027,50.0009750488891 -125.771182165415,50.0295418130168</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">cf350</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="rake">123.9</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">NRCan Faults</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-128.3191626571,50.7793610863104 -128.281877047868,50.7711533003251 -128.257228421109,50.7659097711181 -128.232901752456,50.7556284871673 -128.213363166401,50.73878521927 -128.198152052633,50.7290335113325 -128.176601201733,50.7168904775811 -128.155165375177,50.7068951655043 -128.128032120941,50.6959275717158 -128.109612986148,50.6894561713722 -128.074985747332,50.6750272594156 -128.044516455971,50.664460711762 -128.019411928595,50.6571152543803 -127.998816509024,50.6508044564755 -127.959078617606,50.6404027025566 -127.897128218955,50.626909218202 -127.869720703402,50.6201924712003 -127.821862376507,50.6105231505772 -127.717389912896,50.5878356067435 -127.665478745871,50.573546567017 -127.610806339716,50.5599915718719 -127.539730015742,50.5441253059603 -127.451451345681,50.5352607780323</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">cf351</SimpleData>
+		<SimpleData name="dip">45</SimpleData>
+		<SimpleData name="dip_dir">S</SimpleData>
+		<SimpleData name="rake">102.4</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">NRCan Faults</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-127.451451345681,50.5352607780323 -127.349086737314,50.5396011767437 -127.267317681707,50.5398451394529 -127.228366996006,50.5384873598551 -127.180492432628,50.5408006882566 -127.121478936825,50.548949515877 -127.076510542298,50.5554959376517 -127.037112197362,50.5594596307501 -126.977900391656,50.5607136791963 -126.905110648351,50.5602527988681 -126.829256927612,50.5541140411385 -126.717737296583,50.5294053241089 -126.644114547331,50.5061663139486 -126.550390660571,50.4908765733017 -126.46614425914,50.4874033843089 -126.388959087444,50.4848289318446 -126.260490176607,50.4744362452225 -126.204146932624,50.4662983776306 -126.140030011432,50.4587776675466</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">cf352</SimpleData>
+		<SimpleData name="dip">55</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="rake">139.5</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">NRCan Faults</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-126.140030011432,50.4587776675466 -126.105938237567,50.4542362103546 -126.079122413748,50.4487999717219 -126.043098734634,50.4402048797371 -125.885918206622,50.3942579880592 -125.834830957852,50.3776804379701 -125.785009068843,50.3559528850337 -125.75136336897,50.346907470117 -125.708788655941,50.3317254347601 -125.673055937078,50.3054174821711 -125.664875311465,50.2737984102341 -125.633071469854,50.2553862754067 -125.556026942735,50.2263791312108 -125.536633192026,50.2061916880476 -125.522176759025,50.1969736441422 -125.470409749038,50.1730377595461 -125.399160330797,50.1468174403579 -125.368660615544,50.1290505204199 -125.30924960115,50.1039144771554 -125.243722134474,50.0560543537322</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">cf353</SimpleData>
+		<SimpleData name="dip">55</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="rake">134.2</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">NRCan Faults</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-125.243722134474,50.0560543537322 -125.165084196354,49.9535678056599 -125.003474116376,49.8286420327027 -124.840510398894,49.6839773316378 -124.719055443941,49.6022697143297 -124.533581451608,49.5030232468648 -124.382322056809,49.43481178023 -124.233023581797,49.3708127765099 -124.117666378855,49.3268593023046 -123.938699355229,49.2656868826504 -123.797949377169,49.2272824263662 -123.758307518141,49.2081186601777 -123.700182781438,49.1867472949651 -123.637316344508,49.1735140276893 -123.591820928018,49.1426424666089</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">cf354</SimpleData>
+		<SimpleData name="dip">55</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="rake">116.6</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">NRCan Faults</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-123.591820928018,49.1426424666089 -123.546345494941,49.0398673486962 -123.527644905282,49.0218038456145 -123.494625879835,48.9861269207282 -123.437797454493,48.9488350892439 -123.352182274117,48.913545503776 -123.284677810064,48.8848538938941 -123.213838904343,48.8495485671459 -123.158211969085,48.8250396710154 -123.109938731753,48.8099711295961 -123.031155039178,48.800967678324 -122.963488343955,48.7969037368018 -122.889653188775,48.7958583602421 -122.7124401813,48.8092157934001</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">cf355</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">S</SimpleData>
+		<SimpleData name="rake">-30</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">NRCan Faults</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-124.60682,48.58186 -124.39156624794,48.5836995001059 -124.183775211436,48.5987877521829 -124.044159473779,48.602004522328 -123.968701945816,48.6045210494778 -123.883139956119,48.6141043945537</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crescent_cfm_crustal_traces">
+		<SimpleData name="id">cf357</SimpleData>
+		<SimpleData name="dip">60</SimpleData>
+		<SimpleData name="dip_dir">SE</SimpleData>
+		<SimpleData name="rake">30.1</SimpleData>
+		<SimpleData name="lower_depth">15</SimpleData>
+		<SimpleData name="upper_depth">0</SimpleData>
+		<SimpleData name="source">NRCan Faults</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-123.883139956119,48.6141043945537 -123.844594010502,48.6195325588944 -123.820819884211,48.6225729896489 -123.784694817555,48.6281986995567 -123.77088198801,48.6315706501458 -123.756698695024,48.6341195720296 -123.736281789046,48.6391100978419 -123.694111432788,48.6552870283006 -123.663714462269,48.6679104160805 -123.614199959861,48.6790140537675 -123.560768265941,48.6864804144082 -123.458759232736,48.7087707754744 -123.420493394232,48.7140879496855</coordinates></LineString>
+  </Placemark>
+</Folder>
+</Document></kml>

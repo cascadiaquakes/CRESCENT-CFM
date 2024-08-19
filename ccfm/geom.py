@@ -85,9 +85,9 @@ def haversine_distance(
     r_lon_0, r_lon_1, r_lat_0, r_lat_1 = np.radians(
         (lon_0, lon_1, lat_0, lat_1)
     )
-    term_1 = np.sin((r_lon_1 - r_lon_0) / 2.0) ** 2
+    term_1 = np.sin((r_lat_1 - r_lat_0) / 2.0) ** 2
     term_2 = np.cos(r_lat_0) * np.cos(r_lat_1)
-    term_3 = np.sin((r_lat_1 - r_lat_0) / 2.0) ** 2
+    term_3 = np.sin((r_lon_1 - r_lon_0) / 2.0) ** 2
 
     return 2 * R * np.arcsin(np.sqrt(term_1 + term_2 * term_3))
 
@@ -150,6 +150,12 @@ def _resample_polyline(polyline, interval_km):
     """
     Resamples a polyline at regular intervals specified in kilometers.
     """
+
+    # We have to handle very short lines sometimes
+    # Not sure if this is the best way to do it but it works for now
+    if polyline_length(polyline) < interval_km:
+        interval_km = np.mean(polyline_seg_lengths(polyline))
+
     new_polyline = [polyline[0][0:2]]
     remaining_distance = interval_km
 
@@ -347,7 +353,7 @@ def make_3d_fault_mesh(
     res_trace, pt_distance = sample_polyline(
         trace, pt_distance, return_distance=True
     )
-    # res_trace = get_resampled_trace_elevations(res_trace, trace_3d)
+
     for pt in res_trace:
         pt.append(0.0)
 
@@ -357,7 +363,6 @@ def make_3d_fault_mesh(
     hor_distance = pt_distance * np.cos(np.radians(fault['properties']['dip']))
     depths = np.arange(0.0, lower_depth, vert_distance)
     depths[depths > 0.0] = -1.0 * depths[depths > 0.0]
-    # hor_distances = [hor_distance * i for i in range(len(depths))]
 
     mesh = []
 
@@ -378,10 +383,6 @@ def make_3d_fault_mesh(
         mesh = np.round(mesh, decimals=decimals).tolist()
 
     return mesh
-
-
-def make_tri_mesh_idxs(mesh_3d):
-    pass
 
 
 def make_tri_mesh(mesh_3d):
@@ -409,12 +410,27 @@ def make_tri_mesh(mesh_3d):
     return tris
 
 
+def _straight_profile_n_pts(p1, p2, n_pts):
+    hor_distance = haversine_distance(p1[0], p1[1], p2[0], p2[1])
+    pt_distance = hor_distance / (n_pts - 1)
+    profile_az = azimuth(p1[0], p1[1], p2[0], p2[1])
+    out_pts = [p1[:2]]
+    for n in range(1, n_pts - 1):
+        dist = n * pt_distance
+        new_pt = terminal_coords_from_bearing_dist(p1[0], p1[1], profile_az,
+                                                   dist)
+        out_pts.append(list(new_pt))
+    
+    out_pts.append(p2[:2])
+
+    return out_pts
+
+
 def _draw_pt_profile(p1, p2, n_pts):
-    # profile_azimuth = azimuth(*p1[:2], *p2[:2])
-    # profile_distance = haversine_distance(*p1[:2], *p2[:2])
+    if n_pts < 3:
+        return [p1, p2]
 
-    profile_pts = sample_polyline_to_n_pts([p1[:2], p2[:2]], n_pts)
-
+    profile_pts = _straight_profile_n_pts(p1, p2, n_pts)
     elevs = np.linspace(p1[2], p2[2], n_pts)
     for i, pt in enumerate(profile_pts):
         pt.append(elevs[i])

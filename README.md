@@ -1,6 +1,6 @@
 # CRESCENT-CFM
 
-**CRESCENT-CFM** is a repository developed to support the Community Fault Model ([CFM](https://cascadiaquakes.org/cfm/)) of the [CRESCENT project](https://cascadiaquakes.org/). This repository is designed to provide data and tools for researchers, scientists, and geophysicists working with CFM data within the CRESCENT project's framework.
+**CRESCENT-CFM** is a repository developed to support the Community Fault Model ([CFM](https://cascadiaquakes.org/cfm/)) of the [CRESCENT project](https://cascadiaquakes.org/). This repository is designed to provide data and tools for researchers, scientists, and geophysicists working with CFM data.
 
 ## Features
 

@@ -39,6 +39,12 @@ There are a number of files here, representing the CFM:
 - `cascadia_subduction_interface_temp.geojson` This is a mesh from Graham et 
   al., 2018, created from data of uncertain provenance.
 
+The onshore (crustal) faults are taken from two sources: The USGS National
+Seismic Hazard Map (NSHM 23) project (Hatem et al., 2022), and in-progress
+collaborative research by Natural Resources Canada and the GEM Foundation
+(Hobbs et al., *in prep*; Styron et al.,, *in prep*).
+
+Hatem, A. E., Collett, C. M., Briggs, R. W., Gold, R. D., Angster, S. J., Field, E. H., & Powers, P. M. (2022). Simplifying complex fault data for systems-level analysis: Earthquake geology inputs for US NSHM 2023. Scientific data, 9(1), 506.
 
 **Fault Model Visualization**  
 A 3D mapping web interface for visualizing fault surfaces and traces is accessible through the [CFM web interface](https://cfm.cascadiaquakes.org/).

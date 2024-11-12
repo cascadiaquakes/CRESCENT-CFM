@@ -1,6 +1,15 @@
 # CRESCENT-CFM
 
-**CRESCENT-CFM** is a repository developed to support the Community Fault Model ([CFM](https://cascadiaquakes.org/cfm/)) of the [CRESCENT project](https://cascadiaquakes.org/). This repository is designed to provide data and tools for researchers, scientists, and geophysicists working with CFM data.
+**CRESCENT-CFM** is a repository developed to support the Community Fault Model
+([CFM](https://cascadiaquakes.org/cfm/)) of the [CRESCENT
+project](https://cascadiaquakes.org/). This repository is designed to provide
+data and tools for geoscientists, engineers and other stakeholders working with
+CFM data.
+
+The CRESCENT-CFM is licensed with a Creative Commons Attribution 4.0
+International license. This permissive open-data license allows for a variety
+of non-commercial and commercial uses, as long as attribution to the dataset
+creators is given. Please see the license.txt file for more information.
 
 ## Features
 
@@ -42,9 +51,31 @@ There are a number of files here, representing the CFM:
 The onshore (crustal) faults are taken from two sources: The USGS National
 Seismic Hazard Map (NSHM 23) project (Hatem et al., 2022), and in-progress
 collaborative research by Natural Resources Canada and the GEM Foundation
-(Hobbs et al., *in prep*; Styron et al.,, *in prep*).
+(Hobbs et al., *in prep*; Styron et al., *in prep*).
 
-Hatem, A. E., Collett, C. M., Briggs, R. W., Gold, R. D., Angster, S. J., Field, E. H., & Powers, P. M. (2022). Simplifying complex fault data for systems-level analysis: Earthquake geology inputs for US NSHM 2023. Scientific data, 9(1), 506.
+### References:
+
+- Carbotte, S. M., Boston, B., Han, S., Shuck, B., Beeson, J., Canales, J. P.,
+  ... & Gahlawat, R. (2024). Subducting plate structure and megathrust
+  morphology from deep seismic imaging linked to earthquake rupture
+  segmentation at Cascadia. *Science Advances*, *10*(23), eadl3198.
+
+- Hayes, G. P., Moore, G. L., Portner, D. E., Hearne, M., Flamme, H., Furtney,
+  M., & Smoczyk, G. M. (2018). Slab2, a comprehensive subduction zone geometry
+  model. *Science*, *362*(6410), 58-61.
+
+  Graham, S. E., Loveless, J. P., & Meade, B. J. (2018). Global plate motions
+  and earthquake cycle effects. *Geochemistry, Geophysics, Geosystems*,
+  *19*(7), 2032-2048.
+
+- McCrory, P. A., Blair, J. L., Waldhauser, F., & Oppenheimer, D. H. (2012).
+  Juan de Fuca slab geometry and its relation to Wadati‐Benioff zone
+  seismicity. *Journal of Geophysical Research: Solid Earth*, *117*(B9).
+
+- Hatem, A. E., Collett, C. M., Briggs, R. W., Gold, R. D., Angster, S. J.,
+  Field, E. H., & Powers, P. M. (2022). Simplifying complex fault data for
+  systems-level analysis: Earthquake geology inputs for US NSHM 2023.
+  *Scientific data*, *9*(1), 506.
 
 **Fault Model Visualization**  
 A 3D mapping web interface for visualizing fault surfaces and traces is accessible through the [CFM web interface](https://cfm.cascadiaquakes.org/).

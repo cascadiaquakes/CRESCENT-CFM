@@ -26,7 +26,7 @@ def load_cfm_traces(file_path, skip_ids=(), id_column='fid'):
         return cfm_gj['features']
     else:
         for feature in cfm_gj['features']:
-            if feature[id_column] in skip_ids:
+            if feature['properties'][id_column] in skip_ids:
                 continue
             out_features.append(feature)
 
@@ -54,7 +54,7 @@ def load_canada_traces(file_path, skip_ids=()):
     }
 
     canada_traces = load_cfm_traces(
-        file_path, skip_ids=skip_ids, id_column='id'
+        file_path, skip_ids=skip_ids, id_column='fid'
     )
 
     out_features = [

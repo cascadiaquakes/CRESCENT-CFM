@@ -86,7 +86,7 @@ For questions or assistance with the CFM or this repository, please refer to
 the process below to ensure prompt support:
 
 1. (For general questions, not technical issues): Send an email to 
-   [crescentcfm@gmail.com](mailto:crescentcfm@gmail.com).
+   [icrescentcfm@cascadiaquakes.org](mailto:crescentcfm@cascadiaquakes.org).
 
 2. Go to the **Issues Page**  Visit the repository’s `Issues` section to log 
    any inquiries or support requests.

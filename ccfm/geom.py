@@ -3,6 +3,16 @@ from typing import Optional
 
 import numpy as np
 
+try:
+    from osgeo import gdal, osr
+except ImportError:
+    pass
+
+try:
+    import rasterio
+except ImportError:
+    pass
+
 from .constants import EARTH_RAD_KM
 
 
@@ -292,22 +302,108 @@ def is_correct_direction(
         return min_az <= azimuth <= max_az
 
 
+def get_values_at_coordinates(geotiff_path, coordinates, low_memory=False,
+                              out_of_bounds_val=-9999):
+    """
+    Extract values from a GeoTIFF at given coordinates.
+    
+    Args:
+        geotiff_path (str): Path to the GeoTIFF file
+        coordinates (list): List of (longitude, latitude) tuples
+    
+    Returns:
+        list: Values at the specified coordinates
+    """
+    with rasterio.open(geotiff_path) as src:
+        # Transform geographic coordinates to pixel coordinates
+        pixel_coords = [src.index(lon, lat) for lon, lat in coordinates]
+        
+        if low_memory:
+            # Read values at pixel coordinates
+            #values = [src.read(1)[row, col] for row, col in pixel_coords]
+            values = []
+            for row, col in pixel_coords:
+                try:
+                    values.append(src.read(1)[row, col])
+                except IndexError:
+                    values.append(out_of_bounds_val)
+        else:
+            data = src.read(1)
+            #values = [data[row, col] for row, col in pixel_coords]
+            values = []
+            for row, col in pixel_coords:
+                try:
+                    values.append(data[row, col])
+                except IndexError:
+                    values.append(out_of_bounds_val)
+        
+    return values
+
+
+def get_values_at_coordinates_gdal(geotiff_path, coordinates, out_of_bounds_val=-9999):
+    """
+    Extract values from a GeoTIFF at given coordinates using GDAL (no rasterio).
+
+    Args:
+        geotiff_path (str): Path to the GeoTIFF file
+        coordinates (list): List of (longitude, latitude) tuples
+        out_of_bounds_val (float): Value to return for coordinates outside the raster bounds
+
+    Returns:
+        list: Values at the specified coordinates
+    """
+    dataset = gdal.Open(geotiff_path)
+    band = dataset.GetRasterBand(1)
+    transform = dataset.GetGeoTransform()
+
+    # Inverse transform: world to pixel
+    inv_transform = gdal.InvGeoTransform(transform)
+    if inv_transform is None:
+        raise RuntimeError("Failed to invert geotransform")
+
+    values = []
+    for lon, lat in coordinates:
+        px, py = gdal.ApplyGeoTransform(inv_transform, lon, lat)
+        px, py = int(px), int(py)
+        if 0 <= px < dataset.RasterXSize and 0 <= py < dataset.RasterYSize:
+            try:
+                structval = band.ReadAsArray(px, py, 1, 1)
+                values.append(float(structval[0][0]))
+            except Exception:
+                values.append(out_of_bounds_val)
+        else:
+            values.append(out_of_bounds_val)
+
+    return values
+
+
 def get_resampled_trace_elevations(
     resampled_trace,
     trace,
-    elev_grid: Optional[np.ndarray] = None,
     method='nearest',
+    elev_grid: Optional[np.ndarray] = None,
+    low_memory: bool= False,
 ):
     if method == 'nearest':
         for pt in resampled_trace:
             dists = np.array(
-                [haversine_distance(*pt, *trace_pt) for trace_pt in trace]
+                [haversine_distance(*pt[:2], *trace_pt[:2]) for trace_pt in trace]
             )
             min_dist_idx = np.argmin(dists)
-            pt.append(trace[min_dist_idx][2])
+            if len(pt) > 2:
+                del pt[2:]
+            pt.append(float(trace[min_dist_idx][2]))
+
+    elif method == 'sample':
+        elevs = get_values_at_coordinates(elev_grid, resampled_trace,
+                                          low_memory=low_memory)
+        resampled_trace = [cc.append(float(elevs[i])) 
+                           for i, cc in enumerate(resampled_trace)]    
+    
     else:
         raise NotImplementedError(
-            "Only nearest neighbor interpolation is currently supported."
+            "Only nearest neighbor interpolation and DEM sampling are" +
+             " currently supported."
         )
     return resampled_trace
 
@@ -335,9 +431,11 @@ def make_3d_fault_mesh(
     trace = fault['geometry']['coordinates']
     if len(trace[0]) == 2:
         trace_3d = [[pt[0], pt[1], 0.0] for pt in trace]
+        elev_flag = False
     else:
         trace_3d = deepcopy(trace)
         trace = [[pt[0], pt[1]] for pt in trace_3d]
+        elev_flag = True
 
     mean_az = mean_azimuth(trace)
     proj_dir = (mean_az + 90.0) % 360.0  # need to check for RHR
@@ -379,10 +477,18 @@ def make_3d_fault_mesh(
         ]
         mesh.append(new_trace)
 
+    if elev_flag:
+        resampled_3d_trace = get_resampled_trace_elevations(res_trace, 
+                                                            trace_3d,
+                                                            method='nearest')
+        mesh[0] = resampled_3d_trace
+
     if decimals is not None:
         mesh = np.round(mesh, decimals=decimals).tolist()
 
     return mesh
+
+
 
 
 def make_tri_mesh(mesh_3d):

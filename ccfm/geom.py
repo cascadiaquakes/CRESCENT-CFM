@@ -426,7 +426,7 @@ def make_3d_fault_mesh(
     if lower_depth is None:
         lower_depth = fault['properties'].get(
             'lower_depth', lower_depth_default
-        )
+        ) or lower_depth_default
 
     trace = fault['geometry']['coordinates']
     if len(trace[0]) == 2:

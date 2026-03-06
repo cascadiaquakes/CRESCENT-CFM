@@ -53,6 +53,70 @@ Seismic Hazard Map (NSHM 23) project (Hatem et al., 2022), and in-progress
 collaborative research by Natural Resources Canada and the GEM Foundation
 (Hobbs et al., *in prep*; Styron et al., *in prep*).
 
+## How to Use
+
+This repository contains vector GIS representations of the Cascadia
+Fault Model (CFM), along with scripts used to build and manipulate the
+fault geometries.
+
+### 1. Clone the repository
+
+This repository uses a Git submodule (`ccfm`) for geometry and meshing
+utilities. Clone the repository with submodules:
+
+``` bash
+git clone --recurse-submodules https://github.com/cascadiaquakes/CRESCENT-CFM.git
+```
+
+If you already cloned the repository, initialize the submodule with:
+
+``` bash
+git submodule update --init --recursive
+```
+
+------------------------------------------------------------------------
+
+### 2. Install the `ccfm` utilities
+
+The scripts in this repository rely on the `ccfm` Python package.
+Install it in editable mode:
+
+``` bash
+pip install -e vendor/ccfm
+```
+
+This allows the scripts in this repository to import the package:
+
+``` python
+import ccfm
+```
+
+------------------------------------------------------------------------
+
+### 3. Run scripts
+
+Scripts for building and modifying the CFM are located in the `scripts`
+directory.
+
+These scripts generate or modify the GIS files stored in the repository.
+
+------------------------------------------------------------------------
+
+### Optional: Updating the `ccfm` dependency
+
+If a new version of `ccfm` is released:
+
+``` bash
+cd vendor/ccfm
+git fetch --tags
+git checkout vX.Y.Z
+cd ../..
+git add vendor/ccfm
+git commit -m "Update ccfm dependency"
+```
+
+------------------------------------------------------------------------
+
 ### References:
 
 - Carbotte, S. M., Boston, B., Han, S., Shuck, B., Beeson, J., Canales, J. P.,

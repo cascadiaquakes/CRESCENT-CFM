@@ -22,7 +22,7 @@ def triangles_to_mesh(polygons):
         
         face_indices = []
         for pt in ring[:3]:  # first 3 points (triangle)
-            # Rounding to 5 decimal places (~1.1 meters) ensures the vertices actually weld together
+            # Rounding to 5 decimal places (~1.1 meters) ensures the vertices actually WELD together
             key = (round(pt[0], 5), round(pt[1], 5), round(pt[2], 5))
             if key not in vertex_map:
                 vertex_map[key] = len(vertices)
@@ -92,7 +92,6 @@ def decimate_feature(feature, ratio):
         
         new_feature = {
             'type': 'Feature',
-            # Copy properties so we can safely modify them later
             'properties': dict(feature['properties']),
             'geometry': {
                 'type': 'MultiPolygon',
@@ -137,8 +136,8 @@ def main():
         region = feat.get('properties', {}).get('region', '')
         
         if 'offshore' in region.lower():
-            # Give offshore faults 3x the normal ratio, but never let it exceed 50%
-            feat_ratio = min(args.ratio * 3, 0.5)
+            # Give offshore faults 2x the normal ratio (e.g., 20%), cap at 30%
+            feat_ratio = min(args.ratio * 2, 0.3)
         else:
             feat_ratio = args.ratio
             
@@ -148,7 +147,7 @@ def main():
         new_count = len(new_feat['geometry'].get('coordinates', []))
         total_decimated += new_count
     
-    # --- Inject the 'id' property mirroring 'CFM_ID' for viewer compatibility ---
+    # Inject the 'id' property mirroring 'CFM_ID' for viewer compatibility
     for feat in decimated_features:
         feat['properties']['id'] = feat['properties'].get('CFM_ID', '')
 

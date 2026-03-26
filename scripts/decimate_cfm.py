@@ -1,6 +1,7 @@
 """
 CFM 3D Fault Surface Decimation Script
 Reduces triangle count in GeoJSON fault surfaces for web viewer performance using Open3D.
+Includes special boundary-preservation logic for offshore faults and auto-injects viewer IDs.
 """
 
 import json
@@ -21,7 +22,7 @@ def triangles_to_mesh(polygons):
         
         face_indices = []
         for pt in ring[:3]:  # first 3 points (triangle)
-            # Rounding to 5 decimal places (~1.1 meters) ensures the vertices actually WELD together
+            # Rounding to 5 decimal places (~1.1 meters) ensures the vertices actually weld together
             key = (round(pt[0], 5), round(pt[1], 5), round(pt[2], 5))
             if key not in vertex_map:
                 vertex_map[key] = len(vertices)
@@ -91,6 +92,7 @@ def decimate_feature(feature, ratio):
         
         new_feature = {
             'type': 'Feature',
+            # Copy properties so we can safely modify them later
             'properties': dict(feature['properties']),
             'geometry': {
                 'type': 'MultiPolygon',
@@ -109,8 +111,8 @@ def main():
     parser = argparse.ArgumentParser(description='Decimate CFM 3D fault surfaces')
     parser.add_argument('--input', required=True, help='Input GeoJSON file')
     parser.add_argument('--output', required=True, help='Output GeoJSON file')
-    parser.add_argument('--ratio', type=float, default=0.3, 
-                        help='Fraction of triangles to keep (default: 0.3 = 30%)')
+    parser.add_argument('--ratio', type=float, default=0.1, 
+                        help='Base fraction of triangles to keep for onshore faults (default: 0.1 = 10%)')
     args = parser.parse_args()
     
     print(f"📂 Loading {args.input}...")
@@ -121,7 +123,7 @@ def main():
         del data['crs']
     
     features = data['features']
-    print(f"📊 {len(features)} faults, target ratio: {args.ratio}")
+    print(f"📊 {len(features)} faults, base onshore target ratio: {args.ratio}")
     
     total_original = 0
     total_decimated = 0
@@ -131,12 +133,25 @@ def main():
         original_count = len(feat['geometry'].get('coordinates', []))
         total_original += original_count
         
-        new_feat = decimate_feature(feat, args.ratio)
+        # Dynamic Ratio Logic: Increase ratio for offshore faults to preserve boundaries
+        region = feat.get('properties', {}).get('region', '')
+        
+        if 'offshore' in region.lower():
+            # Give offshore faults 3x the normal ratio, but never let it exceed 50%
+            feat_ratio = min(args.ratio * 3, 0.5)
+        else:
+            feat_ratio = args.ratio
+            
+        new_feat = decimate_feature(feat, feat_ratio)
         decimated_features.append(new_feat)
         
         new_count = len(new_feat['geometry'].get('coordinates', []))
         total_decimated += new_count
     
+    # --- Inject the 'id' property mirroring 'CFM_ID' for viewer compatibility ---
+    for feat in decimated_features:
+        feat['properties']['id'] = feat['properties'].get('CFM_ID', '')
+
     output_data = {
         'type': 'FeatureCollection',
         'features': decimated_features

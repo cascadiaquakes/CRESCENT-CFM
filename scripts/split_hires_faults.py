@@ -43,6 +43,9 @@ for i, feat in enumerate(features):
         safe_id = clean_filename(fault_name)
         print(f"  ⚠ Warning: Fault missing CFM_ID. Using fallback name: {safe_id}_hires.geojson")
         
+    # Inject 'id' for viewer compatibility
+    props['id'] = safe_id
+        
     # 3. Create the single feature GeoJSON
     single_fault_geojson = {
         "type": "FeatureCollection",

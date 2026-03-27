@@ -22,7 +22,7 @@ def triangles_to_mesh(polygons):
         
         face_indices = []
         for pt in ring[:3]:  # first 3 points (triangle)
-            # Rounding to 5 decimal places (~1.1 meters) ensures the vertices actually WELD together
+            # Rounding to 5 decimal places (~1.1 meters) ensures the vertices actually weld together
             key = (round(pt[0], 5), round(pt[1], 5), round(pt[2], 5))
             if key not in vertex_map:
                 vertex_map[key] = len(vertices)
@@ -39,7 +39,7 @@ def triangles_to_mesh(polygons):
     return np.array(vertices), np.array(faces)
 
 def mesh_to_multipolygon(vertices, faces):
-    """Convert vertices and faces back to GeoJSON MultiPolygon of triangles."""
+    """Convert vertices and faces back to GeoJSON multipolygon of triangles."""
     polygons = []
     for face in faces:
         triangle = []

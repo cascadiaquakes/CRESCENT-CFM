@@ -1,150 +1,330 @@
-CFM ID,Fault Name,Region,Primary State/Province,Secondary State/Country,Dip (degrees),Dip Direction,Rake* (degrees),Slip sense,Fault level,NSHM sliprates (MedWgtd),QfaultsAgeCat,QfaultsAgeCat,LowDepth (km),UpDepth (km),Reference**,3D Model Constraints,NSHM ID #,Lineage***,Comments
-1,Abert Rim,Backarc_OR,OR,,50,NW,-90,Normal,1,0.528378,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2503,unmodified,
-2,Almanor,ForearcIntraarc_CA,CA,,90,E,-135,Normal and Dextral,1,2.1876,undifferentiated Quaternary,<1.6 million,10,0,US NSHM 2023,trace extended at constant dip,2,unmodified,
-3,Alvin Canyon,AccretionaryWedge_OR,OR,,90,vertical,0,Sinistral,1,5.487217,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2504,unmodified,
-4,Arlington-Shutler Butte,Backarc_WA,OR,WA,90,vertical,180,Dextral,1,0.1012,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,2555,unmodified,
-5,Battle Creek,ForearcIntraarc_CA,CA,,74,S,90,Reverse,1,0.213896,late Quaternary,"<130,000",19.7,0,US NSHM 2023,trace extended at constant dip,9,unmodified,
-6,Battle Rock,ForearcIntraarc_OR,OR,,50,NE,-90,Normal,1,0.110572,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,2505,unmodified,
-7,Bear Creek,ForearcIntraarc_CA,CA,,60,N,90,Reverse,1,0.46489,null,null,15,0,US NSHM 2023,trace extended at constant dip,311,unmodified,
-8,Bear River,AccretionaryWedge_CA_MendocinoTripleJunction,CA,,60,N,90,Reverse,1,0.117869,undifferentiated Quaternary,<1.6 million,10,0,US NSHM 2023,trace extended at constant dip,10,unmodified,
-9,Beaver Creek,ForearcIntraarc_OR,OR,,50,S,-90,Normal,1,0.30242,late Quaternary,"<130,000",15,0,US NSHM 2023,trace extended at constant dip,2506,unmodified,
-10,Beaverton,ForearcIntraarc_OR,OR,,60,S,90,Reverse,1,0.099691,middle and late Quaternary,"<750,000",15,0,US NSHM 2023,trace extended at constant dip,2556,unmodified,
-11,Big Lagoon,AccretionaryWedge_CA_MendocinoTripleJunction,CA,,35,NE,90,Reverse,1,0.834585,late Quaternary,"<130,000",13,0,US NSHM 2023,trace extended at constant dip,13,unmodified,
-12,"Big Valley (unnamed, proxy)",Backarc_CA,CA,,90,vertical,180,Dextral,1,0.451028,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,348,unmodified,
-13,Birch Bay,ForearcIntraarc_WA,WA,,60,NE,90,Reverse,1,0.110508,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2827,unmodified,
-14,Blue Ridge - Gate Creek,ForearcIntraarc_OR,OR,,50,W,-90,Normal,1,0.112727,null,null,15,0,US NSHM 2023,trace extended at constant dip,2557,unmodified,
-15,Bolton,ForearcIntraarc_OR,OR,,60,E,90,Reverse,1,0.223626,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,2507,unmodified,
-16,Boulder Creek (Kendall),ForearcIntraarc_WA,WA,,60,S,90,Reverse,1,0.252255,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2800,unmodified,
-17,Canby,ForearcIntraarc_OR,OR,,80,E,180,Dextral,1,0.305186,late Quaternary,"<130,000",15,0,US NSHM 2023,trace extended at constant dip,2558,unmodified,
-18,Canyon River,ForearcIntraarc_WA,WA,,60,S,90,Reverse,1,0.289895,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2828,unmodified,
-19,Canyon River - Price Lake (northeast),ForearcIntraarc_WA,WA,,60,SE,90,Reverse,1,0.144733,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2829,unmodified,
-20,Canyon River - Price Lake (southwest),ForearcIntraarc_WA,WA,,60,SE,90,Reverse,1,0.420722,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2830,unmodified,
-21,Cape Blanco Anticline,AccretionaryWedge_OR,OR,,45,S,90,Reverse,1,0.854632,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2508,unmodified,
-22,Cedar Mountain - Mahogany Mountain,ForearcIntraarc_CA,CA,OR,60,W,-90,Normal,1,0.617297,latest Quaternary,"<15,000",9.5,0,US NSHM 2023,trace extended at constant dip,31,unmodified,
-23,Chemult Graben (east),ForearcIntraarc_OR,OR,,50,W,-90,Normal,1,0.090636,late Quaternary,"<130,000",15,0,US NSHM 2023,trace extended at constant dip,2509,unmodified,
-24,Chemult Graben (west),ForearcIntraarc_OR,OR,,50,SE,-90,Normal,1,0.128569,late Quaternary,"<130,000",15,0,US NSHM 2023,trace extended at constant dip,2510,unmodified,
-25,Chico Monocline,ForearcIntraarc_CA,CA,,60,NE,90,Reverse,1,0.134452,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,313,unmodified,
-26,Coquille Anticline,AccretionaryWedge_OR,OR,,60,E,90,Reverse,1,0.3397,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2511,unmodified,
-27,Corning,ForearcIntraarc_CA,CA,,75,W,90,Reverse,1,0.116472,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,315,unmodified,
-28,Cottonwood Mountain (east),Backarc_OR,OR,,50,NE,-90,Normal,1,0.135659,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2512,unmodified,
-29,Daisy Bank,AccretionaryWedge_OR,OR,,90,vertical,0,Sinistral,1,4.942873,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2513,unmodified,
-30,Davis Creek,Backarc_CA,CA,,50,W,-90,Normal,1,0.479672,late Quaternary,"<130,000",8.5,0,US NSHM 2023,trace extended at constant dip,61,unmodified,
-31,Devils Mountain,ForearcIntraarc_WA,WA,,60,N,90,Reverse,1,0.160328,late Quaternary,"<130,000",15,0,US NSHM 2023,trace extended at constant dip,2801,unmodified,
-32,Drayton Harbor,ForearcIntraarc_WA,WA,,45,NE,90,Reverse,1,0.13154,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2831,unmodified,
-33,East Grand Ronde Valley,Backarc_OR,OR,,50,W,-90,Normal,1,0.3416,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2560,unmodified,
-34,East Pueblo Valley,Backarc_OR,OR,,50,W,-90,Normal,1,0.10239,late Quaternary,"<130,000",15,0,US NSHM 2023,trace extended at constant dip,2562,unmodified,
-35,Eaton Roughs,AccretionaryWedge_CA_MendocinoTripleJunction,CA,,90,vertical,180,Dextral,1,2.19786,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,74,unmodified,
-36,Entiat,Backarc_WA,WA,,60,SW,90,Reverse,1,0.085164,null,null,15,0,US NSHM 2023,trace extended at constant dip,2832,unmodified,
-37,Fickle Hill,AccretionaryWedge_CA_MendocinoTripleJunction,CA,,35,NE,90,Reverse,1,0.618176,latest Quaternary,"<15,000",13,0,US NSHM 2023,trace extended at constant dip,80,unmodified,
-38,Fitzhugh Creek,Backarc_CA,CA,,50,W,-90,Normal,1,0.04452,undifferentiated Quaternary,<1.6 million,8.5,0,US NSHM 2023,trace extended at constant dip,82,unmodified,
-39,Frigid Creek,ForearcIntraarc_WA,WA,,50,SE,-90,Normal,1,0.114892,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2833,unmodified,
-40,Gales Creek (Chehalem Valley),ForearcIntraarc_OR,OR,,90,vertical,180,Dextral,1,0.41016,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,2563,unmodified,
-41,Gales Creek (Parsons Creek),ForearcIntraarc_OR,OR,,90,vertical,180,Dextral,1,0.059108,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,2514,unmodified,
-42,Garberville - Briceland,AccretionaryWedge_CA_MendocinoTripleJunction,CA,,90,vertical,180,Dextral,1,2.43832,undifferentiated Quaternary,<1.6 million,24.8,0,US NSHM 2023,trace extended at constant dip,85,unmodified,
-43,Gillem - Big Crack,ForearcIntraarc_CA,CA,,60,E,-90,Normal,1,0.344989,late Quaternary,"<130,000",9.7,0,US NSHM 2023,trace extended at constant dip,87,unmodified,
-44,Goose Lake,Backarc_OR,OR,CA,58,W,-90,Normal,1,0.580608,late Quaternary,"<130,000",8.5,0,US NSHM 2023,trace extended at constant dip,2500,unmodified,
-45,Grogan,AccretionaryWedge_CA_MendocinoTripleJunction,CA,,90,vertical,180,Dextral,1,0.70192,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,319,unmodified,
-46,Happy Camp,ForearcIntraarc_OR,OR,,60,N,90,Reverse,1,0.077147,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,2516,unmodified,
-47,Harney,Backarc_OR,OR,,50,W,-90,Normal,1,0.113465,middle and late Quaternary,"<750,000",15,0,US NSHM 2023,trace extended at constant dip,2564,unmodified,
-48,Hat Creek,ForearcIntraarc_CA,CA,,60,W,-90,Normal,1,1.923439,latest Quaternary,"<15,000",9.6,0,US NSHM 2023,trace extended at constant dip,112,unmodified,
-49,Honey Lake,Backarc_CA,CA,NV,90,vertical,180,Dextral,1,1.52865,latest Quaternary,"<15,000",9.7,0,US NSHM 2023,trace extended at constant dip,120,unmodified,
-50,Hoppins Peak,Backarc_OR,NV,OR,50,SE,-90,Normal,1,0.142078,middle and late Quaternary,"<750,000",15,0,US NSHM 2023,trace extended at constant dip,1060,unmodified,
-51,Horse Heaven Hills,Backarc_WA,WA,,60,S,90,Reverse,1,0.075968,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,2803,unmodified,
-52,Horse Heaven Hills - Wallula,Backarc_WA,WA,,60,SW,90,Reverse,1,0.053088,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,2834,unmodified,
-53,Inks Creek - Hooker Dome,ForearcIntraarc_CA,CA,,60,N,90,Reverse,1,0.278547,null,null,15,0,US NSHM 2023,trace extended at constant dip,321,unmodified,
-54,Jess Valley,Backarc_CA,CA,,50,E,-90,Normal,1,0.042952,undifferentiated Quaternary,<1.6 million,12,0,US NSHM 2023,trace extended at constant dip,128,unmodified,
-55,Juniper Mountain,Backarc_OR,OR,,50,N,-90,Normal,1,0.034492,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2518,unmodified,
-56,Keddie Ridge,ForearcIntraarc_CA,CA,,90,vertical,-135,Normal and Dextral,1,0.076648,undifferentiated Quaternary,<1.6 million,10,0,US NSHM 2023,trace extended at constant dip,131,unmodified,
-57,Kittitas Valley,Backarc_WA,WA,,60,N,90,Reverse,1,0.113219,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,2835,unmodified,
-58,Klamath Graben (east),ForearcIntraarc_OR,OR,,50,SW,-90,Normal,1,0.467329,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2519,unmodified,
-59,Klamath Graben (Klamath Lake),ForearcIntraarc_OR,OR,,60,NE,-90,Normal,1,0.303096,latest Quaternary,"<15,000",11,0,US NSHM 2023,trace extended at constant dip,2502,unmodified,
-60,"Klamath Graben (west, center)",ForearcIntraarc_OR,OR,,50,E,-90,Normal,1,0.320918,late Quaternary,"<130,000",15,0,US NSHM 2023,trace extended at constant dip,2565,unmodified,
-61,"Klamath Graben (west, north)",ForearcIntraarc_OR,OR,,50,E,-90,Normal,1,0.268502,late Quaternary,"<130,000",15,0,US NSHM 2023,trace extended at constant dip,2566,unmodified,
-62,"Klamath Graben (west, south)",ForearcIntraarc_OR,OR,,50,E,-90,Normal,1,0.30244,late Quaternary,"<130,000",15,0,US NSHM 2023,trace extended at constant dip,2520,unmodified,
-63,La Pine Graben,ForearcIntraarc_OR,OR,,50,NW,-90,Normal,1,0.226481,late Quaternary,"<130,000",15,0,US NSHM 2023,trace extended at constant dip,2567,unmodified,
-64,Lake Creek - Boundary Creek - Sadie,ForearcIntraarc_WA,WA,,60,N,90,Reverse,1,0.523014,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2804,unmodified,
-65,Lava Butte,ForearcIntraarc_OR,OR,,50,SW,-90,Normal,1,0.067232,middle and late Quaternary,"<750,000",15,0,US NSHM 2023,trace extended at constant dip,2568,unmodified,
-66,Leech River,ForearcIntraarc_BC,BC,,89,S,29.2,Reverse and Sinistral,1,null,null,null,15,0,"Morell et al. (2017); Harrichhausen, et al. (2021)",trace extended at constant dip,null,null,
-67,Likely,Backarc_CA,CA,,90,likely,180,Dextral,1,0.508046,late Quaternary,"<130,000",9.4,0,US NSHM 2023,trace extended at constant dip,143,unmodified,
-68,Little Salmon (offshore),AccretionaryWedge_CA_MendocinoTripleJunction,CA,,30,NE,90,Reverse,1,2.218752,null,null,13,0,US NSHM 2023,trace extended at constant dip,146,unmodified,
-69,Little Salmon (onshore),AccretionaryWedge_CA_MendocinoTripleJunction,CA,,30,NE,90,Reverse,1,3.102946,latest Quaternary,"<15,000",13,0,US NSHM 2023,trace extended at constant dip,147,unmodified,
-70,Lost Man,AccretionaryWedge_CA_MendocinoTripleJunction,CA,,35,NE,90,Reverse,1,0.654176,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,324,unmodified,
-71,Mad River,AccretionaryWedge_CA_MendocinoTripleJunction,CA,,35,NE,90,Reverse,1,0.437424,latest Quaternary,"<15,000",13,0,US NSHM 2023,trace extended at constant dip,157,unmodified,
-72,Manastash Ridge,Backarc_WA,WA,,24,S,90,Reverse,1,0.206787,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,2836,unmodified,
-73,Mayfield,ForearcIntraarc_CA,CA,,60,W,-90,Normal,1,0.327933,latest Quaternary,"<15,000",9.6,0,US NSHM 2023,trace extended at constant dip,325,unmodified,
-74,McArthur,ForearcIntraarc_CA,CA,,60,W,-90,Normal,1,0.474324,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,326,unmodified,
-75,McKinleyville,AccretionaryWedge_CA_MendocinoTripleJunction,CA,,35,NE,90,Reverse,1,0.558288,latest Quaternary,"<15,000",13,0,US NSHM 2023,trace extended at constant dip,163,unmodified,
-76,Metolius,ForearcIntraarc_OR,OR,,50,SW,-90,Normal,1,0.129502,middle and late Quaternary,"<750,000",15,0,US NSHM 2023,trace extended at constant dip,2522,unmodified,
-77,Mount Angel,ForearcIntraarc_OR,OR,,60,NE,90,Reverse,1,0.05584,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2523,unmodified,
-78,Olympia,ForearcIntraarc_WA,WA,,60,S,90,Reverse,1,0.116883,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,2837,unmodified,
-79,Paulina Marsh,Backarc_OR,OR,,50,NE,-90,Normal,1,0.348179,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2526,unmodified,
-80,Pioneer,ForearcIntraarc_OR,OR,,60,NE,90,Reverse,1,0.588368,late Quaternary,"<130,000",15,0,US NSHM 2023,trace extended at constant dip,2569,unmodified,
-81,Pittville,ForearcIntraarc_CA,CA,,60,SW,-90,Normal,1,0.543834,latest Quaternary,"<15,000",8.9,0,US NSHM 2023,trace extended at constant dip,214,unmodified,
-82,Pondosa (proxy),ForearcIntraarc_CA,CA,,50,E,-90,Normal,1,0.55899,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,349,unmodified,
-83,Portland Hills (north),ForearcIntraarc_OR,OR,,60,SW,90,Reverse,1,0.113858,middle and late Quaternary,"<750,000",15,0,US NSHM 2023,trace extended at constant dip,2529,unmodified,
-84,Portland Hills (south),ForearcIntraarc_OR,OR,,60,SW,90,Reverse,1,0.104438,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,2570,unmodified,
-85,Red Bluff,ForearcIntraarc_CA,CA,,60,N,90,Reverse,1,0.62849,null,null,15,0,US NSHM 2023,trace extended at constant dip,334,unmodified,
-86,Rocky Ledge,ForearcIntraarc_CA,CA,,60,E,-90,Normal,1,0.150455,latest Quaternary,"<15,000",9,0,US NSHM 2023,trace extended at constant dip,233,unmodified,
-87,Russ,AccretionaryWedge_CA_MendocinoTripleJunction,CA,,71,N,135,Reverse and Dextral,1,0.707199,undifferentiated Quaternary,<1.6 million,20,0,US NSHM 2023,trace extended at constant dip,236,unmodified,
-88,Saddle Hill (Langley Hill),ForearcIntraarc_WA,WA,,60,N,90,Reverse,1,0.085216,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,2838,unmodified,
-89,Saddle Mountains,Backarc_WA,WA,,37,S,90,Reverse,1,0.291511,late Quaternary,"<130,000",15,0,US NSHM 2023,trace extended at constant dip,2807,unmodified,
-90,Sandy Point,ForearcIntraarc_WA,WA,,60,NE,90,Reverse,1,0.106605,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2839,unmodified,
-91,Santa Rosa Range (center),Backarc_OR,OR,,50,W,-90,Normal,1,0.121801,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2572,unmodified,
-92,Santa Rosa Range (north),Backarc_OR,OR,,50,W,-90,Normal,1,0.112717,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2531,unmodified,
-93,Santa Rosa Range (south),Backarc_OR,OR,,50,W,-90,Normal,1,0.041542,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2573,unmodified,
-94,Seattle (east),ForearcIntraarc_WA,WA,,45,S,90,Reverse,1,0.244132,late Quaternary,"<130,000",15,0,US NSHM 2023,trace extended at constant dip,2842,unmodified,
-95,Seattle (middle),ForearcIntraarc_WA,WA,,45,S,90,Reverse,1,0.264932,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2881,unmodified,
-96,Seattle (north),ForearcIntraarc_WA,WA,,45,S,90,Reverse,1,0.643602,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2882,unmodified,
-97,Seattle (south),ForearcIntraarc_WA,WA,,45,S,90,Reverse,1,0.246312,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2880,unmodified,
-98,Skinner Flat,ForearcIntraarc_CA,CA,,90,vertical,-135,Normal and Dextral,1,0.067962,late Quaternary,"<130,000",10,0,US NSHM 2023,trace extended at constant dip,282,unmodified,
-99,Sky Lakes,ForearcIntraarc_OR,OR,,50,E,-90,Normal,1,0.184374,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2532,unmodified,
-100,South Slough,ForearcIntraarc_OR,OR,,60,W,90,Reverse,1,0.356762,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2534,unmodified,
-101,Southeast Newberry,Backarc_OR,OR,,50,SW,-90,Normal,1,0.536412,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2533,unmodified,
-102,Southern Whidbey Island (middle),ForearcIntraarc_WA,WA,,60,NE,90,Reverse,1,0.149653,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2891,unmodified,
-103,Southern Whidbey Island (north),ForearcIntraarc_WA,WA,,60,NE,90,Reverse,1,0.151981,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2892,unmodified,
-104,Southern Whidbey Island (south),ForearcIntraarc_WA,WA,,60,NE,90,Reverse,1,0.16162,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2890,unmodified,
-105,Southwest Newberry,ForearcIntraarc_OR,OR,,50,NW,-90,Normal,1,0.091474,middle and late Quaternary,"<750,000",15,0,US NSHM 2023,trace extended at constant dip,2576,unmodified,
-106,Spencer Canyon,Backarc_WA,WA,,60,NW,90,Reverse,1,0.084432,null,null,15,0,US NSHM 2023,trace extended at constant dip,2843,unmodified,
-107,Steens (center),Backarc_OR,OR,NV,50,E,-90,Normal,1,0.344548,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2535,unmodified,
-108,Steens (north),Backarc_OR,OR,NV,50,E,-90,Normal,1,0.112876,middle and late Quaternary,"<750,000",15,0,US NSHM 2023,trace extended at constant dip,2574,unmodified,
-109,Steens (south),Backarc_OR,OR,NV,50,E,-90,Normal,1,0.268267,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2575,unmodified,
-110,Stonewall Anticline,AccretionaryWedge_OR,OR,,60,E,90,Reverse,1,1.220285,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2808,unmodified,
-111,Strawberry Point,ForearcIntraarc_WA,WA,,90,vertical,0,Sinistral,1,0.238099,late Quaternary,"<130,000",15,0,US NSHM 2023,trace extended at constant dip,2809,unmodified,
-112,Sumpter Valley,Backarc_OR,OR,,50,S,-90,Normal,1,0.121764,middle and late Quaternary,"<750,000",15,0,US NSHM 2023,trace extended at constant dip,2577,unmodified,
-113,Surprise Valley,Backarc_CA,CA,,50,E,-90,Normal,1,0.694592,latest Quaternary,"<15,000",8.5,0,US NSHM 2023,trace extended at constant dip,284,unmodified,
-114,Surpur Creek,AccretionaryWedge_CA_MendocinoTripleJunction,CA,,35,NE,90,Reverse,1,0.084752,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,347,unmodified,
-115,"Susanville - Eagle Lake (unnamed, proxy)",Backarc_CA,CA,,90,vertical,180,Dextral,1,0.742108,undifferentiated Quaternary,<1.6 million,25,0,US NSHM 2023,trace extended at constant dip,351,unmodified,
-116,Sylvain - Oatfield,ForearcIntraarc_OR,OR,,60,E,90,Reverse,1,0.265212,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,2578,unmodified,
-117,Table Bluff,AccretionaryWedge_CA_MendocinoTripleJunction,CA,,45,N,90,Reverse,1,0.76463,late Quaternary,"<130,000",13,0,US NSHM 2023,trace extended at constant dip,286,unmodified,
-118,Tacoma,ForearcIntraarc_WA,WA,,60,N,90,Reverse,1,0.245784,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2810,unmodified,
-119,Toppenish Ridge (Mill Creek thrust),Backarc_WA,WA,,60,S,90,Reverse,1,0.050233,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2844,unmodified,
-120,Trinidad,AccretionaryWedge_CA_MendocinoTripleJunction,CA,,35,NE,90,Reverse,1,1.141164,latest Quaternary,"<15,000",13,0,US NSHM 2023,trace extended at constant dip,291,unmodified,
-121,Tule Springs Rims,Backarc_OR,OR,,50,W,-90,Normal,1,0.10766,middle and late Quaternary,"<750,000",15,0,US NSHM 2023,trace extended at constant dip,2536,unmodified,
-122,Turner - Mill Creek,ForearcIntraarc_OR,OR,,60,SE,90,Reverse,1,0.287435,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,2537,unmodified,
-123,Twin Lakes - Multorpor Mountain Graben,ForearcIntraarc_OR,OR,,50,W,-90,Normal,1,0.113317,null,null,15,0,US NSHM 2023,trace extended at constant dip,2579,unmodified,
-124,Uhtanum Ridge - Gable Mountain,Backarc_WA,WA,,20,S,90,Reverse,1,0.224856,late Quaternary,"<130,000",15,0,US NSHM 2023,trace extended at constant dip,2845,unmodified,
-125,Utsalady Point (east),ForearcIntraarc_WA,WA,,90,vertical,0,Sinistral,1,0.117046,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2811,unmodified,
-126,Utsalady Point (west),ForearcIntraarc_WA,WA,,60,NE,90,Reverse,1,0.154726,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2847,unmodified,
-127,Waldport,ForearcIntraarc_OR,OR,,60,E,90,Reverse,1,0.15722,late Quaternary,"<130,000",15,0,US NSHM 2023,trace extended at constant dip,2538,unmodified,
-128,Walker Spring,ForearcIntraarc_CA,CA,,90,vertical,-90,Normal,1,0.046295,late Quaternary,"<130,000",10,0,US NSHM 2023,trace extended at constant dip,294,unmodified,
-129,Wallula (northeast),Backarc_WA,WA,OR,60,SW,90,Reverse,1,0.062911,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2806,unmodified,
-130,Wallula (southwest),Backarc_WA,OR,WA,60,SW,90,Reverse,1,0.054119,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2581,unmodified,
-131,Warm Springs,ForearcIntraarc_OR,OR,,50,E,-90,Normal,1,0.311066,middle and late Quaternary,"<750,000",15,0,US NSHM 2023,trace extended at constant dip,2582,unmodified,
-132,Warm Springs Valley,Backarc_CA,NV,CA,90,vertical,180,Dextral,1,1.93516,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,1119,unmodified,
-133,"Warner Valley (east, center)",Backarc_OR,OR,,50,W,-90,Normal,1,0.128364,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2584,unmodified,
-134,"Warner Valley (east, Coleman Valley)",Backarc_OR,NV,OR,50,W,-90,Normal,1,0.135522,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,1274,unmodified,
-135,"Warner Valley (east, north)",Backarc_OR,OR,,50,W,-90,Normal,1,0.115276,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2583,unmodified,
-136,"Warner Valley (west, Coleman Valley)",Backarc_OR,OR,NV,50,E,-90,Normal,1,0.134892,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,1275,unmodified,
-137,"Warner Valley (west, north)",Backarc_OR,OR,,50,E,-90,Normal,1,0.171086,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,2541,unmodified,
-138,Warwick,ForearcIntraarc_WA,WA,,90,vertical,180,Dextral,1,0.090928,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,2848,unmodified,
-139,Wecoma,AccretionaryWedge_OR,OR,,90,vertical,0,Sinistral,1,6.581124,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2542,unmodified,
-140,West Baker Valley (center),Backarc_OR,OR,,50,NE,-90,Normal,1,0.119046,late Quaternary,"<130,000",15,0,US NSHM 2023,trace extended at constant dip,2586,unmodified,
-141,West Baker Valley (southeast),Backarc_OR,OR,,50,NE,-90,Normal,1,0.110404,late Quaternary,"<130,000",15,0,US NSHM 2023,trace extended at constant dip,2587,unmodified,
-142,West Grand Ronde Valley,Backarc_OR,OR,,50,E,-90,Normal,1,0.36622,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2588,unmodified,
-143,Whaleshead,ForearcIntraarc_OR,OR,,90,vertical,180,Dextral,1,1.086416,late Quaternary,"<130,000",15,0,US NSHM 2023,trace extended at constant dip,2543,unmodified,
-144,White Branch,ForearcIntraarc_OR,OR,,50,E,-90,Normal,1,0.135257,middle and late Quaternary,"<750,000",15,0,US NSHM 2023,trace extended at constant dip,2590,unmodified,
-145,Willapa Bay (north),ForearcIntraarc_WA,WA,,60,W,90,Reverse,1,0.514421,late Quaternary,"<130,000",15,0,US NSHM 2023,trace extended at constant dip,2849,unmodified,
-146,Willapa Bay (south),ForearcIntraarc_WA,WA,,60,W,90,Reverse,1,0.458927,undifferentiated Quaternary,<1.6 million,15,0,US NSHM 2023,trace extended at constant dip,2850,unmodified,
-147,Winter Rim,Backarc_OR,OR,,50,E,-90,Normal,1,0.483115,latest Quaternary,"<15,000",15,0,US NSHM 2023,trace extended at constant dip,2544,unmodified,
-148,XEOLXELEK-Elk Lake,ForearcIntraarc_BC,BC,WA,45,S,-176.5,Dextral,1,null ,,,15,0,"Harrichhausen, et al. (2023)",trace extended at constant dip,null,null,
-149,Yaquina,ForearcIntraarc_OR,OR,,60,N,90,Reverse,1,0.613364,late Quaternary,"<130,000",15,0,US NSHM 2023,trace extended at constant dip,2545,unmodified,
+﻿CFM ID,Fault Name,Region,Primary State/Province,Secondary State/Province,Average Dip (degrees),Dip Direction,Rake (degrees),Slip Sense,Fault Level,NSHM23 sliprates (mm/yr),QFFDAgeCatBin,QFFDAgeCat,UpDepth (km),Upper Depth Constraint,LowDepth (km),Lower Depth Constraint,3D Model Constraints,Reference,NSHM23 ID #,Lineage***,USGS QFFD #,Comments
+1,Abert Rim,Backarc_OR,OR,,50,NW,-90,Normal,1,0.53,latest Quaternary,"<15,000",2.1,topography,-12.5,SDL,SCEC CFM7*,"US NSHM 2023, SCEC CFM7*",2503,updated geometries,"829a,b","UNDER SCEC REVIEW; fault information from NSHM, 2D and 3D geometry from SCEC CFM7"
+2,Ahtanum Creek,Backarc_WA,WA,,20,S,90,Reverse,3,null,late Quaternary,"<130,000",0.4,topography,-22,SDL,trace extended at constant dip,WGS (2025),null,null,564,"WA DNR CC_15,16,17"
+3,Almanor,ForearcIntraarc_CA,CA,,90,E,-135,Normal and Dextral,3,2.19,undifferentiated Quaternary,<1.6 million,2.3,topography,-10,publication,SCEC CFM7,"US NSHM 2023, SCEC CFM7",2,updated geometries,21,"UNDER SCEC REVIEW; fault information from NSHM, 2D and 3D geometry from SCEC CFM7"
+4,Alvin Canyon,Offshore_OR,OR,,90,vertical,0,Sinistral,1,5.49,latest Quaternary,"<15,000",-0.1,bathymetry,-15.5,megathrust,trace extended at constant dip,US NSHM 2023,2504,unmodified,797,
+5,Ana River,Backarc_OR,OR,,50,NE,-90,Normal,1,null,latest Quaternary,"<15,000",1.6,topography,-8.8,SDL,trace extended at constant dip,Pezzopane and Weldon (1993); USGS QFFD,null,null,831,
+6,Arlington - Shutler Butte,Backarc_WA,OR,WA,90,vertical,180,Dextral,3,0.1,undifferentiated Quaternary,<1.6 million,1.3,topography,-22,SDL,trace extended at constant dip,US NSHM 2023,2555,unmodified,847,
+7,Bald Mountain - Big Lagoon,Offshore_CA_MendocinoTripleJunction,CA,,35,NE,90,Reverse,1,0.83,late Quaternary,"<130,000",0.9,topography,-29.3,SCEC CFM7*,SCEC CFM7*,"US NSHM 2023, SCEC CFM7*",13,updated geometries,12,"UNDER SCEC REVIEW; fault information from NSHM, 2D and 3D geometry from SCEC CFM7; SCEC version is Bald Mountain - Big Lagoon"
+8,Battle Creek,ForearcIntraarc_CA,CA,,74,S,-90,Normal,1,0.21,late Quaternary,"<130,000",0.9,topography,-20.5,SCEC CFM7,SCEC CFM7,"US NSHM 2023, SCEC CFM7",9,updated geometries,20,"UNDER SCEC REVIEW; fault information from NSHM, 2D and 3D geometry from SCEC CFM7"
+9,Battle Rock,ForearcIntraarc_OR,OR,,50,NE,-90,Normal,3,0.11,undifferentiated Quaternary,<1.6 million,0.2,topography,-19.6,Slab2,trace extended at constant dip,US NSHM 2023,2505,unmodified,896,
+10,Bear Creek,ForearcIntraarc_CA,CA,,60,N,90,Reverse,1,0.46,null,null,0.3,topography,-27.6,SDL,trace extended at constant dip,US NSHM 2023,311,unmodified,null,
+11,Bear River,Offshore_CA_MendocinoTripleJunction,CA,,60,N,90,Reverse,3,0.12,undifferentiated Quaternary,<1.6 million,1,topography,-10,publication,trace extended at constant dip,US NSHM 2023,10,unmodified,null,
+12,Beaufort Range,ForearcIntraarc_BC,BC,,72,NE,-135,Normal and Dextral,1,null,null,null,1.3,topography,-15,publication,trace extended at constant dip,Lynch et al. (2023); Lynch et al. (2025),null,null,null,
+13,Beaver Creek,ForearcIntraarc_OR,OR,,50,S,-90,Normal,1,0.3,late Quaternary,"<130,000",0.3,topography,-18.5,Slab2,trace extended at constant dip,US NSHM 2023,2506,unmodified,895,
+14,Beaverton,ForearcIntraarc_OR,OR,,60,S,90,Reverse,3,0.1,middle and late Quaternary,"<750,000",0.1,topography,-31.4,SDL,trace extended at constant dip,US NSHM 2023,2556,unmodified,715,
+15,"Big Valley (unnamed, proxy)",Backarc_CA,CA,,90,vertical,180,Dextral,3,0.45,undifferentiated Quaternary,<1.6 million,1.8,topography,-19.4,SDL,trace extended at constant dip,US NSHM 2023,348,unmodified,178,
+16,Birch Bay,ForearcIntraarc_WA,WA,,60,NE,90,Reverse,1,0.11,latest Quaternary,"<15,000",0.1,topography,-28.2,SDL,trace extended at constant dip,US NSHM 2023,2827,unmodified,null,
+17,Brothers (northeast),Backarc_OR,OR,,50,SW,-90,Normal,3,null,middle and late Quaternary,"<750,000",1.5,topography,-10.8,SDL,trace extended at constant dip,USGS QFFD; Weldon et al. (2002),null,null,841,
+18,Brothers (southwest),Backarc_OR,OR,,50,NE,-90,Normal,3,null,undifferentiated Quaternary,<1.6 million,1.6,topography,-10.8,SDL,trace extended at constant dip,USGS QFFD; Weldon et al. (2002),null,null,819,
+19,Blue Ridge,ForearcIntraarc_OR,OR,,80,W,-90,Normal,1,null,null,null,1.8,topography,-17.4,SDL,trace extended at constant dip,Madin et al. (2017); Madin et al. (2021),null,null,null,in NSHM as Blue Ridge- Gate Creek # 2557
+20,Bolton,ForearcIntraarc_OR,OR,,60,E,90,Reverse,3,0.22,undifferentiated Quaternary,<1.6 million,0.1,topography,-27,SDL,trace extended at constant dip,US NSHM 2023,2507,unmodified,874,
+21,Boulder Creek (Kendall),ForearcIntraarc_WA,WA,,60,S,90,Reverse,1,0.25,latest Quaternary,"<15,000",0.6,topography,-24.6,SDL,trace extended at constant dip,US NSHM 2023,2800,unmodified,598,
+22,Canby,ForearcIntraarc_OR,OR,,80,E,180,Dextral,1,0.31,late Quaternary,"<130,000",0.2,topography,-28.2,SDL,trace extended at constant dip,US NSHM 2023,2558,unmodified,null,
+23,Canyon River,ForearcIntraarc_WA,WA,,60,S,90,Reverse,1,0.29,latest Quaternary,"<15,000",0.7,topography,-35.2,"Slab2, SDL",trace extended at constant dip,US NSHM 2023,2828,unmodified,null,
+24,Canyon River - Price Lake (northeast),ForearcIntraarc_WA,WA,,60,SE,90,Reverse,1,0.14,latest Quaternary,"<15,000",0.6,topography,-35.6,SDL,trace extended at constant dip,US NSHM 2023,2829,unmodified,575,
+25,Canyon River - Price Lake (southwest),ForearcIntraarc_WA,WA,,60,SE,90,Reverse,1,0.42,latest Quaternary,"<15,000",0.7,topography,-35.4,"Slab2, SDL",trace extended at constant dip,US NSHM 2023,2830,unmodified,575,
+26,Cape Blanco Anticline,Offshore_OR,OR,,45,S,90,Reverse,1,0.85,latest Quaternary,"<15,000",0,topography,-13,Slab2,trace extended at constant dip,US NSHM 2023,2508,unmodified,894,
+27,Cedar Mountain,ForearcIntraarc_CA,CA,OR,62,E,-90,Normal,1,0.62,latest Quaternary,"<15,000",1.8,topography,-19.2,SCEC CFM7*,SCEC CFM7*,"US NSHM 2023, SCEC CFM7*",31,updated geometries (and seperated from Mahogany Mountain),2b,"UNDER SCEC REVIEW; fault information from NSHM, 2D and 3D geometry from SCEC CFM7"
+28,Chemult Graben (east),ForearcIntraarc_OR,OR,,50,W,-90,Normal,1,0.09,late Quaternary,"<130,000",1.8,topography,-14.1,SDL,trace extended at constant dip,US NSHM 2023,2509,unmodified,"839a,b",
+29,Chemult Graben (west),ForearcIntraarc_OR,OR,,50,SE,-90,Normal,1,null,late Quaternary,"<130,000",1.5,topography,-12.8,SDL,trace extended at constant dip,Alexander et al. (2022); Lite and Gannett (2002); Vadman and Bemis (2019); USGS QFFD,2510,surface trace modified,null,
+30,Cherry Creek,ForearcIntraarc_WA,WA,,90,vertical,0,Sinistral,3,null,latest Quaternary,"<15,000",0.1,topography,-27.6,SDL,trace extended at constant dip,WGS (2025),null,null,540,WA DNR CC_18
+31,Chico Monocline,ForearcIntraarc_CA,CA,,60,NE,90,Reverse,3,0.13,undifferentiated Quaternary,<1.6 million,0.3,topography,-26.6,SDL,trace extended at constant dip,US NSHM 2023,313,unmodified,159,
+32,Clackamas River (east),ForearcIntraarc_OR,OR,,90,vertical,-135,Normal and Dextral,3,null,undifferentiated Quaternary,<1.6 million,1.5,topography,-17.8,SDL,trace extended at constant dip,USGS QFFD,null,null,864,
+33,"Columbia Hills (east, center)",Backarc_WA,WA,,20,N,90,Reverse,3,null,undifferentiated Quaternary,<1.6 million,0.3,topography,-21.4,SDL,trace extended at constant dip,WGS (2025),null,null,568,WA DNR CC_272
+34,"Columbia Hills (west, center)",Backarc_WA,WA,,20,N,90,Reverse,3,null,undifferentiated Quaternary,<1.6 million,0.5,topography,-19.8,SDL,trace extended at constant dip,WGS (2025),null,null,568,"WA DNR CC_270, 274"
+35,Columbia Hills (center),Backarc_WA,WA,,20,N,90,Reverse,3,null,undifferentiated Quaternary,<1.6 million,0.5,topography,-21,SDL,trace extended at constant dip,WGS (2025),null,null,568,"WA DNR CC_270, 275, 314"
+36,Columbia Hills (east),Backarc_WA,WA,,20,N,90,Reverse,3,null,undifferentiated Quaternary,<1.6 million,0.3,topography,-21.1,SDL,trace extended at constant dip,WGS (2025),null,null,568,WA DNR CC_271
+37,Columbia Hills (northwest),Backarc_WA,WA,,20,S,90,Reverse,3,null,undifferentiated Quaternary,<1.6 million,0.7,topography,-21,SDL,trace extended at constant dip,WGS (2025),null,null,568,WA DNR CC_313
+38,Columbia Hills (west),Backarc_WA,WA,,20,N,90,Reverse,3,null,undifferentiated Quaternary,<1.6 million,0.5,topography,-18.9,SDL,trace extended at constant dip,WGS (2025),null,null,568,"WA DNR CC_273, 274"
+39,Coos Basin,Offshore_OR,OR,,90,vertical,0,Sinistral,1,null,latest Quaternary,"<15,000",-1,bathymetry,-8.1,megathrust,trace extended at constant dip,USGS QFFD,null,null,794,
+40,Coquille Anticline,Offshore_OR,OR,,60,E,90,Reverse,1,0.34,latest Quaternary,"<15,000",0,topography,-19.4,Slab2,trace extended at constant dip,US NSHM 2023,2511,unmodified,893,
+41,Corning,ForearcIntraarc_CA,CA,,75,W,90,Reverse,3,0.12,undifferentiated Quaternary,<1.6 million,0.1,topography,-30,SDL,trace extended at constant dip,US NSHM 2023,315,unmodified,158,
+42,Corvallis,ForearcIntraarc_OR,OR,,45,NW,45,Reverse and Sinistral,3,null,Class B,various ages,0.2,topography,-29.6,SDL,trace extended at constant dip,USGS QFFD,null,null,869,
+43,Cottonwood Mountain (east),Backarc_OR,OR,,50,NE,-90,Normal,1,0.14,latest Quaternary,"<15,000",1,topography,-10.8,SDL,trace extended at constant dip,US NSHM 2023,2512,unmodified,806,
+44,Dabob Bay,ForearcIntraarc_WA,WA,,90,NE,135,Reverse and Dextral,3,null,null,null,0.1,topography,-34.9,SDL,trace extended at constant dip,WGS (2025),null,null,null,WA DNR CC_91
+45,Daisy Bank,Offshore_OR,OR,,90,vertical,0,Sinistral,1,4.94,latest Quaternary,"<15,000",-0.2,bathymetry,-14.7,megathrust,trace extended at constant dip,US NSHM 2023,2513,unmodified,798,
+46,Davis Creek,Backarc_CA,CA,,50,W,-90,Normal,1,0.48,late Quaternary,"<130,000",2.1,topography,-8.5,publication,trace extended at constant dip,US NSHM 2023,61,unmodified,null,
+47,Devils Mountain,ForearcIntraarc_WA,WA,,60,N,90,Reverse,1,0.16,late Quaternary,"<130,000",0.3,topography,-31.7,SDL,trace extended at constant dip,US NSHM 2023,2801,unmodified,574,
+48,Drayton Harbor,ForearcIntraarc_WA,WA,,45,NE,90,Reverse,1,0.13,latest Quaternary,"<15,000",0,topography,-26.1,SDL,trace extended at constant dip,US NSHM 2023,2831,unmodified,null,
+49,East Grand Ronde Valley,Backarc_OR,OR,,50,W,-90,Normal,1,0.34,latest Quaternary,"<15,000",1.8,topography,-14.5,SDL,trace extended at constant dip,US NSHM 2023,2560,unmodified,803,
+50,East Pueblo Valley,Backarc_OR,OR,,50,W,-90,Normal,1,0.1,late Quaternary,"<130,000",1.5,topography,-12.1,SDL,trace extended at constant dip,US NSHM 2023,2562,unmodified,1490,
+51,Eastern Pine Forest Range,Backarc_OR,NV,,50,E,-90,Normal,1,0.12,late Quaternary,"<130,000",1.6,topography,-12,SDL,trace extended at constant dip,US NSHM 2023,1044,unmodified,1495a,connects across OR border to East Pueblo Valley
+52,Eaton Roughs,Offshore_CA_MendocinoTripleJunction,CA,,90,vertical,180,Dextral,3,2.2,undifferentiated Quaternary,<1.6 million,1.5,topography,-26.7,"Slab2, SDL",trace extended at constant dip,US NSHM 2023,74,unmodified,null,
+53,Entiat,Backarc_WA,WA,,60,SW,90,Reverse,1,0.09,null,null,1.3,topography,-15.7,SDL,trace extended at constant dip,US NSHM 2023,2832,unmodified,null,
+54,Evergreen,ForearcIntraarc_WA,WA,,90,vertical,180,Dextral,3,null,Class B,various age,1.3,topography,-21.2,SDL,trace extended at constant dip,WGS (2025),null,null,553,WA DNR CC_19
+55,Faults east of Summer Lake,Backarc_OR,OR,,50,E,-90,Normal,3,null,middle and late Quaternary,"<750,000",1.6,topography,-8.8,SDL,trace extended at constant dip,Crider (2001); Pezzopane and Weldon (1993); USGS QFFD,null,null,832,
+56,Fickle Hill,Offshore_CA_MendocinoTripleJunction,CA,,35,NE,90,Reverse,1,0.62,latest Quaternary,"<15,000",0.6,topography,-13,publication,trace extended at constant dip,US NSHM 2023,80,unmodified,null,
+57,Fitzhugh Creek,Backarc_CA,CA,,50,W,-90,Normal,3,0.04,undifferentiated Quaternary,<1.6 million,1.5,topography,-8.5,publication,trace extended at constant dip,US NSHM 2023,82,unmodified,null,
+58,Frenchman Hills,Backarc_WA,WA,,40,S,90,Reverse,3,null,undifferentiated Quaternary,<1.6 million,1.1,topography,-20,SDL,trace extended at constant dip,WGS (2025),null,null,"561a,561c",WA DNR CC_234
+59,Frigid Creek,ForearcIntraarc_WA,WA,,50,SE,-90,Normal,1,0.11,latest Quaternary,"<15,000",0.3,topography,-35.7,SDL,trace extended at constant dip,US NSHM 2023,2833,unmodified,544,
+60,Fulmar,Offshore_OR,OR,,90,vertical,180,Dextral,3,null,null,null,0.3,topography,-18.2,Slab2,trace extended at constant dip,Carbotte et al. (2024); Snavely (1987),null,null,null,
+61,Gales Creek (Carpenter Creek),ForearcIntraarc_OR,OR,,90,vertical,180,Dextral,3,null,undifferentiated Quaternary,<1.6 million,0.4,topography,-32,SDL,trace extended at constant dip,Wells et al. (2024),null,null,718,
+62,Gales Creek (Chehalem Valley),ForearcIntraarc_OR,OR,,90,vertical,180,Dextral,1,0.41,undifferentiated Quaternary,<1.6 million,0.2,topography,-31.8,SDL,trace extended at constant dip,US NSHM 2023,2563,unmodified,718,
+63,Gales Creek (northwest),ForearcIntraarc_OR,OR,,90,vertical,180,Dextral,3,null,undifferentiated Quaternary,<1.6 million,0.7,topography,-33.9,SDL,trace extended at constant dip,USGS QFFD; Horst et al.( 2021),,,,
+64,Gales Creek (Parsons Creek),ForearcIntraarc_OR,OR,,90,vertical,180,Dextral,1,null,undifferentiated Quaternary,<1.6 million,0.4,topography,-33.2,SDL,trace extended at constant dip,US NSHM 2023; Horst et al. (2021); Wells et al. (2024),2514,trace lengthed,718,
+65,Garberville - Briceland,Offshore_CA_MendocinoTripleJunction,CA,,90,vertical,180,Dextral,3,2.44,undifferentiated Quaternary,<1.6 million,0.9,topography,-24.8,publication,trace extended at constant dip,US NSHM 2023,85,unmodified,null,
+66,Gate Creek,ForearcIntraarc_OR,OR,,80,E,-110,Normal and Dextral,1,null,null,null,1.2,topography,-17,SDL,trace extended at constant dip,Madin et al. (2017); Madin et al. (2021); McClaughry et al. (2012),null,null,null,in NSHM as Blue Ridge- Gate Creek # 2557
+67,Gillem - Big Crack,ForearcIntraarc_CA,CA,,61,E,-90,Normal,1,0.34,late Quaternary,"<130,000",2,topography,-16.7,SCEC CFM7*,SCEC CFM7*,"US NSHM 2023, SCEC CFM7*",87,updated geometries,3,"UNDER SCEC REVIEW; fault information from NSHM, 2D and 3D geometry from SCEC CFM7"
+68,Goose Lake,Backarc_OR,OR,CA,60,W,-90,Normal,1,0.58,late Quaternary,"<130,000",1.8,topography,-14.8,SCEC CFM7*,SCEC CFM7*,"US NSHM 2023, SCEC CFM7*",2500,updated geometries,828,"UNDER SCEC REVIEW; fault information from NSHM, 2D and 3D geometry from SCEC CFM7"
+69,Green Ridge,ForearcIntraarc_OR,OR,,50,W,-90,Normal,3,null,null,null,1.1,topography,-15.6,SDL,trace extended at constant dip,Conrey (1985); Smith (1987); USGS QFFD,null,null,853,
+70,Grogan,Offshore_CA_MendocinoTripleJunction,CA,,90,vertical,180,Dextral,3,0.7,undifferentiated Quaternary,<1.6 million,0.4,topography,-21.6,Slab2,trace extended at constant dip,US NSHM 2023,319,unmodified,null,
+71,Happy Camp,ForearcIntraarc_OR,OR,,60,N,90,Reverse,3,0.08,undifferentiated Quaternary,<1.6 million,0,topography,-27.9,Slab2,trace extended at constant dip,US NSHM 2023,2516,unmodified,882,
+72,Harney,Backarc_OR,OR,,50,W,-90,Normal,3,0.11,middle and late Quaternary,"<750,000",1.4,topography,-11.2,SDL,trace extended at constant dip,US NSHM 2023,2564,unmodified,1802,
+73,Hat Creek,ForearcIntraarc_CA,CA,,60,W,-90,Normal,1,1.92,latest Quaternary,"<15,000",1.9,topography,-8.9,SCEC CFM7,SCEC CFM7,"US NSHM 2023, SCEC CFM7",112,updated geometries,9,"UNDER SCEC REVIEW; fault information from NSHM, 2D and 3D geometry from SCEC CFM7"
+74,Heceta Bank,Offshore_OR,OR,,90,vertical,0,Sinistral,1,null,latest Quaternary,"<15,000",-0.2,bathymetry,-11.5,megathrust,trace extended at constant dip,USGS QFFD,null,null,795,
+75,Hite (Agency),Backarc_OR,OR,,85,NW,-20,Sinistral and Normal,3,null,undifferentiated Quaternary,<1.6 million,0.9,topography,-16.9,SDL,trace extended at constant dip,USGS QFFD,null,null,845d,
+76,Hite (Hite),Backarc_OR,WA,OR,90,vertical,-20,Sinistral and Normal,3,null,undifferentiated Quaternary,<1.6 million,1.3,topography,-15.7,SDL,trace extended at constant dip,WGS (2025),null,null,845a,WA DNR CC_225
+77,Hite (Kooskooskie),Backarc_OR,WA,OR,90,vertical,-20,Sinistral and Normal,3,null,middle and late Quaternary,"<750,000",1,topography,-15.6,SDL,trace extended at constant dip,WGS (2025),null,null,845b,WA DNR CC_221
+78,Hite (Thorn Hollow),Backarc_OR,OR,,85,NW,-20,Sinistral and Normal,1,null,late Quaternary,"<130,000",1.1,topography,-17.9,SDL,trace extended at constant dip,USGS QFFD,null,null,845c,
+79,Honey Lake,Backarc_CA,CA,NV,90,vertical,180,Dextral,1,1.53,latest Quaternary,"<15,000",1.6,topography,-9.7,publication,trace extended at constant dip,US NSHM 2023,120,unmodified,22,
+80,Hood River (east),ForearcIntraarc_OR,OR,,80,W,-110,Normal and Dextral,3,null,undifferentiated Quaternary,<1.6 million,0.9,topography,-16.6,SDL,trace extended at constant dip,McClaughry et al. (2012),null,null,866,
+81,Hood River (south),ForearcIntraarc_OR,OR,,80,W,-110,Normal and Dextral,3,null,undifferentiated Quaternary,<1.6 million,0.7,topography,-16.6,SDL,trace extended at constant dip,McClaughry et al. (2012),null,null,866,
+82,Hood River (west),ForearcIntraarc_OR,OR,,80,W,-110,Normal and Dextral,3,null,undifferentiated Quaternary,<1.6 million,0.5,topography,-16.5,SDL,trace extended at constant dip,McClaughry et al. (2012),null,null,866,
+83,Hoppins Peak,Backarc_OR,NV,OR,50,SE,-90,Normal,3,0.14,middle and late Quaternary,"<750,000",1.6,topography,-11.4,SDL,trace extended at constant dip,US NSHM 2023,1060,unmodified,1507a,
+84,Horse Heaven Hills,Backarc_WA,WA,,60,S,90,Reverse,3,0.08,undifferentiated Quaternary,<1.6 million,0.9,topography,-22,SDL,trace extended at constant dip,US NSHM 2023,2803,unmodified,567,
+85,Horse Heaven Hills - Wallula,Backarc_WA,WA,,60,SW,90,Reverse,3,0.05,undifferentiated Quaternary,<1.6 million,0.4,topography,-21.2,SDL,trace extended at constant dip,US NSHM 2023,2834,unmodified,567,
+86,Inks Creek - Hooker Dome,ForearcIntraarc_CA,CA,,60,N,90,Reverse,1,0.28,null,null,0.3,topography,-30.1,SDL,trace extended at constant dip,US NSHM 2023,321,unmodified,null,
+87,Jess Valley,Backarc_CA,CA,,50,E,-90,Normal,3,0.04,undifferentiated Quaternary,<1.6 million,2,topography,-12,publication,trace extended at constant dip,US NSHM 2023,128,unmodified,164,
+88,Juniper Mountain,Backarc_OR,OR,,50,N,-90,Normal,1,0.03,latest Quaternary,"<15,000",1.4,topography,-12.2,SDL,trace extended at constant dip,US NSHM 2023,2518,unmodified,805,
+89,Keddie Ridge,ForearcIntraarc_CA,CA,,89,vertical,-135,Normal and Dextral,3,0.08,undifferentiated Quaternary,<1.6 million,1.7,topography,-10,SCEC CFM7,SCEC CFM7,"US NSHM 2023, SCEC CFM7",131,updated geometries,191,"UNDER SCEC REVIEW; fault information from NSHM, 2D and 3D geometry from SCEC CFM7"
+90,Kittitas Valley,Backarc_WA,WA,,60,N,90,Reverse,3,0.11,undifferentiated Quaternary,<1.6 million,0.7,topography,-16.4,SDL,trace extended at constant dip,US NSHM 2023,2835,unmodified,null,
+91,Klamath Graben (east),ForearcIntraarc_OR,OR,,50,SW,-90,Normal,1,0.47,latest Quaternary,"<15,000",1.8,topography,-15.5,SCEC CFM7*,SCEC CFM7*,"US NSHM 2023, SCEC CFM7*",2519,updated geometries,"843b,c","UNDER SCEC REVIEW; fault information from NSHM, 2D and 3D geometry from SCEC CFM7"
+92,Klamath Graben (Klamath Lake),ForearcIntraarc_OR,OR,,54,NE,-90,Normal,1,0.3,latest Quaternary,"<15,000",1.4,topography,-4.3,SCEC CFM7*,SCEC CFM7*,"US NSHM 2023, SCEC CFM7*",2502,updated geometries,843a,"UNDER SCEC REVIEW; fault information from NSHM, 2D and 3D geometry from SCEC CFM7; SCEC's ""South Klamath Lake west"""
+93,"Klamath Graben (west, center)",ForearcIntraarc_OR,OR,,50,E,-90,Normal,1,0.32,late Quaternary,"<130,000",2.1,topography,-14.8,SDL,trace extended at constant dip,US NSHM 2023,2565,unmodified,843a,
+94,"Klamath Graben (west, north)",ForearcIntraarc_OR,OR,,50,E,-90,Normal,1,0.27,late Quaternary,"<130,000",1.8,topography,-15.5,SDL,trace extended at constant dip,US NSHM 2023,2566,unmodified,843a,
+95,"Klamath Graben (west, south)",ForearcIntraarc_OR,OR,,50,E,-90,Normal,1,0.3,late Quaternary,"<130,000",1.9,topography,-13.8,SDL,trace extended at constant dip,US NSHM 2023,2520,unmodified,843a,
+96,La Pine Graben,ForearcIntraarc_OR,OR,,50,NW,-90,Normal,1,0.23,late Quaternary,"<130,000",1.6,topography,-15.4,SDL,trace extended at constant dip,US NSHM 2023,2567,unmodified,838,
+97,Lacamas Lake,ForearcIntraarc_OR,WA,OR,90,vertical,180,Dextral,3,null,middle and late Quaternary,"<750,000",0.2,topography,-26.7,SDL,trace extended at constant dip,WGS (2025),null,null,880,WA DNR CC_99
+98,Lake Creek - Boundary Creek - Sadie,ForearcIntraarc_WA,WA,,60,N,90,Reverse,1,0.52,latest Quaternary,"<15,000",0.6,topography,-34.6,SDL,trace extended at constant dip,US NSHM 2023,2804,unmodified,556,
+99,Lava Butte,ForearcIntraarc_OR,OR,,50,SW,-90,Normal,3,0.07,middle and late Quaternary,"<750,000",1.8,topography,-13.8,SDL,trace extended at constant dip,US NSHM 2023,2568,unmodified,853c,
+100,Leech River,ForearcIntraarc_BC,BC,,52,N,135,Reverse and Dextral,1,null,null,null,0.6,topography,-15,publication,trace extended at constant dip,"Morell et al. (2017), Morell et al. (2018); Li et al., (2018); Harrichhausen, et al. (2021)",null,null,null,
+101,Likely,Backarc_CA,CA,,90,likely,180,Dextral,1,0.51,late Quaternary,"<130,000",2,topography,-9.6,SCEC CFM7,SCEC CFM7,"US NSHM 2023, SCEC CFM7",143,updated geometries,5,"UNDER SCEC REVIEW; fault information from NSHM, 2D and 3D geometry from SCEC CFM7"
+102,Little Salmon (offshore),Offshore_CA_MendocinoTripleJunction,CA,,30,NE,90,Reverse,1,2.22,null,null,0,topography,-13,publication,trace extended at constant dip,US NSHM 2023,146,unmodified,null,
+103,Little Salmon (onshore),Offshore_CA_MendocinoTripleJunction,CA,,30,NE,90,Reverse,1,3.1,latest Quaternary,"<15,000",0.4,topography,-13,publication,trace extended at constant dip,US NSHM 2023,147,unmodified,null,
+104,Lost Man,Offshore_CA_MendocinoTripleJunction,CA,,35,NE,90,Reverse,3,0.65,undifferentiated Quaternary,<1.6 million,0.3,topography,-29.6,"Slab2, SDL",trace extended at constant dip,US NSHM 2023,324,unmodified,null,
+105,Luna Butte,Backarc_WA,WA,,90,vertical,180,Dextral,3,null,middle and late Quaternary,"<750,000",1.5,topography,-22,SDL,trace extended at constant dip,WGS (2025),null,null,579,WA DNR CC_80
+106,Mad River,Offshore_CA_MendocinoTripleJunction,CA,,35,NE,90,Reverse,1,0.44,latest Quaternary,"<15,000",0.4,topography,-13,publication,trace extended at constant dip,US NSHM 2023,157,unmodified,null,
+107,Mahogany Mountain,ForearcIntraarc_CA,CA,OR,59,W,-90,Normal,1,0.62,latest Quaternary,"<15,000",1.6,topography,-8.7,SCEC CFM7*,SCEC CFM7*,"US NSHM 2023, SCEC CFM7*",31,updated geometries (and seperated from Cedar Mountain),2a,"UNDER SCEC REVIEW; fault information from NSHM, 2D and 3D geometry from SCEC CFM7"
+108,Manastash Ridge,Backarc_WA,WA,,24,S,90,Reverse,3,0.21,undifferentiated Quaternary,<1.6 million,1.2,topography,-20.2,SDL,trace extended at constant dip,US NSHM 2023,2836,unmodified,null,
+109,Mayfield,ForearcIntraarc_CA,CA,,61,W,-90,Normal,1,0.33,latest Quaternary,"<15,000",1.5,topography,-8.9,SCEC CFM7,SCEC CFM7,"US NSHM 2023, SCEC CFM7",325,updated geometries,6,"UNDER SCEC REVIEW; fault information from NSHM, 2D and 3D geometry from SCEC CFM7"
+110,McArthur,ForearcIntraarc_CA,CA,,60,W,-90,Normal,1,0.47,latest Quaternary,"<15,000",1.6,topography,-9,SCEC CFM7,SCEC CFM7,"US NSHM 2023, SCEC CFM7",326,updated geometries,8,"UNDER SCEC REVIEW; fault information from NSHM, 2D and 3D geometry from SCEC CFM7"
+111,McKinleyville,Offshore_CA_MendocinoTripleJunction,CA,,35,NE,90,Reverse,1,0.56,latest Quaternary,"<15,000",0.2,topography,-13,publication,trace extended at constant dip,US NSHM 2023,163,unmodified,null,
+112,Mendocino,Offshore_CA_MendocinoTripleJunction,CA,,90,vertical,180,Dextral,1,28.65,latest Quaternary,"<15,000",-0.1,bathymetry,-10,publication,trace extended at constant dip,US NSHM 2023,165,unmodified,18,
+113,Metolius,ForearcIntraarc_OR,OR,,50,SW,-90,Normal,3,null,middle and late Quaternary,"<750,000",1.3,topography,-14.8,SDL,trace extended at constant dip,Mark-Moser (2018); Sherood et al. (2004); Wellik (2008); USGS QFFD,2522,surface trace modified,"835a,b,c",seperated out Green Ridge from Metolius
+114,Mount Angel,ForearcIntraarc_OR,OR,,60,NE,90,Reverse,1,null,latest Quaternary,"<15,000",0.2,topography,-28.3,SDL,trace extended at constant dip,US NSHM 2023; Werner (1991); Givler et al. (2009),2523,trace lengthed,873,
+115,Multorpor Mountain,ForearcIntraarc_OR,OR,,80,E,-90,Normal,1,null,null,null,1.3,topography,-17.4,SDL,trace extended at constant dip,Madin et al. (2017); Madin et al. (2021),null,null,null,in NSHM as Twin Lakes - Multorpor Mountain Graben # 2579
+116,Nootka Fault Zone - Northern Nootka (center),Offshore_BC,BC,,90,vertical,0,Sinistral,1,null,null,null,-2.5,bathymetry,-10,publication,trace extended at constant dip,Rohr et al. (2018),null,null,null,
+117,Nootka Fault Zone - Northern Nootka (northeast),Offshore_BC,BC,,90,vertical,0,Sinistral,1,null,null,null,-2.5,bathymetry,-10,publication,trace extended at constant dip,Rohr et al. (2018),null,null,null,
+118,Nootka Fault Zone - Northern Nootka (southwest),Offshore_BC,BC,,90,vertical,0,Sinistral,1,null,null,null,-2.5,bathymetry,-10,publication,trace extended at constant dip,Rohr et al. (2018),null,null,null,
+119,Nootka Fault Zone - Southern Nootka,Offshore_BC,BC,,90,vertical,0,Sinistral,1,null,null,null,-2.5,bathymetry,-10,publication,trace extended at constant dip,Rohr et al. (2018),null,null,null,
+120,North Nitinat,Offshore_WAOR,WA,,90,vertical,0,Sinistral,1,null,latest Quaternary,"<15,000",-1.5,bathymetry,-6.2,megathrust,trace extended at constant dip,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,594,vergence from USGS sparker line
+121,Olympia,ForearcIntraarc_WA,WA,,60,S,90,Reverse,3,0.12,undifferentiated Quaternary,<1.6 million,0.7,topography,-35.7,"Slab2, SDL",trace extended at constant dip,US NSHM 2023,2837,unmodified,null,
+122,Paulina Marsh,Backarc_OR,OR,,50,NE,-90,Normal,1,0.35,latest Quaternary,"<15,000",1.3,topography,-9.1,SDL,trace extended at constant dip,US NSHM 2023,2526,unmodified,834,
+123,Pioneer,ForearcIntraarc_OR,OR,,60,NE,90,Reverse,1,0.59,late Quaternary,"<130,000",0,topography,-20.3,Slab2,trace extended at constant dip,US NSHM 2023,2569,unmodified,892,
+124,Pittville,ForearcIntraarc_CA,CA,,60,SW,-90,Normal,1,0.54,latest Quaternary,"<15,000",1.4,topography,-9,SCEC CFM7,SCEC CFM7,"US NSHM 2023, SCEC CFM7",214,updated geometries,7,"UNDER SCEC REVIEW; fault information from NSHM, 2D and 3D geometry from SCEC CFM7"
+125,Pondosa (proxy),ForearcIntraarc_CA,CA,,50,E,-90,Normal,3,0.56,undifferentiated Quaternary,<1.6 million,1.7,topography,-20.3,SDL,trace extended at constant dip,US NSHM 2023,349,unmodified,207 ; 9,
+126,Portland Hills (north),ForearcIntraarc_OR,OR,,60,SW,90,Reverse,3,0.11,middle and late Quaternary,"<750,000",0.1,topography,-30.9,SDL,trace extended at constant dip,US NSHM 2023,2529,unmodified,877,
+127,Portland Hills (south),ForearcIntraarc_OR,OR,,60,SW,90,Reverse,3,0.1,undifferentiated Quaternary,<1.6 million,0.1,topography,-29.1,SDL,trace extended at constant dip,US NSHM 2023,2570,unmodified,877,
+128,Rattlesnake Mountain,ForearcIntraarc_WA,WA,,90,vertical,180,Dextral,3,null,latest Quaternary,"<15,000",0.4,topography,-28.1,SDL,trace extended at constant dip,WGS (2025),null,null,552,WA DNR CC_24
+129,Red Bluff,ForearcIntraarc_CA,CA,,60,N,90,Reverse,1,0.63,null,null,0.4,topography,-30.3,SDL,trace extended at constant dip,US NSHM 2023,334,unmodified,null,
+130,Rocky Ledge,ForearcIntraarc_CA,CA,,62,E,-90,Normal,1,0.15,latest Quaternary,"<15,000",1.3,topography,-9,SCEC CFM7,trace extended at constant dip,"US NSHM 2023, SCEC CFM7",233,updated geometries,10,UNDER SCEC REVIEW; trace from SCEC CFM7 projected at constant dip (SCEC CFM7 has 3D mesh dipping W); fault information from NSHM
+131,Rogue,Offshore_OR,OR,,90,vertical,0,Sinistral,1,null,null,null,-2.7,bathymetry,-10,publication,trace extended at constant dip,Carbotte et al. (2024); Chaytor et al. (2004),null,null,null,
+132,Russ,Offshore_CA_MendocinoTripleJunction,CA,,70,N,135,Reverse and Dextral,3,0.71,undifferentiated Quaternary,<1.6 million,0.5,topography,-20,SCEC CFM7,SCEC CFM7,"US NSHM 2023, SCEC CFM7",236,updated geometries,150,"UNDER SCEC REVIEW; fault information from NSHM, 2D and 3D geometry from SCEC CFM7"
+133,Saddle Hill,ForearcIntraarc_WA,WA,,60,N,90,Reverse,3,null,undifferentiated Quaternary,<1.6 million,0,topography,-24,Slab2,trace extended at constant dip,WGS (2025),null,null,588,WA DNR CC_43
+134,Saddle Hill (Langley Hill),ForearcIntraarc_WA,WA,,60,N,90,Reverse,3,0.09,undifferentiated Quaternary,<1.6 million,0,topography,-24.5,Slab2,trace extended at constant dip,US NSHM 2023,2838,unmodified,587,
+135,Saddle Mountains,Backarc_WA,WA,,37,S,90,Reverse,1,0.29,late Quaternary,"<130,000",1,topography,-20.7,SDL,trace extended at constant dip,US NSHM 2023,2807,unmodified,562,
+136,Sandy Point,ForearcIntraarc_WA,WA,,60,NE,90,Reverse,1,0.11,latest Quaternary,"<15,000",0,topography,-28.9,SDL,trace extended at constant dip,US NSHM 2023,2839,unmodified,null,
+137,Santa Rosa Range (center),Backarc_OR,OR,,50,W,-90,Normal,1,0.12,latest Quaternary,"<15,000",1.5,topography,-11.3,SDL,trace extended at constant dip,US NSHM 2023,2572,unmodified,"1508b,c",
+138,Santa Rosa Range (north),Backarc_OR,OR,,50,W,-90,Normal,1,0.11,latest Quaternary,"<15,000",1.6,topography,-11.1,SDL,trace extended at constant dip,US NSHM 2023,2531,unmodified,"1508b,c",
+139,Santa Rosa Range (south),Backarc_OR,OR,,50,W,-90,Normal,1,0.04,latest Quaternary,"<15,000",1.7,topography,-11.4,SDL,trace extended at constant dip,US NSHM 2023,2573,unmodified,"1508b,c",
+140,Seattle (east),ForearcIntraarc_WA,WA,,45,S,90,Reverse,1,0.24,late Quaternary,"<130,000",0.4,topography,-29,SDL,trace extended at constant dip,US NSHM 2023,2842,unmodified,570,
+141,Seattle (middle),ForearcIntraarc_WA,WA,,45,S,90,Reverse,1,0.26,latest Quaternary,"<15,000",0.2,topography,-35.1,SDL,trace extended at constant dip,US NSHM 2023,2881,unmodified,570,
+142,Seattle (north),ForearcIntraarc_WA,WA,,45,S,90,Reverse,1,0.64,latest Quaternary,"<15,000",0.1,topography,-35.2,SDL,trace extended at constant dip,US NSHM 2023,2882,unmodified,570,
+143,Seattle (south),ForearcIntraarc_WA,WA,,45,S,90,Reverse,1,0.25,latest Quaternary,"<15,000",0.3,topography,-35.2,SDL,trace extended at constant dip,US NSHM 2023,2880,unmodified,570,
+144,Skinner Flat,ForearcIntraarc_CA,CA,,90,vertical,-135,Normal and Dextral,1,0.07,late Quaternary,"<130,000",1.8,topography,-10,SCEC CFM7,SCEC CFM7,"US NSHM 2023, SCEC CFM7",282,updated geometries,192,"UNDER SCEC REVIEW; fault information from NSHM, 2D and 3D geometry from SCEC CFM7"
+145,Sky Lakes,ForearcIntraarc_OR,OR,,57,E,-90,Normal,1,0.18,latest Quaternary,"<15,000",2.1,topography,-15.1,SCEC CFM7*,SCEC CFM7*,"US NSHM 2023, SCEC CFM7*",2532,updated geometries,844,"UNDER SCEC REVIEW; fault information from NSHM, 2D and 3D geometry from SCEC CFM7"
+146,South Nitinat,Offshore_WAOR,WA,,90,vertical,0,Sinistral,1,null,middle and late Quaternary,"<750,000",-1.6,bathymetry,-6,megathrust,trace extended at constant dip,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,595,vergence from USGS sparker line
+147,South Slough,ForearcIntraarc_OR,OR,,60,W,90,Reverse,1,0.36,latest Quaternary,"<15,000",0,topography,-17.5,Slab2,trace extended at constant dip,US NSHM 2023,2534,unmodified,890 ;  891,
+148,Southeast Newberry,Backarc_OR,OR,,50,SW,-90,Normal,1,0.54,latest Quaternary,"<15,000",1.7,topography,-11,SDL,trace extended at constant dip,US NSHM 2023,2533,unmodified,835,
+149,Southern Whidbey Island (middle),ForearcIntraarc_WA,WA,,60,NE,90,Reverse,1,0.15,latest Quaternary,"<15,000",0.2,topography,-34,SDL,trace extended at constant dip,US NSHM 2023,2891,unmodified,572,
+150,Southern Whidbey Island (north),ForearcIntraarc_WA,WA,,60,NE,90,Reverse,1,0.15,latest Quaternary,"<15,000",0.2,topography,-33.4,SDL,trace extended at constant dip,US NSHM 2023,2892,unmodified,572,
+151,Southern Whidbey Island (south),ForearcIntraarc_WA,WA,,60,NE,90,Reverse,1,0.16,latest Quaternary,"<15,000",0.2,topography,-34,SDL,trace extended at constant dip,US NSHM 2023,2890,unmodified,572,
+152,Southwest Newberry,ForearcIntraarc_OR,OR,,50,NW,-90,Normal,3,0.09,middle and late Quaternary,"<750,000",1.7,topography,-12.9,SDL,trace extended at constant dip,US NSHM 2023,2576,unmodified,837,
+153,Spencer Canyon,Backarc_WA,WA,,60,NW,90,Reverse,1,0.08,null,null,1.1,topography,-15.4,SDL,trace extended at constant dip,US NSHM 2023; Sherrod et al. (2021) ,2843,unmodified,null,
+154,Steens (center),Backarc_OR,OR,NV,50,E,-90,Normal,1,0.34,latest Quaternary,"<15,000",1.5,topography,-11.7,SDL,trace extended at constant dip,US NSHM 2023,2535,unmodified,"856c,a",
+155,Steens (north),Backarc_OR,OR,NV,50,E,-90,Normal,3,0.11,middle and late Quaternary,"<750,000",1.7,topography,-11.6,SDL,trace extended at constant dip,US NSHM 2023,2574,unmodified,856b,
+156,Steens (south),Backarc_OR,OR,NV,50,E,-90,Normal,1,0.27,latest Quaternary,"<15,000",1.4,topography,-12.2,SDL,trace extended at constant dip,US NSHM 2023,2575,unmodified,"856d,e,f",
+157,Stonewall Anticline,Offshore_OR,OR,,60,E,90,Reverse,1,1.22,latest Quaternary,"<15,000",-0.1,bathymetry,-20.8,Slab2,trace extended at constant dip,US NSHM 2023,2808,unmodified,null,
+158,Straight Creek,ForearcIntraarc_WA,WA,,90,vertical,180,Dextral,3,null,Class B,various age,1.9,topography,-21.4,SDL,trace extended at constant dip,WGS (2025),null,null,553,WA DNR CC_19
+159,Strawberry Point,ForearcIntraarc_WA,WA,,90,vertical,0,Sinistral,1,0.24,late Quaternary,"<130,000",0.1,topography,-33.7,SDL,trace extended at constant dip,US NSHM 2023,2809,unmodified,571,
+160,Sumpter Valley,Backarc_OR,OR,,50,S,-90,Normal,3,0.12,middle and late Quaternary,"<750,000",1.3,topography,-11.6,SDL,trace extended at constant dip,US NSHM 2023,2577,unmodified,711,
+161,Surprise Valley,Backarc_CA,CA,,62,E,-90,Normal,1,0.69,latest Quaternary,"<15,000",1.7,topography,-14.8,SCEC CFM7*,SCEC CFM7*,"US NSHM 2023, SCEC CFM7*",284,updated geometries,4,"UNDER SCEC REVIEW; fault information from NSHM, 2D and 3D geometry from SCEC CFM7"
+162,Surpur Creek,Offshore_CA_MendocinoTripleJunction,CA,,35,NE,90,Reverse,3,0.08,undifferentiated Quaternary,<1.6 million,0.5,topography,-29.9,SDL,trace extended at constant dip,US NSHM 2023,347,unmodified,148,
+163,"Susanville - Eagle Lake (unnamed, proxy)",Backarc_CA,CA,,90,vertical,180,Dextral,3,0.74,undifferentiated Quaternary,<1.6 million,2,topography,-19.4,SDL,trace extended at constant dip,US NSHM 2023,351,unmodified,179,
+164,Sylvain - Oatfield,ForearcIntraarc_OR,OR,,60,E,90,Reverse,3,0.27,undifferentiated Quaternary,<1.6 million,0.3,topography,-28.2,SDL,trace extended at constant dip,US NSHM 2023,2578,unmodified,875,
+165,Table Bluff,Offshore_CA_MendocinoTripleJunction,CA,,45,N,90,Reverse,1,0.76,late Quaternary,"<130,000",0.1,topography,-13,publication,trace extended at constant dip,US NSHM 2023,286,unmodified,null,
+166,Tacoma,ForearcIntraarc_WA,WA,,60,N,90,Reverse,1,0.25,latest Quaternary,"<15,000",0.1,topography,-35.4,SDL,trace extended at constant dip,US NSHM 2023,2810,unmodified,581,
+167,Thompson Ridge,Offshore_OR,OR,,90,vertical,0,Sinistral,1,null,latest Quaternary,"<15,000",-0.2,bathymetry,-10.8,megathrust,trace extended at constant dip,USGS QFFD,null,null,793,
+168,Thousand Springs,Backarc_OR,OR,,50,W,-90,Normal,1,null,null,null,1.3,topography,-8.2,SDL,trace extended at constant dip,Curtiss et al. (2024); Egger et al. (2021),null,null,null,
+169,Tilly Jane,ForearcIntraarc_OR,OR,,80,W,-90,Normal,1,null,null,null,1.9,topography,-17,SDL,trace extended at constant dip,Madin et al. (2021),null,null,null,
+170,Tokul Creek (north),ForearcIntraarc_WA,WA,,90,vertical,0,Sinistral,3,null,null,null,0.3,topography,-27.3,SDL,trace extended at constant dip,WGS (2025),null,null,null,WA DNR CC_17 and CC_90
+171,Tokul Creek (south),ForearcIntraarc_WA,WA,,90,vertical,0,Sinistral,3,null,null,null,0.3,topography,-27,SDL,trace extended at constant dip,WGS (2025),null,null,null,WA DNR CC_17 and CC_90
+172,Toppenish Ridge (Mill Creek thrust),Backarc_WA,WA,,60,S,90,Reverse,1,0.05,latest Quaternary,"<15,000",1,topography,-21.8,SDL,trace extended at constant dip,US NSHM 2023,2844,unmodified,566a,
+173,Trinidad,Offshore_CA_MendocinoTripleJunction,CA,,35,NE,90,Reverse,1,1.14,latest Quaternary,"<15,000",0.6,topography,-13,publication,trace extended at constant dip,US NSHM 2023,291,unmodified,null,
+174,Tule Springs Rims,Backarc_OR,OR,,50,W,-90,Normal,3,0.11,middle and late Quaternary,"<750,000",1.3,topography,-11.7,SDL,trace extended at constant dip,US NSHM 2023,2536,unmodified,858,
+175,Turner - Mill Creek,ForearcIntraarc_OR,OR,,60,SE,90,Reverse,3,0.29,undifferentiated Quaternary,<1.6 million,0.2,topography,-27.4,SDL,trace extended at constant dip,US NSHM 2023,2537,unmodified,871,
+176,Twin Lakes,ForearcIntraarc_OR,OR,,80,W,-90,Normal,1,null,null,null,1.4,topography,-17.3,SDL,trace extended at constant dip,Madin et al. (2017); Madin et al. (2021),null,null,null,in NSHM as Twin Lakes - Multorpor Mountain Graben # 2579
+177,Tygh Valley,ForearcIntraarc_OR,OR,,60,SE,90,Reverse,3,null,Class B,various ages,0.6,topography,-21,SDL,trace extended at constant dip,Braunmiller et al. (2014); Johnson (2011); Sherrod and Scott (1995); UGSS QFFD,null,null,850,
+178,Uhtanum Ridge - Gable Mountain,Backarc_WA,WA,,20,S,90,Reverse,1,0.22,late Quaternary,"<130,000",0.9,topography,-21.9,SDL,trace extended at constant dip,US NSHM 2023,2845,unmodified,null,
+179,Unnamed fault along Barnes Creek,ForearcIntraarc_WA,WA,,60,N,90,Reverse,3,null,undifferentiated Quaternary,<1.6 million,1.6,topography,-34.5,SDL,trace extended at constant dip,WGS (2025),null,null,557,WA DNR CC_58
+180,Unnamed fault near Goldendale,Backarc_WA,WA,,90,vertical,180,Dextral,3,null,undifferentiated Quaternary,<1.6 million,1.1,topography,-20.8,SDL,trace extended at constant dip,WGS (2025),null,null,567,WA DNR CC_51
+181,Unnamed fault near the Dalles,Backarc_WA,WA,OR,90,vertical,180,Dextral,3,null,undifferentiated Quaternary,<1.6 million,0.6,topography,-17.7,SDL,trace extended at constant dip,WGS (2025),null,null,580,WA DNR CC_38
+182,Unnamed fault south of Port Angeles,ForearcIntraarc_WA,WA,,60,S,90,Reverse,3,null,undifferentiated Quaternary,<1.6 million,0.1,topography,-34.4,SDL,trace extended at constant dip,WGS (2025),null,null,555,WA DNR CC_27
+183,Utsalady Point (east),ForearcIntraarc_WA,WA,,90,vertical,0,Sinistral,1,0.12,latest Quaternary,"<15,000",0.1,topography,-33.8,SDL,trace extended at constant dip,US NSHM 2023,2811,unmodified,573,
+184,Utsalady Point (west),ForearcIntraarc_WA,WA,,60,NE,90,Reverse,1,0.15,latest Quaternary,"<15,000",0,topography,-34.9,SDL,trace extended at constant dip,US NSHM 2023,2847,unmodified,573,
+185,Waldport,ForearcIntraarc_OR,OR,,60,E,90,Reverse,1,0.16,late Quaternary,"<130,000",0.1,topography,-28.2,SDL,trace extended at constant dip,US NSHM 2023,2538,unmodified,886,
+186,Walker Spring,ForearcIntraarc_CA,CA,,89,vertical,-90,Normal,1,0.05,late Quaternary,"<130,000",2,topography,-10,SCEC CFM7,SCEC CFM7,"US NSHM 2023, SCEC CFM7",294,updated geometries,190,"UNDER SCEC REVIEW; fault information from NSHM, 2D and 3D geometry from SCEC CFM7"
+187,Wallowa,Backarc_OR,OR,,70,NE,-135,Normal and Dextral,3,null,middle and late Quaternary,"<750,000",2.1,topography,-11.3,SDL,trace extended at constant dip,USGS QFFD,null,null,801,
+188,Wallula (northeast),Backarc_WA,WA,OR,60,SW,90,Reverse,1,0.06,latest Quaternary,"<15,000",0.7,topography,-21.3,SDL,trace extended at constant dip,US NSHM 2023,2806,unmodified,846,
+189,Wallula (southwest),Backarc_WA,OR,WA,60,SW,90,Reverse,1,0.05,latest Quaternary,"<15,000",0.5,topography,-18.8,SDL,trace extended at constant dip,US NSHM 2023,2581,unmodified,846,
+190,Warm Springs,ForearcIntraarc_OR,OR,,50,E,-90,Normal,3,0.31,middle and late Quaternary,"<750,000",1,topography,-18.3,SDL,trace extended at constant dip,US NSHM 2023,2582,unmodified,851,
+191,Warm Springs Valley,Backarc_CA,NV,CA,90,vertical,180,Dextral,1,1.94,latest Quaternary,"<15,000",1.7,topography,-19.9,SDL,trace extended at constant dip,US NSHM 2023,1119,unmodified,1605,
+192,"Warner Valley (east, center)",Backarc_OR,OR,,50,W,-90,Normal,1,0.13,latest Quaternary,"<15,000",1.6,topography,-12.8,SDL,trace extended at constant dip,US NSHM 2023,2584,unmodified,827a,
+193,"Warner Valley (east, Coleman Valley)",Backarc_OR,NV,OR,50,W,-90,Normal,3,0.14,undifferentiated Quaternary,<1.6 million,1.9,topography,-14.6,SDL,trace extended at constant dip,US NSHM 2023,1274,unmodified,827a,
+194,"Warner Valley (east, north)",Backarc_OR,OR,,50,W,-90,Normal,1,0.12,latest Quaternary,"<15,000",1.5,topography,-9.3,SDL,trace extended at constant dip,US NSHM 2023,2583,unmodified,827a,
+195,"Warner Valley (west, Coleman Valley)",Backarc_OR,OR,NV,50,E,-90,Normal,3,0.13,undifferentiated Quaternary,<1.6 million,1.5,topography,-14.1,SDL,trace extended at constant dip,US NSHM 2023,1275,unmodified,827c,
+196,"Warner Valley (west, north)",Backarc_OR,OR,,50,E,-90,Normal,3,0.17,undifferentiated Quaternary,<1.6 million,1.7,topography,-14.2,SDL,trace extended at constant dip,US NSHM 2023,2541,unmodified,827b,
+197,Warwick,Backarc_WA,WA,OR,90,vertical,180,Dextral,1,null,undifferentiated Quaternary,<1.6 million,0.7,topography,-20.6,SDL,trace extended at constant dip,US NSHM 2023; Woodring (2021),2848,trace lengthed,580,
+198,Wecoma,Offshore_OR,OR,,90,vertical,0,Sinistral,1,6.58,latest Quaternary,"<15,000",-0.3,bathymetry,-13.7,megathrust,trace extended at constant dip,US NSHM 2023,2542,unmodified,799,
+199,West Baker Valley (center),Backarc_OR,OR,,50,NE,-90,Normal,1,0.12,late Quaternary,"<130,000",1.3,topography,-11,SDL,trace extended at constant dip,US NSHM 2023,2586,unmodified,804,
+200,West Baker Valley (southeast),Backarc_OR,OR,,50,NE,-90,Normal,1,0.11,late Quaternary,"<130,000",1.4,topography,-11,SDL,trace extended at constant dip,US NSHM 2023,2587,unmodified,804,
+201,West Grand Ronde Valley,Backarc_OR,OR,,50,E,-90,Normal,1,0.37,latest Quaternary,"<15,000",1.3,topography,-13.4,SDL,trace extended at constant dip,US NSHM 2023,2588,unmodified,802b,
+202,Whaleshead,ForearcIntraarc_OR,OR,,90,vertical,180,Dextral,1,1.09,late Quaternary,"<130,000",0.5,topography,-16.5,Slab2,trace extended at constant dip,US NSHM 2023,2543,unmodified,897,
+203,White Branch,ForearcIntraarc_OR,OR,,50,E,-90,Normal,3,0.14,middle and late Quaternary,"<750,000",1.3,topography,-15.7,SDL,trace extended at constant dip,US NSHM 2023,2590,unmodified,1809,
+204,Willapa,Offshore_WAOR,WA,,90,vertical,0,Sinistral,1,null,undifferentiated Quaternary,<1.6 million,-1.6,bathymetry,-7.8,megathrust,trace extended at constant dip,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,596,vergence from USGS sparker line
+205,Willapa Bay (north),ForearcIntraarc_WA,WA,,60,W,90,Reverse,1,0.51,late Quaternary,"<130,000",0,topography,-22.4,Slab2,trace extended at constant dip,US NSHM 2023,2849,unmodified,592,
+206,Willapa Bay (south),ForearcIntraarc_WA,WA,,60,W,90,Reverse,3,0.46,undifferentiated Quaternary,<1.6 million,0,topography,-22.2,Slab2,trace extended at constant dip,US NSHM 2023,2850,unmodified,592,
+207,Winter Rim,Backarc_OR,OR,,50,E,-90,Normal,1,0.48,latest Quaternary,"<15,000",1.6,topography,-10.2,SDL,trace extended at constant dip,US NSHM 2023,2544,unmodified,831c,
+208,XEOLXELEK-Elk Lake,ForearcIntraarc_BC,BC,,50,NE,90,Reverse,1,null,null,null,0.1,topography,-15,publication,trace extended at constant dip,"Harrichhausen, et al. (2023)",null,null,null,
+209,Yaquina,ForearcIntraarc_OR,OR,,60,N,90,Reverse,1,0.61,late Quaternary,"<130,000",0.1,topography,-24.9,Slab2,trace extended at constant dip,US NSHM 2023,2545,unmodified,885,
+210,AW_CORE_1,Offshore_OR,OR,,36,W,90,Reverse,2,null,null,null,-2.4,seismic imaging,-5.7,megathrust,trace and 1 MCS line,USGS QFFD; Goldfinger et al. (2023); Carbotte et al. (2023),null,null,null,
+211,AW_CORE_2,Offshore_OR,OR,,23,W,90,Reverse,2,null,null,null,-1.6,seismic imaging,-3.4,seismic imaging,trace and 1 MCS line,Lucas et al. (2025); Carbotte et al. (2023),null,null,null,
+212,AW_CORE_3,Offshore_OR,OR,,90,vertical,180,Dextral,1,null,null,null,-0.4,bathymetry,-12.8,megathrust,trace extended at constant dip,Lucas et al. (2025); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+213,AW_CORE_4,Offshore_OR,OR,,18,E,90,Reverse,2,null,null,null,-2.8,seismic imaging,-5.1,megathrust,trace and 1 MCS line,Goldfinger et al. (2023); Carbotte et al. (2023),null,null,null,
+214,AW_CORE_5,Offshore_OR,OR,,25,E,90,Reverse,2,null,null,null,-1.9,seismic imaging,-2.9,seismic imaging,trace and 1 MCS line,Lucas et al. (2025); Carbotte et al. (2023),null,null,null,
+215,AW_CORE_6,Offshore_OR,OR,,49,NE,90,Reverse,2,null,null,null,-1.3,seismic imaging,-5.1,megathrust,trace and 1 MCS line,Lucas et al. (2025); Carbotte et al. (2023),null,null,null,
+216,AW_CORE_7,Offshore_OR,OR,,19,E,90,Reverse,2,null,null,null,-2.8,seismic imaging,-6.2,megathrust,trace and 1 MCS line,USGS QFFD; Carbotte et al. (2023),null,null,null,
+217,AW_CORE_8,Offshore_OR,OR,,42,E,90,Reverse,2,null,null,null,-3.1,seismic imaging,-5.7,megathrust,trace and 1 MCS line,USGS QFFD; Goldfinger et al. (2023); Carbotte et al. (2023),null,null,null,
+218,AW_NCAL_1,Offshore_CA_MendocinoTripleJunction,CA,,41,E,90,Reverse,2,null,null,null,-2.9,bathymetry; seismic imaging,-7.1,Slab2,trace and 1 MCS line,USGS QFFD; Goldfinger et al. (2023); Gulick et al. (1998),null,null,null,
+219,AW_NCAL_2,Offshore_CA_MendocinoTripleJunction,CA,,42,E,91,Reverse,3,null,null,null,-2,bathymetry; seismic imaging,-10.6,Slab2,trace and 1 MCS line,USGS QFFD; Goldfinger et al. (2023); Gulick et al. (1998),null,null,null,
+220,AW_NORE_1,Offshore_WAOR,OR,,38,SW,90,Reverse,2,null,null,null,-2,seismic imaging,-6,megathrust,trace and 2 MCS lines,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+221,AW_NORE_10,Offshore_WAOR,OR,,37,SW,90,Reverse,2,null,null,null,-2.2,seismic imaging,-6.5,megathrust,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+222,AW_NORE_11,Offshore_WAOR,OR,,41,SW,90,Reverse,2,null,null,null,-2.2,seismic imaging,-6.9,megathrust,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+223,AW_NORE_12,Offshore_WAOR,OR,,41,SW,90,Reverse,2,null,null,null,-2.2,seismic imaging,-7.1,megathrust,trace and 1 MCS line (see comments),Ledeczi et al. (2024); Carbotte et al. (2023); Balster-Gee et al. (2023),null,null,null,used depth interpretations from adjacent AW_NORE_11
+224,AW_NORE_13,Offshore_WAOR,OR,,39,SW,90,Reverse,2,null,null,null,-1.6,seismic imaging,-6.9,megathrust,trace and 1 MCS line (see comments),Ledeczi et al. (2024); Carbotte et al. (2023); Balster-Gee et al. (2023),null,null,null,used depth interpretations from adjacent (interpretted as extension of) AW_NORE_12
+225,AW_NORE_14,Offshore_WAOR,OR,,49,SW,90,Reverse,2,null,null,null,-1.6,seismic imaging,-4.7,soles into AW_NORE15,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+226,AW_NORE_15,Offshore_WAOR,OR,,40,SW,90,Reverse,2,null,null,null,-1.6,seismic imaging,-7.2,megathrust,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+227,AW_NORE_16,Offshore_WAOR,OR,,58,NE,90,Reverse,2,null,null,null,-3,seismic imaging,-4.5,soles into AW_NORE_1,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+228,AW_NORE_17,Offshore_WAOR,OR,,41,SW,90,Reverse,2,null,null,null,-2.2,seismic imaging,-7,megathrust,trace and 1 MCS line (see comments),Ledeczi et al. (2024); Carbotte et al. (2023); Balster-Gee et al. (2023),null,null,null,used depth interpretations from adjacent (extension of) AW_NORE_15
+229,AW_NORE_18,Offshore_WAOR,OR,,47,SW,90,Reverse,2,null,null,null,-1.8,seismic imaging,-7.5,megathrust,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+230,AW_NORE_19,Offshore_WAOR,OR,,41,SW,90,Reverse,2,null,null,null,-2.7,seismic imaging,-7.8,megathrust,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+231,AW_NORE_2,Offshore_WAOR,OR,,41,NE,90,Reverse,2,null,null,null,-2,seismic imaging,-7.1,megathrust,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+232,AW_NORE_20,Offshore_WAOR,OR,,32,E,90,Reverse,2,null,null,null,-1.3,seismic imaging,-12.3,megathrust,trace and 1 MCS line,Lucas et al. (2025); Carbotte et al. (2023),null,null,null,
+233,AW_NORE_21,Offshore_WAOR,OR,,90,vertical,180,Dextral,1,null,null,null,-0.5,bathymetry,-11.8,megathrust,trace extended at constant dip,Lucas et al. (2025); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+234,AW_NORE_22,Offshore_WAOR,OR,,90,vertical,180,Dextral,1,null,null,null,-0.8,bathymetry,-10.6,megathrust,trace extended at constant dip,Lucas et al. (2025); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+235,AW_NORE_23,Offshore_WAOR,OR,,90,vertical,180,Dextral,1,null,null,null,-0.4,bathymetry,-12.7,megathrust,trace extended at constant dip,Lucas et al. (2025); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+236,AW_NORE_24,Offshore_WAOR,OR,,90,vertical,180,Dextral,1,null,null,null,-0.6,bathymetry,-11.4,megathrust,trace extended at constant dip,Lucas et al. (2025); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+237,AW_NORE_25,Offshore_WAOR,OR,,90,vertical,180,Dextral,1,null,null,null,-0.5,bathymetry,-11.4,megathrust,trace extended at constant dip,Lucas et al. (2025); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+238,AW_NORE_26,Offshore_WAOR,OR,,90,vertical,0,Sinistral,1,null,null,null,-1.6,bathymetry,-7.6,megathrust,trace extended at constant dip,Ledeczi et al. (2024); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+239,AW_NORE_3,Offshore_WAOR,OR,,49,SW,90,Reverse,2,null,null,null,-2.2,seismic imaging,-6.8,soles into AW_NORE_2,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+240,AW_NORE_4,Offshore_WAOR,OR,,29,NE,90,Reverse,2,null,null,null,-2.3,seismic imaging,-6,soles into AW_NORE_6 and 7,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+241,AW_NORE_5,Offshore_WAOR,OR,,35,SW,90,Reverse,2,null,null,null,-1.7,seismic imaging,-7.5,megathrust,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+242,AW_NORE_6,Offshore_WAOR,OR,,33,SW,90,Reverse,2,null,null,null,-1.6,seismic imaging,-7.8,megathrust,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+243,AW_NORE_7,Offshore_WAOR,OR,,32,SW,90,Reverse,2,null,null,null,-1.6,seismic imaging,-7.7,megathrust,trace and 1 MCS line (see comments),Ledeczi et al. (2024); Carbotte et al. (2023); Balster-Gee et al. (2023),null,null,null,used depth interpretations from adjacent AW_NORE_6 
+244,AW_NORE_8,Offshore_WAOR,OR,,25,SW,90,Reverse,2,null,null,null,-1.3,seismic imaging,-2.7,soles into AW_NORE_6 and 7,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+245,AW_SORE_1,Offshore_OR,OR,,36,E,90,Reverse,2,null,null,null,-3.1,seismic imaging,-4.6,megathrust,trace and 1 MCS line,USGS QFFD; Goldfinger et al. (2023); Carbotte et al. (2023),null,null,null,
+246,AW_SORE_2,Offshore_OR,OR,,19,E,90,Reverse,2,null,null,null,-3,seismic imaging,-5.3,megathrust,trace and 1 MCS line,USGS QFFD; Goldfinger et al. (2023); Carbotte et al. (2023),null,null,null,
+247,AW_SORE_3,Offshore_OR,OR,,25,E,90,Reverse,2,null,null,null,-3.1,seismic imaging,-5.6,megathrust,trace and 1 MCS line,USGS QFFD; Goldfinger et al. (2023); Carbotte et al. (2023),null,null,null,
+248,AW_VANC_1,Offshore_BC,BC,,60,NE,90,Reverse,2,null,null,null,-2.3,seismic imaging,-5.7,megathrust,trace and 1 MCS line,Lucas et al. (2025); Carbotte et al. (2023),null,null,null,vergence from USGS sparker line
+249,AW_VANC_10,Offshore_BC,BC,,60,NE,90,Reverse,2,null,null,null,-1.7,bathymetry,-5.5,megathrust,trace extended at constant dip,Lucas et al. (2025); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+250,AW_VANC_11,Offshore_BC,BC,,60,NE,90,Reverse,2,null,null,null,-2,bathymetry,-5.5,megathrust,trace extended at constant dip,Lucas et al. (2025); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+251,AW_VANC_12,Offshore_BC,BC,,60,NE,90,Reverse,2,null,null,null,-1.6,bathymetry,-6.4,megathrust,trace extended at constant dip,Lucas et al. (2025); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+252,AW_VANC_13,Offshore_BC,BC,,60,NE,90,Reverse,2,null,null,null,-1.3,bathymetry,-7.1,megathrust,trace extended at constant dip,Lucas et al. (2025); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+253,AW_VANC_14,Offshore_BC,BC,,60,NE,90,Reverse,2,null,null,null,-1.9,bathymetry,-5.9,megathrust,trace extended at constant dip,Lucas et al. (2025); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+254,AW_VANC_15,Offshore_BC,BC,,60,NE,90,Reverse,2,null,null,null,-1.8,bathymetry,-6.1,megathrust,trace extended at constant dip,Lucas et al. (2025); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+255,AW_VANC_16,Offshore_BC,BC,,60,NE,90,Reverse,2,null,null,null,-1.9,bathymetry,-5.9,megathrust,trace extended at constant dip,Lucas et al. (2025); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+256,AW_VANC_17,Offshore_BC,BC,,60,NE,90,Reverse,2,null,null,null,-1.3,bathymetry,-6.5,megathrust,trace extended at constant dip,Lucas et al. (2025); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+257,AW_VANC_18,Offshore_BC,BC,,60,NE,90,Reverse,2,null,null,null,-2,bathymetry,-5.7,megathrust,trace extended at constant dip,Lucas et al. (2025); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+258,AW_VANC_19,Offshore_BC,WA,BC,60,NE,90,Reverse,2,null,null,null,-1.2,bathymetry,-7.5,megathrust,trace extended at constant dip,Lucas et al. (2025); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+259,AW_VANC_2,Offshore_BC,BC,,39,SW,90,Reverse,2,null,null,null,-2.3,seismic imaging,-5.9,megathrust,trace and 1 MCS line,Lucas et al. (2025); Carbotte et al. (2023),null,null,null,
+260,AW_VANC_20,Offshore_BC,BC,,60,NE,90,Reverse,2,null,null,null,-1.4,bathymetry,-5.9,megathrust,trace extended at constant dip,Lucas et al. (2025); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+261,AW_VANC_21,Offshore_BC,BC,,38,NE,90,Reverse,2,null,null,null,-2.3,seismic imaging,-5.4,megathrust,trace and 1 MCS line,Lucas et al. (2025); Carbotte et al. (2023),null,null,null,
+262,AW_VANC_22,Offshore_BC,WA,BC,48,W,90,Reverse,2,null,null,null,-2.3,seismic imaging,-5.8,megathrust,trace and 1 MCS line,Lucas et al. (2025); Carbotte et al. (2023),null,null,null,
+263,AW_VANC_23,Offshore_WAOR,WA,,38,SW,90,Reverse,2,null,null,null,-2,seismic imaging,-5.8,megathrust,trace and 1 MCS line (see comments),Ledeczi et al. (2024); Carbotte et al. (2023); Balster-Gee et al. (2023),null,null,null,"used depth interpretations from AW_WASH_3 (interpreted as same fault, just cut by strike-slip)"
+264,AW_VANC_24,Offshore_WAOR,WA,,60,SW,90,Reverse,2,null,null,null,-1.9,bathymetry,-5.7,megathrust,trace extended at constant dip,Ledeczi et al. (2024); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+265,AW_VANC_25,Offshore_WAOR,WA,,60,SW,90,Reverse,2,null,null,null,-1.8,bathymetry,-5.8,megathrust,trace extended at constant dip,Ledeczi et al. (2024); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+266,AW_VANC_26,Offshore_WAOR,WA,,33,E,90,Reverse,2,null,null,null,-2.6,seismic imaging,-8.1,megathrust,trace and 1 MCS line,Lucas et al. (2025); Carbotte et al. (2023),null,null,null,
+267,AW_VANC_3,Offshore_BC,BC,,24,E,90,Reverse,2,null,null,null,-2.5,seismic imaging,-7.2,megathrust,trace and 1 MCS line,Lucas et al. (2025); Carbotte et al. (2023),null,null,null,
+268,AW_VANC_4,Offshore_BC,BC,,23,E,90,Reverse,2,null,null,null,-2.5,seismic imaging,-6.6,megathrust,trace and 1 MCS line,Lucas et al. (2025); Carbotte et al. (2023),null,null,null,
+269,AW_VANC_5,Offshore_BC,BC,,18,E,90,Reverse,2,null,null,null,-2.5,seismic imaging,-5.4,megathrust,trace and 1 MCS line,Lucas et al. (2025); Carbotte et al. (2023),null,null,null,
+270,AW_VANC_6,Offshore_BC,BC,,60,E,90,Reverse,2,null,null,null,-1.8,bathymetry,-6.6,megathrust,trace extended at constant dip,Lucas et al. (2025); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+271,AW_VANC_7,Offshore_BC,BC,,60,NE,90,Reverse,2,null,null,null,-1.4,bathymetry,-7.4,megathrust,trace extended at constant dip,Lucas et al. (2025); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+272,AW_VANC_8,Offshore_BC,BC,,60,NE,90,Reverse,2,null,null,null,-1.3,bathymetry,-8.5,megathrust,trace extended at constant dip,Lucas et al. (2025); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+273,AW_VANC_9,Offshore_BC,BC,,60,NE,90,Reverse,2,null,null,null,-1.6,bathymetry,-6.4,megathrust,trace extended at constant dip,Lucas et al. (2025); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+274,AW_WASH_1,Offshore_WAOR,WA,,38,SW,90,Reverse,2,null,null,null,-2,seismic imaging,-5.7,megathrust,trace and 1 MCS line (see comments),Ledeczi et al. (2024); Carbotte et al. (2023); Balster-Gee et al. (2023),null,null,null,"used depth interpretations from AW_WASH_2 (interpreted as same fault, just cut by strike-slip)"
+275,AW_WASH_10,Offshore_WAOR,WA,,34,SW,90,Reverse,2,null,null,null,-2.4,seismic imaging,-6.8,megathrust,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+276,AW_WASH_11,Offshore_WAOR,WA,,32,SW,90,Reverse,2,null,null,null,-2.4,seismic imaging,-6.9,megathrust,trace and 2 MCS lines,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+277,AW_WASH_13,Offshore_WAOR,WA,,60,NE,90,Reverse,2,null,null,null,-1.4,bathymetry,-6.5,megathrust,trace extended at constant dip,Ledeczi et al. (2024); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+278,AW_WASH_14,Offshore_WAOR,WA,,60,NE,90,Reverse,2,null,null,null,-0.8,bathymetry,-6.7,megathrust,trace extended at constant dip,Ledeczi et al. (2024); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+279,AW_WASH_15,Offshore_WAOR,WA,,60,SW,90,Reverse,2,null,null,null,-2,bathymetry,-5.7,megathrust,trace extended at constant dip,Ledeczi et al. (2024); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+280,AW_WASH_16,Offshore_WAOR,WA,,34,SW,90,Reverse,2,null,null,null,-1.7,seismic imaging,-2.8,soles into AW_WASH_17,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+281,AW_WASH_17,Offshore_WAOR,WA,,33,SW,90,Reverse,2,null,null,null,-1.8,seismic imaging,-6.4,megathrust,trace and 2 MCS lines,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+282,AW_WASH_18,Offshore_WAOR,WA,,38,SW,90,Reverse,2,null,null,null,-2.6,seismic imaging,-6.8,megathrust,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+283,AW_WASH_19,Offshore_WAOR,WA,,33,SW,90,Reverse,2,null,null,null,-2.2,seismic imaging,-6,megathrust,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+284,AW_WASH_2,Offshore_WAOR,WA,,44,SW,90,Reverse,2,null,null,null,-1.6,seismic imaging,-5.8,megathrust,trace and 2 MCS lines,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+285,AW_WASH_20,Offshore_WAOR,WA,,34,SW,90,Reverse,2,null,null,null,-1.9,seismic imaging,-6.1,megathrust,trace and 2 MCS lines,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+286,AW_WASH_21,Offshore_WAOR,WA,,28,SW,90,Reverse,2,null,null,null,-1.8,seismic imaging,-6.1,megathrust,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+287,AW_WASH_22,Offshore_WAOR,WA,,39,SW,90,Reverse,2,null,null,null,-2.5,seismic imaging,-6.2,megathrust,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+288,AW_WASH_23,Offshore_WAOR,WA,,60,SW,90,Reverse,2,null,null,null,-1.5,bathymetry,-6.2,megathrust,trace extended at constant dip,Ledeczi et al. (2024); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+289,AW_WASH_24,Offshore_WAOR,WA,,38,SW,90,Reverse,2,null,null,null,-3.3,seismic imaging,-6.3,megathrust,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+290,AW_WASH_25,Offshore_WAOR,WA,,41,SW,90,Reverse,2,null,null,null,-2.8,seismic imaging,-7.1,megathrust,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+291,AW_WASH_27,Offshore_WAOR,WA,,34,SW,90,Reverse,2,null,null,null,-2.2,seismic imaging,-5.7,megathrust,trace and 2 MCS lines,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+292,AW_WASH_28,Offshore_WAOR,WA,,31,SW,90,Reverse,2,null,null,null,-2.2,seismic imaging,-6.2,megathrust,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+293,AW_WASH_29,Offshore_WAOR,WA,,36,SW,90,Reverse,2,null,null,null,-2.2,seismic imaging,-3.4,soles into AW_WASH_30,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+294,AW_WASH_3,Offshore_WAOR,WA,,34,SW,90,Reverse,2,null,null,null,-1.8,seismic imaging,-5.8,megathrust,trace and 2 MCS lines,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+295,AW_WASH_30,Offshore_WAOR,WA,,35,SW,90,Reverse,2,null,null,null,-2.2,seismic imaging,-5.4,megathrust,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+296,AW_WASH_31,Offshore_WAOR,WA,,40,SW,90,Reverse,2,null,null,null,-2.2,seismic imaging,-5.5,megathrust,trace and 1 MCS line (see comments),Ledeczi et al. (2024); Carbotte et al. (2023); Balster-Gee et al. (2023),null,null,null,"used depth interpretations from AW_WASH_39 (interpreted as same fault, just cut by strike-slip)"
+297,AW_WASH_32,Offshore_WAOR,WA,,60,SW,90,Reverse,2,null,null,null,-1.3,bathymetry,-6.6,megathrust,trace extended at constant dip,Ledeczi et al. (2024); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+298,AW_WASH_33,Offshore_WAOR,WA,,55,SW,90,Reverse,2,null,null,null,-1.7,bathymetry,-5.9,megathrust,trace extended at constant dip,Ledeczi et al. (2024); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+299,AW_WASH_34,Offshore_WAOR,WA,,55,SW,90,Reverse,2,null,null,null,-1.8,bathymetry,-5.7,megathrust,trace extended at constant dip,Ledeczi et al. (2024); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+300,AW_WASH_36,Offshore_WAOR,WA,,46,NE,90,Reverse,2,null,null,null,-4.2,seismic imaging,-4.9,soles into AW_WASH_37,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+301,AW_WASH_37,Offshore_WAOR,WA,,53,SW,90,Reverse,2,null,null,null,-2.4,seismic imaging,-5.5,megathrust,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+302,AW_WASH_38,Offshore_WAOR,WA,,33,SW,90,Reverse,2,null,null,null,-2.1,seismic imaging,-5.6,megathrust,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+303,AW_WASH_39,Offshore_WAOR,WA,,41,SW,90,Reverse,2,null,null,null,-2.2,seismic imaging,-5.8,megathrust,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+304,AW_WASH_4,Offshore_WAOR,WA,,38,SW,90,Reverse,2,null,null,null,-1.4,seismic imaging,-6.2,megathrust,trace and 2 MCS lines,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+305,AW_WASH_40,Offshore_WAOR,WA,OR,40,NE,90,Reverse,2,null,null,null,-3.9,seismic imaging,-6.4,megathrust; AW_WASH_41,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+306,AW_WASH_41,Offshore_WAOR,WA,OR,33,SW,90,Reverse,2,null,null,null,-1.9,seismic imaging,-6.4,megathrust,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+307,AW_WASH_42,Offshore_WAOR,WA,OR,47,NE,90,Reverse,2,null,null,null,-2.6,seismic imaging,-7.5,megathrust,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+308,AW_WASH_43,Offshore_WAOR,WA,OR,49,NE,90,Reverse,2,null,null,null,-2.3,seismic imaging,-7.2,soles into AW_WASH_44,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+309,AW_WASH_44,Offshore_WAOR,WA,OR,56,SW,90,Reverse,2,null,null,null,-2.3,seismic imaging,-8.5,megathrust,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+310,AW_WASH_46,Offshore_WAOR,WA,,32,E,90,Reverse,2,null,null,null,-1.8,seismic imaging,-8.4,megathrust,trace and 1 MCS line,Lucas et al. (2025); Carbotte et al. (2023),null,null,null,
+311,AW_WASH_47,Offshore_WAOR,WA,,60,E,90,Reverse,2,null,null,null,-1.1,bathymetry,-8.8,megathrust,trace extended at constant dip,Lucas et al. (2025); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+312,AW_WASH_48,Offshore_WAOR,WA,,41,E,90,Reverse,2,null,null,null,-2.1,seismic imaging,-8.7,megathrust,trace and 1 MCS line,Lucas et al. (2025); Carbotte et al. (2023),null,null,null,
+313,AW_WASH_49,Offshore_WAOR,WA,,60,E,90,Reverse,2,null,null,null,-1.8,bathymetry,-7,megathrust,trace extended at constant dip,Lucas et al. (2025); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+314,AW_WASH_5,Offshore_WAOR,WA,,47,SW,90,Reverse,2,null,null,null,-1.3,seismic imaging,-6,megathrust,trace and 2 MCS lines,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+315,AW_WASH_50,Offshore_WAOR,WA,,60,NE,90,Reverse,2,null,null,null,-1.6,bathymetry,-8.1,megathrust;soles into AW_WASH_52,trace extended at constant dip,Lucas et al. (2025); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+316,AW_WASH_51,Offshore_WAOR,WA,OR,43,W,90,Reverse,2,null,null,null,-2.8,seismic imaging,-8.7,megathrust,trace and 1 MCS line,Lucas et al. (2025); Carbotte et al. (2023),null,null,null,
+317,AW_WASH_52,Offshore_WAOR,WA,OR,36,E,90,Reverse,2,null,null,null,-2.1,seismic imaging,-11.7,megathrust,trace and 1 MCS line,Lucas et al. (2025); Carbotte et al. (2023),null,null,null,
+318,AW_WASH_53,Offshore_WAOR,WA,,39,E,90,Reverse,2,null,null,null,-2,seismic imaging,-11.5,megathrust,trace and 1 MCS line,Lucas et al. (2025); Carbotte et al. (2023),null,null,null,
+319,AW_WASH_54,Offshore_WAOR,OR,,60,W,90,Reverse,2,null,null,null,-0.4,bathymetry,-10.3,megathrust,trace extended at constant dip,Lucas et al. (2025); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+320,AW_WASH_55,Offshore_WAOR,WA,,46,SW,90,Reverse,2,null,null,null,-2.5,seismic imaging,-5.9,megathrust,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+321,AW_WASH_56,Offshore_WAOR,WA,,90,vertical,0,Sinistral,1,null,null,null,-1.4,bathymetry,-6.2,megathrust,trace extended at constant dip,Ledeczi et al. (2024); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+322,AW_WASH_57,Offshore_WAOR,WA,,90,vertical,0,Sinistral,1,null,null,null,-1.9,bathymetry,-6.3,megathrust,trace extended at constant dip,Ledeczi et al. (2024); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+323,AW_WASH_58,Offshore_WAOR,WA,,90,vertical,0,Sinistral,1,null,null,null,-1.7,bathymetry,-6.2,megathrust,trace extended at constant dip,Ledeczi et al. (2024); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+324,AW_WASH_59,Offshore_WAOR,WA,,90,vertical,0,Sinistral,1,null,null,null,-1.7,bathymetry,-7.6,megathrust,trace extended at constant dip,Ledeczi et al. (2024); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+325,AW_WASH_6,Offshore_WAOR,WA,,53,SW,90,Reverse,2,null,null,null,-1.6,seismic imaging,-3.9,soles into AW_WASH_4,trace and 2 MCS lines,Ledeczi et al. (2024); Carbotte et al. (2023); Balster-Gee et al. (2023),null,null,null,
+326,AW_WASH_60,Offshore_WAOR,WA,,90,vertical,180,Dextral,1,null,null,null,-2.3,bathymetry,-5.7,megathrust,trace extended at constant dip,Ledeczi et al. (2024); Balster-Gee et al. (2023),null,null,null,vergence from USGS sparker line
+327,AW_WASH_7,Offshore_WAOR,WA,,44,SW,90,Reverse,2,null,null,null,-2.3,seismic imaging,-5.2,megathrust,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+328,AW_WASH_8,Offshore_WAOR,WA,,33,SW,90,Reverse,2,null,null,null,-2.3,seismic imaging,-5.7,megathrust,trace and 2 MCS lines,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,
+329,AW_WASH_9,Offshore_WAOR,WA,,55,SW,90,Reverse,2,null,null,null,-2,seismic imaging,-6,megathrust,trace and 1 MCS line,Ledeczi et al. (2024); Carbotte et al. (2023),null,null,null,

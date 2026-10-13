@@ -1,15 +1,14 @@
 # CRESCENT-CFM
 
-**CRESCENT-CFM** is a repository developed to support the Community Fault Model
-([CFM](https://cascadiaquakes.org/cfm/)) of the [CRESCENT
-project](https://cascadiaquakes.org/). This repository is designed to provide
-data and tools for geoscientists, engineers and other stakeholders working with
-CFM data.
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](license.txt)
 
-The CRESCENT-CFM is licensed with a Creative Commons Attribution 4.0
-International license. This permissive open-data license allows for a variety
-of non-commercial and commercial uses, as long as attribution to the dataset
-creators is given. Please see the license.txt file for more information.
+Data and tools for the CRESCENT Community Fault Model ([CFM](https://cascadiaquakes.org/cfm/)): vector GIS files of crustal fault traces and 3D surfaces, Cascadia plate boundary meshes, and scripts for building the model.
+
+**Viewer:** https://cfm.cascadiaquakes.org
+
+**Documentation:** https://cascadiaquakes.github.io/cfm-book/
+
+---
 
 ## Features
 
@@ -77,10 +76,15 @@ collaborative research by Natural Resources Canada and the GEM Foundation
   systems-level analysis: Earthquake geology inputs for US NSHM 2023.
   *Scientific data*, *9*(1), 506.
 
-**Fault Model Visualization**  
-A 3D mapping web interface for visualizing fault surfaces and traces is accessible through the [CFM web interface](https://cfm.cascadiaquakes.org/).
+---
 
-## Contact and Support
+## License
+
+The CRESCENT-CFM data are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). This permissive open-data license allows a variety of non-commercial and commercial uses, as long as attribution to the dataset creators is given. See [license.txt](license.txt).
+
+---
+
+## Contacts
 
 For questions or assistance with the CFM or this repository, please refer to 
 the process below to ensure prompt support:
@@ -103,3 +107,20 @@ the process below to ensure prompt support:
    review it and respond as soon as possible.
 
 We're here to help with any questions or requests related to the CRESCENT-CFM!
+
+---
+
+## Acknowledgments
+
+<table>
+  <tr>
+    <td align="center" valign="middle">
+      <img src="https://raw.githubusercontent.com/cascadiaquakes/.github/main/assets/crescent-circle.png" alt="CRESCENT Logo" width="150" />
+    </td>
+    <td align="center" valign="middle">
+      <img src="https://raw.githubusercontent.com/cascadiaquakes/.github/main/assets/nsf-logo.png" alt="NSF Logo" width="450" />
+    </td>
+  </tr>
+</table>
+
+This project is supported by the National Science Foundation through the Cascadia Region Earthquake Science Center (CRESCENT), Cooperative Agreement EAR-2225286.

@@ -1,17 +1,21 @@
+#This script serves two functions. First, it attributes fault properties from the metadata table to the corresponding fault features in the CFM GeoJSON. Then it sorts the faults in order of increasing CFM_ID number.
+
 import pandas as pd
 import geopandas as gpd
+import json
 
-
-def add_metadata_to_geojson(geojson_path, metadata_df, cols_to_add, join_key_csv='NSHM ID #', join_key_geojson='nshm_id'):
+def add_metadata_to_geojson(input_geojson_path, metadata_df, output_geojson_path, cols_to_add, join_key_csv='CFM ID', join_key_geojson='CFM_ID'):
     """
     Add metadata from a CSV DataFrame to a GeoJSON file by joining on a key column.
 
     Parameters
     ----------
-    geojson_path : str
+    input_geojson_path : str
         Path to the GeoJSON file to update
     metadata_df : pd.DataFrame
         DataFrame containing metadata to add
+    output_geojson_path : str
+        Path to write attributed GeoJSON file to
     cols_to_add : dict
         Dictionary mapping CSV column names (keys) to GeoJSON column names (values)
     join_key_csv : str
@@ -21,21 +25,20 @@ def add_metadata_to_geojson(geojson_path, metadata_df, cols_to_add, join_key_csv
 
     Returns
     -------
-    None
-        Saves the updated GeoJSON back to the original file path
+    Attributed GeoJSON file
     """
-    # Read the GeoJSON file
-    gdf = gpd.read_file(geojson_path)
+    # Read the input GeoJSON file
+    gdf = gpd.read_file(input_geojson_path)
 
     # Prepare the CSV data for joining
     mdf = metadata_df.copy()
 
     # Convert join key to float to match geojson type
-    mdf[join_key_csv] = pd.to_numeric(mdf[join_key_csv], errors='coerce')
-
+    #mdf[join_key_csv] = pd.to_numeric(mdf[join_key_csv], errors='coerce')
+    
     # Remove rows from CSV where the join key is null/NaN
     mdf = mdf[mdf[join_key_csv].notna()].copy()
-
+   
     # Select only the columns we need from the CSV, plus the join key
     csv_columns_to_keep = [join_key_csv] + [k for k in cols_to_add.keys() if k != join_key_csv]
     mdf_subset = mdf[csv_columns_to_keep].copy()
@@ -100,57 +103,65 @@ def add_metadata_to_geojson(geojson_path, metadata_df, cols_to_add, join_key_csv
     # Ensure the geometry column is preserved correctly
     gdf_final = gpd.GeoDataFrame(gdf_final, geometry='geometry', crs=gdf.crs)
 
-    # Save back to the original geojson file
-    gdf_final.to_file(geojson_path, driver='GeoJSON')
-
-    print(f"Successfully updated {geojson_path}")
+    # Save to the output geojson output file
+    gdf_final.to_file(output_geojson_path, driver = 'GeoJSON')
+    print(f"Successfully attributed {input_geojson_path}")
     print(f"  Rows with join key: {len(gdf_with_key)}")
     print(f"  Rows without join key: {len(gdf_without_key)}")
     print(f"Updated columns: {', '.join([v for v in cols_to_add.values() if v != join_key_geojson_target])}")
 
 
-if __name__ == "__main__":
-    # File paths
-    fault_geojson = "../crescent_cfm_files/crescent_cfm_crustal_traces.geojson"
-    fault_3d_geojson = "../crescent_cfm_files/crescent_cfm_crustal_3d.geojson"
-    metadata_file = "../misc_data/metadata/cfm_metadata.csv"
+input_geojson_path = "../crescent_cfm_files/crescent_cfm_crustal_3d.geojson"
+metadata_file ="../misc_data/metadata/cfm_metadata.csv"
+output_geojson_path = "../crescent_cfm_files/crescent_cfm_crustal_3d_attributed.geojson"
+mdf = pd.read_csv(metadata_file)
+cols_to_add = {
+    'Fault Name' : 'name',
+    'CFM ID': 'CFM_ID',
+    'Region': "region",
+    'Primary State/Province': "primary_state/province",
+    'Secondary State/Province': "secondary_state/province",
+    'Average Dip (degrees)': "avg_dip",
+    'Dip Direction': 'dip_dir',
+    'Rake (degrees)': 'rake',
+    'Slip Sense': "slip_sense",
+    'Fault Level': "fault_level",
+    'NSHM23 sliprates (mm/yr)': "NSHM23_sliprates",
+    'QFFDAgeCatBin': 'QFFDAgeCatBin',
+    'QFFDAgeCat': 'QFFDAgeBin',
+    'UpDepth (km)': 'upper_depth',
+    'Upper Depth Constraint' : 'upper_depth_constraint',
+    'LowDepth (km)': 'lower_depth',
+    'Lower Depth Constraint' : 'lower_depth_constraint',
+    '3D Model Constraints': '3D_model_constraints',
+    'Reference': 'reference',
+    'NSHM23 ID #': 'nshm23_id',
+    'Lineage***': 'lineage',
+    'USGS QFFD #': 'usgs_qffd_#',
+    'Comments': 'comments',
+}
+    
 
-    # Column mapping
-    cols_to_add = {
-        #'CFM ID': 'CFM_ID',
-        'Region': "region",
-        'Primary State/Province': "primary_state/province",
-        'Secondary State/Country': "secondary_state/province",
-        'Slip sense': "slip_sense",
-        'Fault level': "fault_level",
-        'NSHM sliprates (MedWgtd)': "NSHM sliprates (MedWgtd)",
-        'QfaultsAgeCat': 'QfaultsAgeCat',
-        'QfaultsAgeCat.1': 'QfaultsAgeCat.1',
-        'Reference**': 'reference',
-        '3D Model Constraints': '3D_model_constraints',
-        #'NSHM ID #': 'NSHM_ID',
-        'Lineage***': 'lineage',
-        'Comments': 'comments',
-    }
+add_metadata_to_geojson(input_geojson_path, mdf, output_geojson_path, cols_to_add, join_key_csv='Fault Name', join_key_geojson='name')
 
-    # Load the metadata CSV once
-    mdf = pd.read_csv(metadata_file)
+##Next sort
+#Sort the faults in the attributed GeoJSON file so that the faults are in order accroding to CFM_ID
+with open(output_geojson_path, 'r') as json_file:
+    data = json.load(json_file)
+    
+def get_ref(feature):
+    return int(feature['properties']['CFM_ID'])
 
-    # Apply to the traces geojson file
-    add_metadata_to_geojson(
-        fault_geojson,
-        mdf,
-        cols_to_add,
-        join_key_csv='NSHM ID #',
-        join_key_geojson='nshm_id'
-    )
+data['features'].sort(key=get_ref)
+
+with open(output_geojson_path, 'w') as json_file:
+    json.dump(data, json_file)
 
 
-    # Apply to the ed geojson file
-    add_metadata_to_geojson(
-        fault_3d_geojson,
-        mdf,
-        cols_to_add,
-        join_key_csv='NSHM ID #',
-        join_key_geojson='nshm_id'
-    )
+
+
+
+
+
+
+

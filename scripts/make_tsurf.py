@@ -1,9 +1,13 @@
+#This script converts a .geojson file containing fault or slab geometries to individual .tsurf files for each fault or slab listed within the .geosjon file
+
 import numpy as np
 import json
 import pyproj as pj
 
 boilerplate = ("""GOCAD TSurf 1
 HEADER {
+""",
+"""CFM_ID:{}
 """,
 """name:{}
 """,
@@ -19,8 +23,11 @@ END_ORIGINAL_COORDINATE_SYSTEM
 TFACE
 """)
 
-
-def make_tsurf(feature, epsg=32611, return_data=False, outfile=None):
+#below, set "epsg =    " to desired projection of tsurfs
+#NOTE: CRESCENT CFM tsurfs are in WGS 84/ UTM 10 N, while the SCEC CFM tsurfs are SCEC 26711 (NAD83 / UTM 11 N)
+#"epsg = 32610" sets the tsurf projection to be WGS 84 / UTM 10N 
+#"epsg = 26711" sets the tsurf projection to be NAD 83 / UTM 11N
+def make_tsurf(feature, epsg=32610, return_data=False, outfile=None):
     vertices = {}
     trgls = []
     for tri in feature['geometry']['coordinates']:
@@ -36,10 +43,15 @@ def make_tsurf(feature, epsg=32611, return_data=False, outfile=None):
         return vertices, trgls
     
     vert_rev = {v:k for k, v in vertices.items()}
+    #below, 4326 indicates EPSG:4326, which is WGS84
+    #this is the coordinate system the CRESCENT .geojson files are provided in
     trans = pj.Transformer.from_crs(4326, epsg, always_xy=True)
     
     bp = boilerplate
-    lines = [bp[0], bp[1].format(feature['properties']['name']), bp[2]]
+    #lines = [bp[0], bp[1].format(feature['properties']['name']), bp[2]]
+    bp= lines = [bp[0], bp[1].format(feature['properties']['CFM_ID']),
+                    bp[2].format(feature['properties']['name']), bp[3]]
+    
     for i in sorted(vertices.values()):
         ee, nn, zz = trans.transform(*vert_rev[i])
         line = f"VRTX {i}  {ee} {nn} {zz}\n"
@@ -58,7 +70,8 @@ def make_tsurf(feature, epsg=32611, return_data=False, outfile=None):
         return lines
 
 # do crustal faults
-gj_file = "../crescent_cfm_files/crescent_cfm_crustal_3d.geojson"
+#gj_file = "../crescent_cfm_files/crescent_cfm_crustal_3d.geojson"
+gj_file = "../../CFMprojects/GoCadprojects/CFMv1/USGSreview/Products11_2/crescent_cfm_crustal_3d.geojson"
 
 with open(gj_file) as f:
     gj = json.load(f)
@@ -76,9 +89,10 @@ for feat in fs:
         names[name] += 1
         name = name + f"_{names[name]}"
         
-    outfile = f"../crescent_cfm_files/tsurf/{name}.ts"
+    #outfile = f"../crescent_cfm_files/tsurf/{name}.ts"
+    outfile = f"../../CFMprojects/GoCadprojects/CFMv1/USGSreview/Products11_2/tsurfstest/{name}.ts"
     make_tsurf(feat, outfile=outfile)
-
+'''
 # do subduction zones
 subduction_zone_meshes = [
     "../crescent_cfm_files/casie21_plate_boundary_multipart.geojson",
@@ -93,4 +107,4 @@ for szf in subduction_zone_meshes:
             name = feat['properties']['name']
             outfile = f"../crescent_cfm_files/tsurf/{name}.ts"
             make_tsurf(feat, outfile=outfile)
-
+'''
